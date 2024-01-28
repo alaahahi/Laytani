@@ -1,0 +1,69 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+/* toggle theme */
+.theme_toggle{
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.day_mode{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  justify-content: center;
+  -webkit-box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.11);
+          box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.11);
+  background-color: #fff !important;
+  display: flex !important;
+}
+.night_mode{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  justify-content: center;
+  -webkit-box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.11);
+          box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.11);
+  background-color: #fff !important;
+  display: none !important;
+}
+html.dark .day_mode{
+  background-color: transparent !important;
+  display: none !important;
+}
+html.dark .night_mode{
+  background-color: #0F3460 !important;
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+}
+  /* togglr theme end */

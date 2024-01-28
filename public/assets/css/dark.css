@@ -1,0 +1,217 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+.d-none{
+    display: none !important;
+}
+.dark .dark-none{
+    display: none !important;
+}
+.dark .dark-show{
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+}
+.dark body,
+.dark .footer_bottom,
+.dark .blogRight_card_body_tab,
+.dark .blogBox_comment,
+.dark .blog_sliderBox,
+.dark .team_box_content,
+.dark
+{
+    background-color: #16213E;
+}
+.dark .subscribe_form_input::-webkit-input-placeholder{
+    color: #fff;
+    background-color: #485B8B;
+}
+.dark .subscribe_form_input::-moz-placeholder{
+    color: #fff;
+    background-color: #485B8B;
+}
+.dark .subscribe_form_input:-ms-input-placeholder{
+    color: #fff;
+    background-color: #485B8B;
+}
+.dark .subscribe_form_input::-ms-input-placeholder{
+    color: #fff;
+    background-color: #485B8B;
+}
+.dark .subscribe_form_input,.dark .subscribe_form_input::placeholder,.dark .famous_topics{
+    color: #fff;
+    background-color: #485B8B;
+}
+.dark .blogDetails,.dark .blogDetails_accordian{
+    border: 1px solid #485B8B;
+}
+.dark .blogDetails_accordian.active .blogDetails_accordian_header{
+    border-bottom: 1px solid #485B8B;
+}
+.dark .team_box:hover .team_box_content{
+    background-color: #061745;
+}
+.dark .blogRight_card_body_tab.active{
+    background-color: var(--red);
+}
+.dark .navbar, .dark .navbar_logo_box2,.dark .banner_botttom_box,
+.dark .ourServices_box, .dark .whoWeAre .whoWeAre_box1,
+.dark .whoWeAre_wrapper,.dark .workProcess_box_inner,
+.dark .clientsSection_box, .dark .newsSection_box_body,
+.dark .teamSection_box,.dark .footer_top,
+.dark .aboutustop .whoWeAre_services_wrapper--about,
+.dark .services_box_content, .dark .blogBox_comment_mini,
+.dark .blogRight_card_body,
+.dark .blogBox, .dark .team_box,
+.dark .blogBox_comment_button,
+.dark .blog_slider,.dark .blogDetails_body,
+.dark .contactBox2,.dark .team_details_card,
+.dark .subscribe_form_btn,.dark .blogDetails_accordian,
+.dark .Contactform_input,.dark .blogDetails_footer_input{
+    background-color: #0F3460;
+}
+.dark .whoWeAre_box2_box_left,
+.dark .whoWeAre_box2_box_disscover_btn,
+.dark .whoWeAre_services_wrapper{
+    background-color: #16213E;
+}
+.dark .banner_botttom_box2{
+    background-color: var(--red);
+}
+.dark .Contactform_input::-webkit-input-placeholder, .dark .blogDetails_footer_input::-webkit-input-placeholder{
+    color: #fff;
+}
+.dark .Contactform_input::-moz-placeholder, .dark .blogDetails_footer_input::-moz-placeholder{
+    color: #fff;
+}
+.dark .Contactform_input:-ms-input-placeholder, .dark .blogDetails_footer_input:-ms-input-placeholder{
+    color: #fff;
+}
+.dark .Contactform_input::-ms-input-placeholder, .dark .blogDetails_footer_input::-ms-input-placeholder{
+    color: #fff;
+}
+.dark .navbat_top_right_box1_link_text,
+.dark .social_media_link_icone, .dark .clientsSection_box_name,
+.dark .banner_botttom_box_heading,.dark .banner_botttom_box_desc,.dark .sub_heading_text,
+.dark .heading, .dark .ourServices_box_heading,
+.dark .ourServices_box_desc, .dark .whoWeAre_services_box_desc,
+.dark .heading--whoWeAre,.dark .whoWeAre_box2_box_disscover_btn,
+.dark .whoWeAre_box2_box_right_desc,.dark .whoWeAre_services_box_heading,
+.dark .whoWeAre_box2_box_right_heading,.dark .workProcess_box_inner_heading,
+.dark .whoWeAre_box2_box_disscover_content_h,
+.dark .clientsSection_box_desig,.dark .clientsSection_box_desc,
+.dark .newsSection_box_body_top_box_name,.dark .newsSection_box_body_top_box,
+.dark .newsSection_box_body_heading,.dark .newsSection_box_body_heading2,.dark .videopopup_box2_text,
+.dark .aboutustop_cto_box2_heading,.dark .aboutustop_cto_box2_desc,.dark .teamSection_box_heading,
+.dark .services_box_heading,.dark .services_box_desc,.dark .tab_content_heading,.dark .tab_content_desc,
+.dark .blogleft_top_heading, .dark .blogBox_profile_name,
+.dark .blogBox_heading,.dark .blogBox_profile_time,.dark .blogBox_desc,
+.dark .blogBox_comment_text, .dark .team_details_card_sub_heading,
+.dark .blogBox_comment_counter, .dark .team_details_card_desc,
+.dark .blog_sliderBox_heading, .dark .team_details_card_sub_heading2,
+.dark .blogBox_profile_name1,
+.dark .blogBox_profile_time1,
+.dark .blog_slider_heading,
+.dark .contact_sub_heading,.dark .blogDetails_accordian_content_box1_content_p,
+.dark .Contactform_input,.dark .blogDetails_body_desc,
+.dark .Contactform_input::placeholder,.dark .blogDetails_accordian_content_box1_content_name,
+.dark .team_details_card_name,.dark .blogDetails_footer_input,
+.dark .blogDetails_footer_input::placeholder,.dark .blogDetails_accordian_heading,
+.dark{
+    color: #fff;
+}
+.dark .banner_botttom_box,.dark .ourServices_box{
+    -webkit-box-shadow: none;
+            box-shadow: none;
+}
+.dark .ourServices_box,.dark .blog_slider,
+.dark .blogBox,.dark .blog_sliderBox{
+    border: none;
+}
+.dark .ourProjects {
+    background-image: -webkit-gradient(linear,left top, left bottom,from(rgba(15,52,96,0.8)),to(rgba(15,52,96,0.8))),url(/ourProjects.png);
+    background-image: -o-linear-gradient(rgba(15,52,96,0.8),rgba(15,52,96,0.8)),url(/ourProjects.png);
+    background-image: linear-gradient(rgba(15,52,96,0.8),rgba(15,52,96,0.8)),url(/ourProjects.png);
+}
+.dark .workProcess {
+    background-image: -webkit-gradient(linear,left top, left bottom,from(rgba(15,52,96,0.8)),to(rgba(15,52,96,0.8))),url(/workProcess.png);
+    background-image: -o-linear-gradient(rgba(15,52,96,0.8),rgba(15,52,96,0.8)),url(/workProcess.png);
+    background-image: linear-gradient(rgba(15,52,96,0.8),rgba(15,52,96,0.8)),url(/workProcess.png);
+}
+.clientsSection_box2 {
+    background-image: -webkit-gradient(linear,left top, left bottom,from(rgba(15,52,96,0.8)),to(rgba(15,52,96,0.8))),url(/teambg.png);
+    background-image: -o-linear-gradient(rgba(15,52,96,0.8),rgba(15,52,96,0.8)),url(/teambg.png);
+    background-image: linear-gradient(rgba(15,52,96,0.8),rgba(15,52,96,0.8)),url(/teambg.png);
+}
+.dark .contactBox1 {
+    background-image: -webkit-gradient(linear,left top, left bottom,from(rgba(15,52,96,0.8)),to(rgba(15,52,96,0.8))), url(/contctbox.png);
+    background-image: -o-linear-gradient(rgba(15,52,96,0.8),rgba(15,52,96,0.8)), url(/contctbox.png);
+    background-image: linear-gradient(rgba(15,52,96,0.8),rgba(15,52,96,0.8)), url(/contctbox.png);
+}
+.dark .teamSection_slider .swiper-button-prev {
+    background-image: url(/leftarrow_white.png) !important;
+    background-color: #0F3460;
+}
+.dark .teamSection_slider .swiper-button-next {
+    background-image: url(/rightarrow.png) !important;
+    background-color: #0F3460;
+}
+.newsSection_slider .swiper-button-prev{
+    background-image: url(/leftarrow_white.png) !important;
+    background-color: var(--red);
+}
+.dark .clients_slider,.dark .blogDetails_accordian_content_box1_img_holder{
+    background-color: #061745;
+}
+.dark .navbar_list_link:hover {
+    color: var(--red);
+}
+.dark .blogleft_top,.dark .submit_button,.dark .projects_box_link,.dark .footer_top_box4,.dark .footer_contact_list_item_img,
+.dark .blogRight_card_header,.dark .blogDetails_footer{
+    background-color: #1a274a;
+}
+.dark .submit_button{
+    border: 1px solid #485B8B;
+}
+.dark .submit_button:hover{
+    background-color: transparent;
+    color: #fff;
+}
+.dark .blog_slider_wrapper .swiper-button-next,
+.dark .blog_slider_wrapper .swiper-button-prev{
+    background-color: #16213E;
+}
+.dark .blog_slider_wrapper .swiper-button-prev {
+    background-image: url(/leftarrow_white.png) !important;
+}
+.dark .blog_slider_wrapper .swiper-button-next {
+    background-image: url(/rightarrow.png) !important;
+    border-left: 1px solid #fff;
+}
+.dark .relatedSlider .swiper-button-next, .dark .relatedSlider .swiper-button-prev{
+    background-color: #112E54;
+}
+.dark .relatedSlider .swiper-button-next {
+    background-image: url(/rightarrow.png) !important;
+    border-left: 1px solid var(--white);
+}
+.dark .relatedSlider .swiper-button-prev {
+    background-image: url(/leftarrow_white.png) !important;
+}
+.dark .Contactform_input,.dark .contactFormWrapper,.dark .team_details_card{
+    border: 1px solid #485B8B;
+}
+.dark .team_details_card_right_row{
+    border-bottom-color: #485B8B;
+}
+.dark .clientsLogoSlider .swiper-button-next{
+    background-color: #0F3460;
+    background-image: url(/rightarrow.png) !important;
+}
+.dark .services_box_btn,.dark .top{
+ background-color: #1a274a;  
+}

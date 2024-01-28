@@ -9,27 +9,31 @@
         @else
         <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
         @endif
-        <!-- Owl Carousel CSS -->
-        <link rel="stylesheet" href="/assets/css/owl.theme.default.min.css">
-        <link rel="stylesheet" href="/assets/css/owl.carousel.min.css">
         <!-- Magnific Popup CSS -->
-        <link rel="stylesheet" href="/assets/css/magnific-popup.min.css">
+        <link rel="stylesheet" href="/assets/css/blog.css">
         <!-- Animate Min CSS -->
-        <link rel="stylesheet" href="/assets/css/animate.min.css">
+        <link rel="stylesheet" href="/assets/css/blogDetails.css">
         <!-- Boxicons CSS --> 
-        <link rel="stylesheet" href="/assets/css/boxicons.min.css">
+        <link rel="stylesheet" href="/assets/css/contact.css">
         <!-- Flaticon CSS -->
-        <link rel="stylesheet" href="/assets/fonts/flaticon.css">
+        <link rel="stylesheet" href="/assets/fonts/dark.css">
         <!-- Meanmenu CSS -->
-        <link rel="stylesheet" href="/assets/css/meanmenu.min.css">
+        <link rel="stylesheet" href="/assets/css/footer.css">
         <!-- Style CSS -->
-        <link rel="stylesheet" href="/assets/css/style.css">
+        <link rel="stylesheet" href="/assets/css/globals.css">
         <!-- Responsive CSS -->
-        <link rel="stylesheet" href="/assets/css/responsive.css">
+        <link rel="stylesheet" href="/assets/css/header.css">
         <!-- Theme Dark CSS -->
-        <link rel="stylesheet" href="/assets/css/theme-dark.css">
-
+        <link rel="stylesheet" href="/assets/css/languageToggle.css">
+        <link rel="stylesheet" href="/assets/css/media_queries.css">
+        <!-- Theme Dark CSS -->
+        <link rel="stylesheet" href="/assets/css/projects.css">
+        <link rel="stylesheet" href="/assets/css/team.css">
+        <!-- Theme Dark CSS -->
+        <link rel="stylesheet" href="/assets/css/themeToggle.css">
         <!-- Title -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.2.0/css/all.css">
+
         <title>Bonsa - SEO & Marketing Company HTML Template</title>
 
         <!-- Favicon -->

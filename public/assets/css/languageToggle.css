@@ -1,0 +1,46 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+.flag{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    background-color: #fff;
+    -webkit-box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.16);
+            box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.16);
+}
+.flag1{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+.flag2{
+    display: none !important;
+}
+.ltr .flag1{
+    display: none !important;
+}
+.ltr .flag2{
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+html.dark .flag{
+    background-color: #0F3460;
+}

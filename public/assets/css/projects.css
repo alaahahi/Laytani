@@ -1,0 +1,234 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+/* **************  Projects  start   **************** */
+.projects {
+    padding: 50px 0;
+  }
+  .sub_heading_box--projects {
+    margin-bottom: 10px !important;
+  }
+  .projects_wrapper {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -ms-flex-flow: wrap;
+        flex-flow: wrap;
+    row-gap: 30px;
+    margin: 0 -10px;
+  
+  }
+  .projects_box {
+    width: calc(25% - 20px);
+    max-width: 327px;
+    margin: 0 10px;
+  }
+  .projects_box_holder {
+    height: 302px;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+  }
+  .projects_box_holder img {
+    height: 302px;
+    width: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+    -webkit-transition: all 0.3s cubic-bezier(0.215, 0.61, 0.355, 1);
+    -o-transition: all 0.3s cubic-bezier(0.215, 0.61, 0.355, 1);
+    transition: all 0.3s cubic-bezier(0.215, 0.61, 0.355, 1);
+  }
+  .projects_box:hover .projects_box_holder img {
+    -webkit-transform: scale(1.2);
+        -ms-transform: scale(1.2);
+            transform: scale(1.2);
+    -webkit-transition: all 0.3s cubic-bezier(0.215, 0.61, 0.355, 1);
+    -o-transition: all 0.3s cubic-bezier(0.215, 0.61, 0.355, 1);
+    transition: all 0.3s cubic-bezier(0.215, 0.61, 0.355, 1);
+  }
+  .projects_box_link{
+      background-color: var(--red);
+      font-size: 18px;
+      font-weight: 700;
+      height: 50px;
+  }
+  .projects_box_holder_proj_count{
+      position: absolute;
+      width: 90%;
+      bottom: -100px;
+      left: 5%;
+      right: 5%;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+      font-size: 16px;
+      color: #fff;
+      font-weight: 500;
+      height: 40px;
+      background: rgba(1, 15, 88, 0.55);
+      -webkit-transition: all 0.3s cubic-bezier(0.215, 0.610, 0.355, 1);
+      -o-transition: all 0.3s cubic-bezier(0.215, 0.610, 0.355, 1);
+      transition: all 0.3s cubic-bezier(0.215, 0.610, 0.355, 1);
+  }
+  .projects_box:hover .projects_box_holder_proj_count{
+      bottom: 10px;
+      -webkit-transition: all 0.3s cubic-bezier(0.215, 0.610, 0.355, 1);
+      -o-transition: all 0.3s cubic-bezier(0.215, 0.610, 0.355, 1);
+      transition: all 0.3s cubic-bezier(0.215, 0.610, 0.355, 1);
+  }
+  /* **************  Projects  end   **************** */
+  /* **************  Projects details start  **************** */
+  .related{
+      padding-bottom: 50px;
+  }
+  .projectDetails_text{
+      font-size: 18px;
+      font-weight: 600;
+      margin-bottom: 5px;
+  }
+  .projectDetails_images{
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: justify;
+          -ms-flex-pack: justify;
+              justify-content: space-between;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+      margin: 0 -7.5px;
+  }
+  .projectDetails_images_holder{
+      margin: 0 7.5px;
+  }
+  .projectDetails_images_holder img{
+      width: 200px !important;
+      height: auto !important;
+      -o-object-fit: cover;
+         object-fit: cover;
+  }
+  .relatedSlider{
+      padding-bottom: 70px !important;
+  }
+  .relatedSlider .swiper-button-next, 
+  .relatedSlider .swiper-button-prev{
+      top: auto;
+      bottom: 0;
+      width: 45px !important;
+      height: 36px !important;
+      background-color: #FAE7E1;
+  }
+  .relatedSlider .swiper-button-next{
+      right: calc(50% - 45px) !important;
+      background-image: url("/arrow-rightred.png") !important;
+      background-size: 16px 12px;
+      background-repeat: no-repeat;
+      background-position: center;
+      border-left: 1px solid var(--red);
+  }
+  .relatedSlider .swiper-button-prev{
+      left: calc(50% - 45px) !important;
+      background-image: url("/leftarrow.png") !important;
+      background-size: 16px 12px;
+      background-repeat: no-repeat;
+      background-position: center;
+  }
+  .relatedSlider .swiper-button-next:after, .relatedSlider .swiper-rtl .swiper-button-prev:after {
+      content: '' !important;
+      color: var(--red);
+  }
+  .relatedSlider .swiper-button-prev:after, .relatedSlider .swiper-rtl .swiper-button-next:after {
+      content: '' !important;
+      color: var(--red);
+  }
+  .sub_heading_box_related{
+      margin-bottom: 30px;
+  }
+  /* **************  Projects details end  **************** */
+  @media(max-width:1799px){
+      .projects {
+          padding: 40px 0;
+      }
+  }
+  @media(max-width:1599px){
+      .projectDetails_text{
+          font-size: 16px;
+      }
+  }
+  @media(max-width:1399px){
+  
+  }
+  @media(max-width:1199px){
+      .projects {
+          padding: 20px 0;
+      }
+      .sub_heading_box--projects {
+          width: 425px;
+          height: 60px;
+      }
+      .projects_box {
+          width: calc(33.33% - 20px);
+          max-width: 327px;
+          margin: 0 10px;
+      }
+      .projects_box_holder img,.projects_box_holder {
+          height: 290px;
+      }
+      .projects_wrapper {
+          row-gap: 20px;
+      }
+      .projectDetails_images_holder:nth-last-child(1){
+          display: none;
+      }
+      .related {
+          padding-bottom: 30px;
+      }
+      .relatedSlider {
+          padding-bottom: 48px !important;
+      }
+      .relatedSlider .swiper-button-next, .relatedSlider .swiper-button-prev {
+          width: 40px !important;
+          height: 30px !important;
+      }
+      .relatedSlider .swiper-button-prev {
+          left: calc(50% - 40px) !important;
+          background-size: 14px 10px;
+      }
+      .relatedSlider .swiper-button-next {
+          right: calc(50% - 40px) !important;
+          background-size: 14px 10px;
+      }
+  }
+  @media(max-width:1023px){
+      .projects_box_holder img,.projects_box_holder {
+          height: 200px;
+      }
+  }
+  @media(max-width:767px){
+      .projects_box {
+          width: calc(50% - 20px);
+          max-width: 327px;
+          margin: 0 10px;
+      }
+  }
+  @media(max-width:539px){
+      .projects_box {
+          width: calc(100% - 20px);
+          max-width: 280px;
+          margin: 0 auto;
+      }
+      .related_box{
+          margin: 0 auto;
+          max-width: 280px;
+      }
+  }
