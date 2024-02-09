@@ -1,5 +1,14 @@
 
+<script setup>
+import { ref, onUnmounted } from "vue";
+import { useI18n } from "vue-i18n";
+import { Link } from "@inertiajs/inertia-vue3";
+import ClientsSlider from '@/Components/ClientsSlider.vue';
+
+</script>
+
 <template>
+    <ClientsSlider />
     <div class='footer_m'>
       <div class="footer_top">
         <div class="footer_outer_wrapper flex items-start justify-between">
@@ -12,7 +21,7 @@
             </div>
             <SocialMediaList />
           </div>
-           <div class="footer_top_box footer_top_box2">
+          <div class="footer_top_box footer_top_box2">
             <h1 class="footer_top_box_heading">Useful Links</h1>
             <div class="footer_top_box_heading_below">
               <img src="/assets/img/fotter_heading_bottom.svg" width="58" height="3" alt="" />
@@ -55,14 +64,14 @@
               </li>
             </ul>
           </div>
-           <div class="footer_top_box footer_top_box3">
+          <div class="footer_top_box footer_top_box3">
             <h1 class="footer_top_box_heading">Contact Us</h1>
             <div class="footer_top_box_heading_below">
               <img src="/assets/img/fotter_heading_bottom.svg" width="58" height="3" alt="" />
             </div>
             <ul class="footer_contact_list">
               <li class="footer_contact_list_item">
-                <Link href="tel:+971567895215">
+                <a href="tel:+971567895215">
                   <div class="footer_contact_list_wrapper flex gap-2">
                       <div class="footer_contact_list_item_img">
                         <img src="/assets/img/callwhite.svg" width="20" height="20" alt="" />
@@ -71,10 +80,10 @@
                         +971 567895215
                       </div>
                   </div>
-                </Link>
+                </a>
               </li>
               <li class="footer_contact_list_item">
-                <Link href="mailto:info@alaytani.com">
+                <a href="mailto:info@alaytani.com">
                   <div class="footer_contact_list_wrapper flex gap-2">
                       <div class="footer_contact_list_item_img">
                         <img src="/assets/img/mailwhite.svg" width="17" height="14" alt="" />
@@ -83,10 +92,10 @@
                         info@alaytani.com
                       </div>
                   </div>
-                </Link>
+                </a>
               </li>
               <li class="footer_contact_list_item">
-                <Link href="mailto:info@alaytani.com">
+                <a href="mailto:info@alaytani.com">
                   <div class="footer_contact_list_wrapper flex gap-2">
                       <div class="footer_contact_list_item_img">
                         <img src="/assets/img/location.svg" width="14" height="18" alt="" />
@@ -96,11 +105,11 @@
                         Al Khaldia City
                       </div>
                   </div>
-                </Link>
+                </a>
               </li>
             </ul>
           </div>
-           <div class="footer_top_box footer_top_box4">
+          <div class="footer_top_box footer_top_box4">
             <h1 class="footer_top_box_heading">Subscribe</h1>
             <div class="footer_top_box_heading_below">
               <img src="/assets/img/rectangle.svg" width="58" height="3" alt="" />
@@ -117,14 +126,14 @@
           </div>
         </div>
       </div>
-       <div class="footer_bottom flex items-center justify-between">
+      <div class="footer_bottom flex items-center justify-between">
         <div class="flex poweredby_wrapper gap-2">
           <div class="poweredby">Powered By </div>
-          <Link href='https://skilledtech.co/'>
+          <a href='https://skilledtech.co/'>
             <div  class="poweredbyLink">
               Skilled Tech
             </div>
-          </Link>
+          </a>
         </div>
         <div class="copyright flex items-center gap-2">
           <div>
@@ -133,17 +142,17 @@
           Copyright 2022 By <div class="red"> Al Laytani </div>All right reserved 
         </div>
         <div class=" flex items-center gap-3">
-          <Link href="#">
+          <a href="#">
             <div class="copyright">
               Terms & Conditions 
             </div>
-          </Link>
+          </a>
           <div class="bor"></div>
-          <Link href="#">
+          <a href="#">
             <div class="copyright">
             Privacy Policy 
             </div>
-          </Link>
+          </a>
         </div>
       </div>
       <ScrollToTop />

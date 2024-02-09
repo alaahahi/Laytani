@@ -4,7 +4,7 @@ import "intersection-observer"; // for cross-browser support
 import MainLayout from '@/Layouts/MainLayout.vue';
 import MainBanner from '@/Components/MainBanner.vue';
 import BannerSlider from '@/Components/BannerSlider.vue';
-import AboutArea from '@/Components/AboutArea.vue';
+import AboutArea from '@/Components/AboutuStop.vue';
 import TeamSection from '@/Components/TeamSections.vue';
 import ClientsSection from '@/Components/ClientsSection.vue';
 import NewsSection from '@/Components/NewsSection.vue';
@@ -117,8 +117,5 @@ function submit() {
     <OurProjects />
     <WorkProcess />
     <TeamSection />
-    <ClientsSection />
-    <NewsSection />
-    <ClientsSlider />
   </MainLayout>
 </template>

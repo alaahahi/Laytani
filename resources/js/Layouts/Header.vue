@@ -289,10 +289,10 @@ const switchLocale = async (locale) => {
               <img
                 alt="nav btn"
                 srcset="
-                  /_next/image?url=%2FMenu.png&amp;w=32&amp;q=75 1x,
-                  /_next/image?url=%2FMenu.png&amp;w=48&amp;q=75 2x
+                /assets/img/_next/image?url=%2FMenu.png&amp;w=32&amp;q=75 1x,
+                /assets/img/_next/image?url=%2FMenu.png&amp;w=48&amp;q=75 2x
                 "
-                src="/_next/image?url=%2FMenu.png&amp;w=48&amp;q=75"
+                src="/assets/img/_next/image?url=%2FMenu.png&amp;w=48&amp;q=75"
                 width="23"
                 height="13"
                 decoding="async"

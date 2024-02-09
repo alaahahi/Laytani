@@ -1,39 +1,41 @@
 <script setup>
 import MainLayout from '@/Layouts/MainLayout.vue';
-import AboutArea from '@/Components/AboutArea.vue';
-import PricingTable from '@/Components/TeamSections.vue';
-import CounterArea from '@/Components/NewsSection.vue';
-import TestimonialArea from '@/Components/TestimonialArea.vue';
-import WebsiteRanking from '@/Components/WorkProcess.vue';
-
-
+import AboutArea from '@/Components/AboutuStop.vue';
+import ClientsSection from '@/Components/ClientsSection.vue';
 </script>
 <template>
+
 	<MainLayout>
-        <!-- Inner Banner -->
-        <div class="inner-banner inner-bg1">
+
+        <div class='main'>
+        <div class="modal">
+            <div class="modal-box relative">
+                <label htmlFor="my-modal" class="btn btn-sm btn-circle absolute right-2 top-2">✕</label>
+                <iframe src="https://www.youtube.com/embed/mbwuj58UEPg" class='video_u'></iframe>
+            </div>
+        </div>
+        <div class="sub_banner">
             <div class="container">
-                <div class="inner-title text-center">
-                    <h3>About Us</h3>
-                    <ul>
-                        <li>
-                            <a href="/">Home</a>
-                        </li>
-                        <li>
-                            <i class='bx bxs-chevrons-right'></i>
-                        </li>
-                        <li>About</li>
-                    </ul>
+                <div class="sub_banner_wrapper">
+                    <div class="sub_banner_box1">
+                        <h1 class="sub_banner_heading">
+                            About  Us
+                        </h1>
+                        <div class="breadCrums flex items-center">
+                            <div class="breadCrums_name">Home</div>
+                            <div class="breadCrums_name_imf_holder flex items-center">
+                                <img src="/assets/img/rightarrow.png" width="12" height="9" alt="" />
+                            </div>
+                            <div class="breadCrums_name">About us</div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-        <!-- Inner Banner End -->
+        </div>
 
 
-  <AboutArea />
-  <PricingTable />
-  <CounterArea />
-  <TestimonialArea />
-  <WebsiteRanking />
+    <AboutArea />
+    <ClientsSection />
 	</MainLayout>
 </template>

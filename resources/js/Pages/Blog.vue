@@ -1,184 +1,658 @@
+
 <script setup>
+import { Swiper, SwiperSlide } from "swiper/vue";
+import 'swiper/css/navigation';
+import { Autoplay } from "swiper/modules";
+import { Link } from "@inertiajs/inertia-vue3";
 import MainLayout from '@/Layouts/MainLayout.vue';
-import { Link } from '@inertiajs/inertia-vue3';
+
+import "swiper/css";
+let swiperRef = null;
+
+const setSwiperRef = (swiper) => {
+swiperRef = swiper;
+};
+const slideNext = () => {
+swiperRef.slideNext();
+};
+
+const slidePrev = () => {
+swiperRef.slidePrev();
+};
+
 
 </script>
 <template>
     <MainLayout>
-        <!-- Inner Banner -->
-          <div class="inner-banner inner-bg4">
+        <div class="sub_banner sub_banner--blog">
             <div class="container">
-                <div class="inner-title text-center">
-                    <h3>Our Latest Blogs</h3>
-                    <ul>
-                        <li>
-                            <a href="index.html">Home</a>
-                        </li>
-                        <li>
-                            <i class='bx bxs-chevrons-right'></i>
-                        </li>
-                        <li>Blog</li>
-                    </ul>
+                <div class="sub_banner_wrapper">
+                    <div class="sub_banner_box1">
+                        <h1 class="sub_banner_heading">
+                            Blog
+                        </h1>
+                        <div class="breadCrums flex items-center">
+                            <div class="breadCrums_name">Home</div>
+                            <div class="breadCrums_name_imf_holder flex items-center">
+                                <img src="/assets/img/rightarrow.png" width="12" height="9" alt="" />
+                            </div>
+                            <div class="breadCrums_name">Blog</div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-        <!-- Inner Banner End -->
-	        <!-- Blog Area -->
-          <div class="blog-area pt-100 pb-70">
+        <div class="blog">
             <div class="container">
-                <div class="section-title text-center">
-                    <span>Blogs</span>
-                    <h2>Our Latest Post</h2>
-                    <p>
-                        It is a long established fact that a reader will be 
-                        distracted by the readable content of a page when looking at its layout.
-                    </p>
-                </div>
-                <div class="row pt-45">
-                    <div class="col-lg-4 col-md-6">
-                        <div class="blog-card">
-                            <div class="blog-img">
-                                <a href="blog-details.html">
-                                    <img src="/assets/img/blog/1.jpg" alt="Blog Images">
-                                </a>
+                <div class="blog_wrapper flex flex-wrap">
+                    <div class="blogRight">
+                        <div class="blogRight_card" data-aos="fade-up" data-aos-delay="100">
+                            <div class="blogRight_card_header">
+                                <h1 class="blogRight_card_header_heading">Popular Topics</h1>
                             </div>
-                            <div class="blog-content">
-                                <div class="blog-tag">
-                                    <a href="#"><span>SEO Optimization</span></a>
+                            <div class="blogRight_card_body">
+                                <div class="famous_topics_wrapper flex flex-wrap">
+                                    <div class="famous_topics">
+                                        Planning
+                                    </div>
+                                    <div class="famous_topics">
+                                        Planning
+                                    </div>
+                                    <div class="famous_topics">
+                                        Planning
+                                    </div>
+                                    <div class="famous_topics">
+                                        Planning
+                                    </div>
+                                    <div class="famous_topics">
+                                        Planning
+                                    </div>
                                 </div>
-                                <a href="blog-details.html">
-                                    <h3>Basic Guidline Layout for SEO  Bigenner Level</h3>
-                                </a>
-                                <a href="blog-details.html" class="read-btn">Read More</a>
                             </div>
                         </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6">
-                        <div class="blog-card">
-                            <div class="blog-img">
-                                <a href="blog-details.html">
-                                    <img src="/assets/img/blog/2.jpg" alt="Blog Images">
-                                </a>
+             
+                         <div class="blogRight_card" data-aos="fade-up" data-aos-delay="100">
+                            <div class="blogRight_card_header">
+                                <h1 class="blogRight_card_header_heading">Trends</h1>
                             </div>
-                            <div class="blog-content">
-                                <div class="blog-tag">
-                                    <a href="#"><span>Marketing</span></a>
+                            <div class="blogRight_card_body">
+                                <div class="blogRight_news_wrapper flex flex-wrap">
+                                    <Link href='/news'>
+                                        <div class="blogRight_news flex">
+                                            <div class="blogRight_news_img">
+                                                <img src="/assets/img/news1.png" width="75"  height="69"  alt="" />
+                                            </div>
+                                            <div class="blogRight_news_content">
+                                                <div class="blogRight_news_content_heading">
+                                                    It is a long established fact that a reader 
+                                                </div>
+                                                <div class="blogRight_news_content_date">
+                                                    25/10/2022
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </Link>
                                 </div>
-                                <a href="blog-details.html">
-                                    <h3>How to Become Most Skilled Person in Social Marketing</h3>
-                                </a>
-                                <a href="blog-details.html" class="read-btn">Read More</a>
+                                <div class="blogRight_news_wrapper flex flex-wrap">
+                                    <Link href='/news'>
+                                        <div class="blogRight_news flex">
+                                            <div class="blogRight_news_img">
+                                                <img src="/assets/img/news1.png" width="75"  height="69"  alt="" />
+                                            </div>
+                                            <div class="blogRight_news_content">
+                                                <div class="blogRight_news_content_heading">
+                                                    It is a long established fact that a reader 
+                                                </div>
+                                                <div class="blogRight_news_content_date">
+                                                    25/10/2022
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </Link>
+                                </div>
+                                <div class="blogRight_news_wrapper flex flex-wrap">
+                                    <Link href='/news'>
+                                        <div class="blogRight_news flex">
+                                            <div class="blogRight_news_img">
+                                                <img src="/assets/img/news1.png" width="75"  height="69"  alt="" />
+                                            </div>
+                                            <div class="blogRight_news_content">
+                                                <div class="blogRight_news_content_heading">
+                                                    It is a long established fact that a reader 
+                                                </div>
+                                                <div class="blogRight_news_content_date">
+                                                    25/10/2022
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </Link>
+                                </div>
                             </div>
                         </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6">
-                        <div class="blog-card">
-                            <div class="blog-img">
-                                <a href="blog-details.html">
-                                    <img src="/assets/img/blog/3.jpg" alt="Blog Images">
-                                </a>
+                         <div class="blogRight_card" data-aos="fade-up" data-aos-delay="200">
+                            <div class="blogRight_card_header">
+                                <h1 class="blogRight_card_header_heading">
+                                    Letset From Twitter
+                                </h1>
                             </div>
-                            <div class="blog-content">
-                                <div class="blog-tag">
-                                    <a href="#"><span>Data Research</span></a>
+                            <div class="blogRight_card_body">
+                                <div class="twt_news_wrapper">
+                                    <Link href="#">
+                                        <div class="flex justify-between">
+                                            <div class="twt_news_box2">
+                                                <img src="/assets/img/twt.svg" width="25"  height="25"  alt="" />
+                                            </div>
+                                            <div class="twt_news_box1">
+                                                <div class="twt_news_box1_h">
+                                                    making it look like readable English. 
+                                                    Many desktop publishing 
+                                                </div>
+                                                <div class="twt_news_box1_p">
+                                                    25/10/2022
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </Link>
                                 </div>
-                                <a href="blog-details.html">
-                                    <h3>Basic Guidline Layout for Data Research</h3>
-                                </a>
-                                <a href="blog-details.html" class="read-btn">Read More</a>
+                                <div class="twt_news_wrapper">
+                                    <Link href="#">
+                                        <div class="flex justify-between">
+                                            <div class="twt_news_box2">
+                                                <img src="/assets/img/twt.svg" width="25"  height="25"  alt="" />
+                                            </div>
+                                            <div class="twt_news_box1">
+                                                <div class="twt_news_box1_h">
+                                                    making it look like readable English. 
+                                                    Many desktop publishing 
+                                                </div>
+                                                <div class="twt_news_box1_p">
+                                                    25/10/2022
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </Link>
+                                </div>
+                                <div class="twt_news_wrapper">
+                                    <Link href="#">
+                                        <div class="flex justify-between">
+                                            <div class="twt_news_box2">
+                                                <img src="/assets/img/twt.svg" width="25"  height="25"  alt="" />
+                                            </div>
+                                            <div class="twt_news_box1">
+                                                <div class="twt_news_box1_h">
+                                                    making it look like readable English. 
+                                                    Many desktop publishing 
+                                                </div>
+                                                <div class="twt_news_box1_p">
+                                                    25/10/2022
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </Link>
+                                </div>
                             </div>
                         </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6">
-                        <div class="blog-card">
-                            <div class="blog-img">
-                                <a href="blog-details.html">
-                                    <img src="/assets/img/blog/5.jpg" alt="Blog Images">
-                                </a>
+                         <div class="blogRight_card" data-aos="fade-up" data-aos-delay="300">
+                            <div class="blogRight_card_header">
+                                <h1 class="blogRight_card_header_heading">
+                                    Letset From Facebook
+                                </h1>
                             </div>
-                            <div class="blog-content">
-                                <div class="blog-tag">
-                                    <a href="#"><span>Development</span></a>
+                            <div class="blogRight_card_body">
+                                <div class="twt_news_wrapper">
+                                    <Link href="#">
+                                        <div class="flex justify-between">
+                                            <div class="twt_news_box2">
+                                                <img src="/assets/img/fb.svg" width="25"  height="25"  alt="" />
+                                            </div>
+                                            <div class="twt_news_box1">
+                                                <div class="twt_news_box1_h">
+                                                    making it look like readable English. 
+                                                    Many desktop publishing 
+                                                </div>
+                                                <div class="twt_news_box1_p">
+                                                    25/10/2022
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </Link>
                                 </div>
-                                <a href="blog-details.html">
-                                    <h3>Basic Guidline Layout for Web Development</h3>
-                                </a>
-                                <a href="blog-details.html" class="read-btn">Read More</a>
+                                <div class="twt_news_wrapper">
+                                    <Link href="#">
+                                        <div class="flex justify-between">
+                                            <div class="twt_news_box2">
+                                                <img src="/assets/img/fb.svg" width="25"  height="25"  alt="" />
+                                            </div>
+                                            <div class="twt_news_box1">
+                                                <div class="twt_news_box1_h">
+                                                    making it look like readable English. 
+                                                    Many desktop publishing 
+                                                </div>
+                                                <div class="twt_news_box1_p">
+                                                    25/10/2022
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </Link>
+                                </div>
+                                <div class="twt_news_wrapper">
+                                    <Link href="#">
+                                        <div class="flex justify-between">
+                                            <div class="twt_news_box2">
+                                                <img src="/assets/img/fb.svg" width="25"  height="25"  alt="" />
+                                            </div>
+                                            <div class="twt_news_box1">
+                                                <div class="twt_news_box1_h">
+                                                    making it look like readable English. 
+                                                    Many desktop publishing 
+                                                </div>
+                                                <div class="twt_news_box1_p">
+                                                    25/10/2022
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </Link>
+                                </div>
                             </div>
                         </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6">
-                        <div class="blog-card">
-                            <div class="blog-img">
-                                <a href="blog-details.html">
-                                    <img src="/assets/img/blog/4.jpg" alt="Blog Images">
-                                </a>
+                     </div>
+ 
+                    <div class="blogleft">
+                        <div class="blogleft_top" data-aos="fade-up" data-aos-delay="100">
+                            <h1 class="blogleft_top_heading">For You</h1>
+                        </div>
+                        <div class="blogBox_Wrapper">
+                            <div class="blogBox" data-aos="fade-up" data-aos-delay="200">
+                                <Link href="blogDetails">
+                                    <div class="blogBox_img_holder">
+                                        <img src="/assets/img/construction-site (1).png" width="374"  height="233"  alt="" />
+                                    </div>
+                                    <div class="blogBox_profile_wrapper">
+                                        <div class="blogBox_profile_img_holder">
+                                            <img src="/assets/img/blogslider2.jpg" width="57"  height="57"  alt="" />
+                                        </div>
+                                        <div class="blogBox_profile_content">
+                                            <h1 class="blogBox_profile_name">Ahsan</h1>
+                                            <div class="blogBox_profile_time">56 hours ago </div>
+                                        </div>
+                                    </div>
+                                    <h1 class="blogBox_heading">
+                                        Lorem ipsum dolor sit amet.
+                                    </h1>
+                                    <div class="blogBox_desc">
+                                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia velit excepturi ex autem, vitae optio.
+                                    </div>
+                                    <div class="blogBox_comment">
+                                        <div class="blogBox_comment_mini">
+                                            <div class="blogBox_comment_mini_img_holder dark-none">
+                                                <img src="/assets/img/blogcomment.svg" width="22"  height="22"  alt="" />
+                                            </div>
+                                            <div class="blogBox_comment_mini_img_holder d-none dark-show">
+                                                <img src="/assets/img/comment_white.svg" width="22"  height="22"  alt="" />
+                                            </div>
+                                            <div class="blogBox_comment_text">
+                                                Comments
+                                            </div>
+                                            <div class="blogBox_comment_counter">
+                                                70
+                                            </div>
+                                            
+                                        </div>
+                                        <div class="blogBox_comment_button">
+                                            More
+                                        </div>
+                                    </div>
+                                </Link>
                             </div>
-                            <div class="blog-content">
-                                <div class="blog-tag">
-                                    <a href="#"><span>Data Analysis</span></a>
-                                </div>
-                                <a href="blog-details.html">
-                                    <h3>How to Become Most Skilled Person in Data Analysis</h3>
-                                </a>
-                                <a href="blog-details.html" class="read-btn">Read More</a>
+                            <div class="blogBox" data-aos="fade-up" data-aos-delay="300">
+                                <Link href="blogDetails">
+                                    <div class="blogBox_img_holder">
+                                        <img src="/assets/img/construction-worker-construction.png" width="374"  height="233"  alt="" />
+                                    </div>
+                                    <div class="blogBox_profile_wrapper">
+                                        <div class="blogBox_profile_img_holder">
+                                            <img src="/assets/img/blogslider2.jpg" width="57"  height="57"  alt="" />
+                                        </div>
+                                        <div class="blogBox_profile_content">
+                                            <h1 class="blogBox_profile_name">Ahsan</h1>
+                                            <div class="blogBox_profile_time">56 hours ago </div>
+                                        </div>
+                                    </div>
+                                    <h1 class="blogBox_heading">
+                                        Lorem ipsum dolor sit amet.
+                                    </h1>
+                                    <div class="blogBox_desc">
+                                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia velit excepturi ex autem, vitae optio.
+                                    </div>
+                                    <div class="blogBox_comment">
+                                        <div class="blogBox_comment_mini">
+                                            <div class="blogBox_comment_mini_img_holder dark-none">
+                                                <img src="/assets/img/blogcomment.svg" width="22"  height="22"  alt="" />
+                                            </div>
+                                            <div class="blogBox_comment_mini_img_holder d-none dark-show">
+                                                <img src="/assets/img/comment_white.svg" width="22"  height="22"  alt="" />
+                                            </div>
+                                            <div class="blogBox_comment_text">
+                                                Comments
+                                            </div>
+                                            <div class="blogBox_comment_counter">
+                                                70
+                                            </div>
+                                        </div>
+                                        <div class="blogBox_comment_button">
+                                            More
+                                        </div>
+                                    </div>
+                                </Link>
+                            </div>
+                            <div class="blogBox" data-aos="fade-up" data-aos-delay="400">
+                                <Link href="blogDetails">
+                                    <div class="blogBox_img_holder">
+                                        <img src="/assets/img/cutting-metal-with-plasma-equipment copy.png" width="374"  height="233"  alt="" />
+                                    </div>
+                                    <div class="blogBox_profile_wrapper">
+                                        <div class="blogBox_profile_img_holder">
+                                            <img src="/assets/img/blogslider2.jpg" width="57"  height="57"  alt="" />
+                                        </div>
+                                        <div class="blogBox_profile_content">
+                                            <h1 class="blogBox_profile_name">Ahsan</h1>
+                                            <div class="blogBox_profile_time">56 hours ago </div>
+                                        </div>
+                                    </div>
+                                    <h1 class="blogBox_heading">
+                                        Lorem ipsum dolor sit amet.
+                                    </h1>
+                                    <div class="blogBox_desc">
+                                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia velit excepturi ex autem, vitae optio.
+                                    </div>
+                                    <div class="blogBox_comment">
+                                        <div class="blogBox_comment_mini">
+                                            <div class="blogBox_comment_mini_img_holder dark-none">
+                                                <img src="/assets/img/blogcomment.svg" width="22"  height="22"  alt="" />
+                                            </div>
+                                            <div class="blogBox_comment_mini_img_holder d-none dark-show">
+                                                <img src="/assets/img/comment_white.svg" width="22"  height="22"  alt="" />
+                                            </div>
+                                            <div class="blogBox_comment_text">
+                                                Comments
+                                            </div>
+                                            <div class="blogBox_comment_counter">
+                                                70
+                                            </div>
+                                        </div>
+                                        <div class="blogBox_comment_button">
+                                            More
+                                        </div>
+                                    </div>
+                                </Link>
+                            </div>
+                            <div class="blogBox" data-aos="fade-up" data-aos-delay="500">
+                                <Link href="blogDetails">
+                                    <div class="blogBox_img_holder">
+                                        <img src="/assets/img/cutting-metal-with-plasma-equipment copy.png" width="374"  height="233"  alt="" />
+                                    </div>
+                                    <div class="blogBox_profile_wrapper">
+                                        <div class="blogBox_profile_img_holder">
+                                            <img src="/assets/img/blogslider2.jpg" width="57"  height="57"  alt="" />
+                                        </div>
+                                        <div class="blogBox_profile_content">
+                                            <h1 class="blogBox_profile_name">Ahsan</h1>
+                                            <div class="blogBox_profile_time">56 hours ago </div>
+                                        </div>
+                                    </div>
+                                    <h1 class="blogBox_heading">
+                                        Lorem ipsum dolor sit amet.
+                                    </h1>
+                                    <div class="blogBox_desc">
+                                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia velit excepturi ex autem, vitae optio.
+                                    </div>
+                                    <div class="blogBox_comment">
+                                        <div class="blogBox_comment_mini">
+                                            <div class="blogBox_comment_mini_img_holder dark-none">
+                                                <img src="/assets/img/blogcomment.svg" width="22"  height="22"  alt="" />
+                                            </div>
+                                            <div class="blogBox_comment_mini_img_holder d-none dark-show">
+                                                <img src="/assets/img/comment_white.svg" width="22"  height="22"  alt="" />
+                                            </div>
+                                            <div class="blogBox_comment_text">
+                                                Comments
+                                            </div>
+                                            <div class="blogBox_comment_counter">
+                                                70
+                                            </div>
+                                        </div>
+                                        <div class="blogBox_comment_button">
+                                            More
+                                        </div>
+                                    </div>
+                                </Link>
+                            </div>
+                            <div class="blogBox" data-aos="fade-up" data-aos-delay="600">
+                                <Link href="blogDetails">
+                                    <div class="blogBox_img_holder">
+                                        <img src="/assets/img/empty-asphalt-road-towards-modern-city.png" width="374"  height="233"  alt="" />
+                                    </div>
+                                    <div class="blogBox_profile_wrapper">
+                                        <div class="blogBox_profile_img_holder">
+                                            <img src="/assets/img/blogslider2.jpg" width="57"  height="57"  alt="" />
+                                        </div>
+                                        <div class="blogBox_profile_content">
+                                            <h1 class="blogBox_profile_name">Ahsan</h1>
+                                            <div class="blogBox_profile_time">56 hours ago </div>
+                                        </div>
+                                    </div>
+                                    <h1 class="blogBox_heading">
+                                        Lorem ipsum dolor sit amet.
+                                    </h1>
+                                    <div class="blogBox_desc">
+                                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia velit excepturi ex autem, vitae optio.
+                                    </div>
+                                    <div class="blogBox_comment">
+                                        <div class="blogBox_comment_mini">
+                                            <div class="blogBox_comment_mini_img_holder dark-none">
+                                                <img src="/assets/img/blogcomment.svg" width="22"  height="22"  alt="" />
+                                            </div>
+                                            <div class="blogBox_comment_mini_img_holder d-none dark-show">
+                                                <img src="/assets/img/comment_white.svg" width="22"  height="22"  alt="" />
+                                            </div>
+                                            <div class="blogBox_comment_text">
+                                                Comments
+                                            </div>
+                                            <div class="blogBox_comment_counter">
+                                                70
+                                            </div>
+                                        </div>
+                                        <div class="blogBox_comment_button">
+                                            More
+                                        </div>
+                                    </div>
+                                </Link>
+                            </div>
+                            <div class="blogBox" data-aos="fade-up" data-aos-delay="700">
+                                <Link href="blogDetails">
+                                    <div class="blogBox_img_holder">
+                                        <img src="/assets/img/construction-site (1).png" width="374"  height="233"  alt="" />
+                                    </div>
+                                    <div class="blogBox_profile_wrapper">
+                                        <div class="blogBox_profile_img_holder">
+                                            <img src="/assets/img/blogslider2.jpg" width="57"  height="57"  alt="" />
+                                        </div>
+                                        <div class="blogBox_profile_content">
+                                            <h1 class="blogBox_profile_name">Ahsan</h1>
+                                            <div class="blogBox_profile_time">56 hours ago </div>
+                                        </div>
+                                    </div>
+                                    <h1 class="blogBox_heading">
+                                        Lorem ipsum dolor sit amet.
+                                    </h1>
+                                    <div class="blogBox_desc">
+                                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia velit excepturi ex autem, vitae optio.
+                                    </div>
+                                    <div class="blogBox_comment">
+                                        <div class="blogBox_comment_mini">
+                                            <div class="blogBox_comment_mini_img_holder dark-none">
+                                                <img src="/assets/img/blogcomment.svg" width="22"  height="22"  alt="" />
+                                            </div>
+                                            <div class="blogBox_comment_mini_img_holder d-none dark-show">
+                                                <img src="/assets/img/comment_white.svg" width="22"  height="22"  alt="" />
+                                            </div>
+                                            <div class="blogBox_comment_text">
+                                                Comments
+                                            </div>
+                                            <div class="blogBox_comment_counter">
+                                                70
+                                            </div>
+                                        </div>
+                                        <div class="blogBox_comment_button">
+                                            More
+                                        </div>
+                                    </div>
+                                </Link>
                             </div>
                         </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6">
-                        <div class="blog-card">
-                            <div class="blog-img">
-                                <a href="blog-details.html">
-                                    <img src="/assets/img/blog/6.jpg" alt="Blog Images">
-                                </a>
-                            </div>
-                            <div class="blog-content">
-                                <div class="blog-tag">
-                                    <a href="#"><span>Development</span></a>
-                                </div>
-                                <a href="blog-details.html">
-                                    <h3>Basic Guidline Layout for App Development</h3>
-                                </a>
-                                <a href="blog-details.html" class="read-btn">Read More</a>
+                         <div class="blog_slider">
+                            <div class="blog_slider_heading" data-aos="fade-up" data-aos-delay="00">Latest news</div>
+                            <div class="blog_slider_wrapper" data-aos="fade-up" data-aos-delay="200">
+                                <Swiper
+                                     slidesPerView="4"
+                                    spaceBetween= "30"
+                                    navigation
+                                    pagination="false"
+                               
+                                    >
+                                    <SwiperSlide>
+                                        <div class="blog_sliderBox">
+                                            <div class="blog_sliderBox_img_holder">
+                                                <img src="/assets/img/services1.png" width="390"  height="230"  alt="" />
+                                            </div>
+                                            <div class="blog_sliderBox_body">
+                                                <h1 class="blog_sliderBox_heading">
+                                                    Lorem ipsum dolor sit amet.
+                                                </h1>
+                                                <div class="blogBox_profile_wrapper1 flex items-center gap-2">
+                                                    <div class="blogBox_profile_img_holder1 flex items-center">
+                                                        <img src="/assets/img/newsletter.jpg" width="32"  height="32"  alt="" />
+                                                    </div>
+                                                    <div class="blogBox_profile_content1">
+                                                        <h1 class="blogBox_profile_name1">Agsan</h1>
+                                                        <div class="blogBox_profile_time1">6 mint ago</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </SwiperSlide>
+                                    <SwiperSlide>
+                                        <div class="blog_sliderBox">
+                                            <div class="blog_sliderBox_img_holder">
+                                                <img src="/assets/img/engineer-construction-site.png" width="390"  height="230"  alt="" />
+                                            </div>
+                                            <div class="blog_sliderBox_body">
+                                                <h1 class="blog_sliderBox_heading">
+                                                    Lorem ipsum dolor sit amet.
+                                                </h1>
+                                                <div class="blogBox_profile_wrapper1 flex items-center gap-2">
+                                                    <div class="blogBox_profile_img_holder1 flex items-center">
+                                                        <img src="/assets/img/newsletter.jpg" width="32"  height="32"  alt="" />
+                                                    </div>
+                                                    <div class="blogBox_profile_content1">
+                                                        <h1 class="blogBox_profile_name1">Agsan</h1>
+                                                        <div class="blogBox_profile_time1">6 mint ago</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </SwiperSlide>
+                                    <SwiperSlide>
+                                        <div class="blog_sliderBox">
+                                            <div class="blog_sliderBox_img_holder">
+                                                <img src="/assets/img/empty-asphalt-road-towards-modern-city.png" width="390"  height="230"  alt="" />
+                                            </div>
+                                            <div class="blog_sliderBox_body">
+                                                <h1 class="blog_sliderBox_heading">
+                                                    Lorem ipsum dolor sit amet.
+                                                </h1>
+                                                <div class="blogBox_profile_wrapper1 flex items-center gap-2">
+                                                    <div class="blogBox_profile_img_holder1 flex items-center">
+                                                        <img src="/assets/img/newsletter.jpg" width="32"  height="32"  alt="" />
+                                                    </div>
+                                                    <div class="blogBox_profile_content1">
+                                                        <h1 class="blogBox_profile_name1">Agsan</h1>
+                                                        <div class="blogBox_profile_time1">6 mint ago</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </SwiperSlide>
+                                    <SwiperSlide>
+                                        <div class="blog_sliderBox">
+                                            <div class="blog_sliderBox_img_holder">
+                                                <img src="/assets/img/engineer-construction-site.png" width="390"  height="230"  alt="" />
+                                            </div>
+                                            <div class="blog_sliderBox_body">
+                                                <h1 class="blog_sliderBox_heading">
+                                                    Lorem ipsum dolor sit amet.
+                                                </h1>
+                                                <div class="blogBox_profile_wrapper1 flex items-center gap-2">
+                                                    <div class="blogBox_profile_img_holder1 flex items-center">
+                                                        <img src="/assets/img/newsletter.jpg" width="32"  height="32"  alt="" />
+                                                    </div>
+                                                    <div class="blogBox_profile_content1">
+                                                        <h1 class="blogBox_profile_name1">Agsan</h1>
+                                                        <div class="blogBox_profile_time1">6 mint ago</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </SwiperSlide>
+                                    <SwiperSlide>
+                                        <div class="blog_sliderBox">
+                                            <div class="blog_sliderBox_img_holder">
+                                                <img src="/assets/img/empty-asphalt-road-towards-modern-city.png" width="390"  height="230"  alt="" />
+                                            </div>
+                                            <div class="blog_sliderBox_body">
+                                                <h1 class="blog_sliderBox_heading">
+                                                    Lorem ipsum dolor sit amet.
+                                                </h1>
+                                                <div class="blogBox_profile_wrapper1 flex items-center gap-2">
+                                                    <div class="blogBox_profile_img_holder1 flex items-center">
+                                                        <img src="/assets/img/newsletter.jpg" width="32"  height="32"  alt="" />
+                                                    </div>
+                                                    <div class="blogBox_profile_content1">
+                                                        <h1 class="blogBox_profile_name1">Agsan</h1>
+                                                        <div class="blogBox_profile_time1">6 mint ago</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </SwiperSlide>
+                                    <SwiperSlide>
+                                        <div class="blog_sliderBox">
+                                            <div class="blog_sliderBox_img_holder">
+                                                <img src="/assets/img/cutting-metal-with-plasma-equipment copy.png" width="390"  height="230"  alt="" />
+                                            </div>
+                                            <div class="blog_sliderBox_body">
+                                                <h1 class="blog_sliderBox_heading">
+                                                    Lorem ipsum dolor sit amet.
+                                                </h1>
+                                                <div class="blogBox_profile_wrapper1 flex items-center gap-2">
+                                                    <div class="blogBox_profile_img_holder1 flex items-center">
+                                                        <img src="/assets/img/newsletter.jpg" width="32"  height="32"  alt="" />
+                                                    </div>
+                                                    <div class="blogBox_profile_content1">
+                                                        <h1 class="blogBox_profile_name1">Agsan</h1>
+                                                        <div class="blogBox_profile_time1">6 mint ago</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </SwiperSlide>
+                                </Swiper>
                             </div>
                         </div>
+                        
                     </div>
-
-                    <div class="col-lg-12">
-						<div class="pagination-area">
-							<nav aria-label="Page navigation example text-center">
-								<ul class="pagination">
-									<li class="page-item">
-										<a class="page-link page-links" href="#">
-											<i class='bx bx-chevrons-left'></i>
-										</a>
-									</li>
-									<li class="page-item current">
-										<a class="page-link" href="#">1</a>
-									</li>
-									<li class="page-item">
-										<a class="page-link" href="#">2</a>
-									</li>
-									<li class="page-item">
-										<a class="page-link" href="#">3</a>
-									</li>
-									<li class="page-item">
-										<a class="page-link" href="#">
-											<i class='bx bx-chevrons-right'></i>
-										</a>
-									</li>
-								</ul>
-							</nav>
-						</div>
-					</div>
-                </div>
-            </div>
-        </div>
-        <!-- Blog Area End -->
+                 </div>
+             </div>
+         </div>
     </MainLayout>
 </template>

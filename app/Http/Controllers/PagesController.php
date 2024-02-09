@@ -50,9 +50,9 @@ class PagesController extends Controller
     {
         return Inertia::render('ContactUs');   
     }
-    public function faq(Request $request)
+    public function team(Request $request)
     {
-        return Inertia::render('FAQ');   
+        return Inertia::render('Team');   
     }
     public function productDetails(Request $request)
     {
