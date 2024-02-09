@@ -2,7 +2,7 @@
 import MainLayout from '@/Layouts/MainLayout.vue';
 import FaqArea from '@/Components/FaqArea.vue';
 import ContactSection from '@/Components/ContactSection.vue';
-import WebsiteRanking from '@/Components/WebsiteRanking.vue';
+import WebsiteRanking from '@/Components/WorkProcess.vue';
 
 
 

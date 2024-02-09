@@ -5,17 +5,17 @@ import MainLayout from '@/Layouts/MainLayout.vue';
 import MainBanner from '@/Components/MainBanner.vue';
 import BannerSlider from '@/Components/BannerSlider.vue';
 import AboutArea from '@/Components/AboutArea.vue';
-import PricingTable from '@/Components/PricingTable.vue';
-import ExpertMembers from '@/Components/ExpertMembers.vue';
-import CounterArea from '@/Components/CounterArea.vue';
-import TestimonialArea from '@/Components/TestimonialAreaHome.vue';
+import TeamSection from '@/Components/TeamSections.vue';
+import ClientsSection from '@/Components/ClientsSection.vue';
+import NewsSection from '@/Components/NewsSection.vue';
+import ClientsSlider from '@/Components/ClientsSlider.vue';
 import HomeLatestPost from '@/Components/HomeLatestPost.vue';
 
 
-import OurPortfolio from '@/Components/OurPortfolio.vue';
+import OurProjects from '@/Components/OurProjects.vue';
 import OurService from '@/Components/OurService.vue';
 
-import WebsiteRanking from '@/Components/WebsiteRanking.vue';
+import WorkProcess from '@/Components/WorkProcess.vue';
 import WhyChooseUs from '@/Components/WhyChooseUs.vue';
 import { Link } from '@inertiajs/inertia-vue3';
 import Vue3AutoCounter from 'vue3-autocounter';
@@ -112,17 +112,13 @@ function submit() {
 <template>
   <MainLayout :isHome="true">
     <MainBanner />
-    <BannerSlider />
-    <AboutArea />
     <OurService />
     <WhyChooseUs />
-    <OurPortfolio />
-    <WebsiteRanking />
-    <PricingTable />
-    <ExpertMembers />
-    <CounterArea />
-    <TestimonialArea />
-    <HomeLatestPost />
-
+    <OurProjects />
+    <WorkProcess />
+    <TeamSection />
+    <ClientsSection />
+    <NewsSection />
+    <ClientsSlider />
   </MainLayout>
 </template>

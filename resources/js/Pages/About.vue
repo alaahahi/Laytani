@@ -1,10 +1,10 @@
 <script setup>
 import MainLayout from '@/Layouts/MainLayout.vue';
 import AboutArea from '@/Components/AboutArea.vue';
-import PricingTable from '@/Components/PricingTable.vue';
-import CounterArea from '@/Components/CounterArea.vue';
+import PricingTable from '@/Components/TeamSections.vue';
+import CounterArea from '@/Components/NewsSection.vue';
 import TestimonialArea from '@/Components/TestimonialArea.vue';
-import WebsiteRanking from '@/Components/WebsiteRanking.vue';
+import WebsiteRanking from '@/Components/WorkProcess.vue';
 
 
 </script>

@@ -5,7 +5,7 @@ import ContactArea from '@/Components/ContactArea.vue';
 import Mapsec from '@/Components/Mapsec.vue';
 
 
-import WebsiteRanking from '@/Components/WebsiteRanking.vue';
+import WebsiteRanking from '@/Components/WorkProcess.vue';
 
 </script>
 <template>

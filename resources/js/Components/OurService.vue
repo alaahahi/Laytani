@@ -1,4 +1,6 @@
 <script setup>
+import { ref } from 'vue';
+
 import { Swiper, SwiperSlide } from "swiper/vue";
 import 'swiper/css/navigation';
 
@@ -20,147 +22,81 @@ defineProps({
         type: Boolean,
         default: false,
     },})
-
+    const services = ref([
+    { 
+      img: '/assets/img/ourServices1.svg',
+      width: 44,
+      height: 43,
+      heading: 'Petroleum & Gas Energy',
+      description: 'Assertively engineer principle centered processes through',
+      link: 'services',
+      delay: 200
+    },
+    {
+      img: '/assets/img/ourServices2.svg',
+      width: 44,
+      height: 43,
+      heading: 'Petroleum & Gas Energy',
+      description: 'Assertively engineer principle centered processes through',
+      link: 'services',
+      delay: 300
+    },
+    {
+      img: '/assets/img/ourServices3.svg',
+      width: 44,
+      height: 43,
+      heading: 'Auto & Mechanical Engineering',
+      description: 'Assertively engineer principle centered processes through',
+      link: 'services',
+      delay: 400
+    },
+    {
+      img: '/assets/img/ourServices4.svg',
+      width: 44,
+      height: 43,
+      heading: 'Basic & Industrial Chemicals',
+      description: 'Assertively engineer principle centered processes through',
+      link: 'services',
+      delay: 500
+    }
+  ]);
 </script>
 <template>
-      <!-- Service Area -->
-	  <section class="service-area pb-70">
-            <div class="container">
-                <div class="section-title text-center">
-                    <span>Our Service</span>
-                    <h2>We Provide Fastest & Unique Business Growing Service</h2>
-                    <p>
-                        It is a long established fact that a reader will be distracted by 
-                        the readable content of a page when looking at its layout.
-                    </p>
-                </div>
-                <div class="row pt-45">
-                    <div class="col-lg-4 col-sm-6">
-                        <div class="service-card">
-                            <a href="service-details.html">
-                                <img src="/assets/img/service-icon/1.png" alt="Images">
-                            </a>
-                            <a href="service-details.html">
-                                <h3>SEO Optimization</h3>
-                            </a>
-                            <p>
-                                It is a long established fact that area
-                                der will be distracted by the reada
-                                ble content of a page when looking.
-                            </p>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-sm-6">
-                        <div class="service-card">
-                            <a href="service-details.html">
-                                <img src="/assets/img/service-icon/2.png" alt="Images">
-                            </a>
-                            <a href="service-details.html">
-                                <h3>Social Marketing</h3>
-                            </a>
-                            <p>
-                                It is a long established fact that area
-                                der will be distracted by the reada
-                                ble content of a page when looking.
-                            </p>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-sm-6">
-                        <div class="service-card">
-                            <a href="service-details.html">
-                                <img src="/assets/img/service-icon/3.png" alt="Images">
-                            </a>
-                            <a href="service-details.html">
-                                <h3>Content Marketing</h3>
-                            </a>
-                            <p>
-                                It is a long established fact that area
-                                der will be distracted by the reada
-                                ble content of a page when looking.
-                            </p>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-sm-6">
-                        <div class="service-card">
-                            <a href="service-details.html">
-                                <img src="/assets/img/service-icon/4.png" alt="Images">
-                            </a>
-                            <a href="service-details.html">
-                                <h3>Analytical Analysis</h3>
-                            </a>
-                            <p>
-                                It is a long established fact that area
-                                der will be distracted by the reada
-                                ble content of a page when looking.
-                            </p>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-sm-6">
-                        <div class="service-card">
-                            <a href="service-details.html">
-                                <img src="/assets/img/service-icon/5.png" alt="Images">
-                            </a>
-                            <a href="service-details.html">
-                                <h3>App Development</h3>
-                            </a>
-                            <p>
-                                It is a long established fact that area
-                                der will be distracted by the reada
-                                ble content of a page when looking.
-                            </p>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-sm-6">
-                        <div class="service-card">
-                            <a href="service-details.html">
-                                <img src="/assets/img/service-icon/6.png" alt="Images">
-                            </a>
-                            <a href="service-details.html">
-                                <h3>Web Development</h3>
-                            </a>
-                            <p>
-                                It is a long established fact that area
-                                der will be distracted by the reada
-                                ble content of a page when looking.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-12"  v-if="!route().current('/')">
-						<div class="pagination-area">
-							<nav aria-label="Page navigation example text-center">
-								<ul class="pagination">
-									<li class="page-item">
-										<a class="page-link page-links" href="#">
-											<i class='bx bx-chevrons-left'></i>
-										</a>
-									</li>
-									<li class="page-item current">
-										<a class="page-link" href="#">1</a>
-									</li>
-									<li class="page-item">
-										<a class="page-link" href="#">2</a>
-									</li>
-									<li class="page-item">
-										<a class="page-link" href="#">3</a>
-									</li>
-									<li class="page-item">
-										<a class="page-link" href="#">
-											<i class='bx bx-chevrons-right'></i>
-										</a>
-									</li>
-								</ul>
-							</nav>
-						</div>
-				</div>
-
+    <div class="ourServices">
+      <div class="container">
+        <div class="ourServices_heading_box">
+          <div class="sub_heading_box flex items-center ourServices--sub_heading_box">
+            <div class="sub_heading_img_holder">
+              <img src="/assets/img/sub_heading_left.svg" width="58" height="3" alt="Construction Industry" />
             </div>
-        </section>
-        <!-- Service Area End -->
-</template>
+            <h1 class="sub_heading_text">OUR SERVICE</h1>
+            <div class="sub_heading_img_holder">
+              <img src="/assets/img/sub_heading_right.svg" width="58" height="3" alt="Construction Industry" />
+            </div>
+          </div>
+          <!-- sub_heading_box end -->
+          <h1 class="heading ourServices_heading">We Provide Best Services</h1>
+        </div>
+        <div class="container">
+          <div class="ourServices_slider">
+            <div v-for="(service, index) in services" :key="index" class="ourServices_box" v-bind:data-aos="'fade-up'" v-bind:data-aos-delay="service.delay">
+              <div class="ourServices_box_body">
+                <div class="ourServices_box_img_holder flex items-center">
+                  <img v-bind:src="service.img" v-bind:width="service.width" v-bind:height="service.height" alt="" />
+                </div>
+                <h1 class="ourServices_box_heading">{{ service.heading }}</h1>
+                <div class="ourServices_box_desc">
+                  {{ service.description }}
+                </div>
+              </div>
+              <router-link :to="service.link" class="ourServices_box_bottom flex items-center">
+                <h1 class="ourServices_box_bottom_text">Read More</h1>
+                <i class="fa fa-arrow-right ourServices_box_bottom_text"></i>
+              </router-link>
+            </div>
+            <!-- ourServices_box end -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </template>

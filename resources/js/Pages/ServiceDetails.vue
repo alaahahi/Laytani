@@ -1,9 +1,9 @@
 <script setup>
 import MainLayout from '@/Layouts/MainLayout.vue';
 import MoreServices from '@/Components/MoreServices.vue';
-import CounterArea from '@/Components/CounterArea.vue';
+import CounterArea from '@/Components/NewsSection.vue';
 import TestimonialArea from '@/Components/TestimonialArea.vue';
-import WebsiteRanking from '@/Components/WebsiteRanking.vue';
+import WebsiteRanking from '@/Components/WorkProcess.vue';
 
 
 </script>

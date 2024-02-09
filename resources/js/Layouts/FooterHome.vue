@@ -1,140 +1,151 @@
 
 <template>
-     <!-- Footer Area -->
-	 <footer id="footer" class="footer-area bg-footer">
-            <div class="footer-top">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-4 col-md-6">
-                            <div class="footer-single">
-                                <div class="footer-single-content">
-                                    <a href="index.html">
-                                        <img src="/assets/img/footer-logo.png" alt="Logo">
-                                    </a>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum efficitur convallis arcu, id dapibus nulla tincidunt.</p>
-                                </div>
-
-                                <div class="newsletter-area">
-                                    <form class="newsletter-form" data-toggle="validator" method="POST">
-                                        <input type="email" class="form-control" placeholder="Email" name="EMAIL" required autocomplete="off">
-                                        <button class="subscribe-btn" type="submit">
-                                            Subscribe
-                                        </button>
-                                        <div id="validator-newsletter" class="form-result"></div>
-                                    </form>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-3 col-md-6">
-                            <div class="footer-list ml-50">
-                                <h3>Services</h3>
-                                <ul>
-                                    <li>
-                                        <i class='bx bxs-chevron-right'></i>
-                                        <a href="services.html">SEO Optimization</a>
-                                    </li>
-                                    <li>
-                                        <i class='bx bxs-chevron-right'></i>
-                                        <a href="services.html">Social Marketing</a>
-                                    </li>
-                                    <li>
-                                        <i class='bx bxs-chevron-right'></i>
-                                        <a href="services.html">Busines Growing</a>
-                                    </li>
-                                    <li>
-                                        <i class='bx bxs-chevron-right'></i>
-                                        <a href="services.html"> Data Analysis</a>
-                                    </li>
-                                    <li>
-                                        <i class='bx bxs-chevron-right'></i>
-                                        <a href="services.html">App Development </a>
-                                    </li>
-                                    <li>
-                                        <i class='bx bxs-chevron-right'></i>
-                                        <a href="services.html"> Web Development</a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-2 col-md-6">
-                            <div class="footer-list">
-                                <h3>Quick Links</h3>
-                                <ul>
-                                    <li>
-                                        <i class='bx bxs-chevron-right'></i>
-                                        <a href="index.html">Home</a>
-                                    </li>
-                                    <li>
-                                        <i class='bx bxs-chevron-right'></i>
-                                        <a href="services.html">Service</a>
-                                    </li>
-                                    <li>
-                                        <i class='bx bxs-chevron-right'></i>
-                                        <a href="about.html">About Us</a>
-                                    </li>
-                                    <li>
-                                        <i class='bx bxs-chevron-right'></i>
-                                        <a href="testimonial.html">Testimonial</a>
-                                    </li>
-                                    <li>
-                                        <i class='bx bxs-chevron-right'></i>
-                                        <a href="blog.html">Blog</a>
-                                    </li>
-                                    <li>
-                                        <i class='bx bxs-chevron-right'></i>
-                                        <a href="contact.html">Contact</a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-3 col-md-6">
-                            <div class="footer-list ml-20">
-                                <h3>Contact Us</h3>
-                                <ul>
-                                    <li>
-                                        <i class='bx bxs-chevron-right'></i>
-                                        <a href="tel:+1123456789">+1  1234 56 789</a>
-                                    </li>
-                                    <li>
-                                        <i class='bx bxs-chevron-right'></i>
-                                        <a href="tel:+19876543210">+1  9876 543 210</a>
-                                    </li>
-                                    <li>
-                                        <i class='bx bxs-chevron-right'></i>
-                                        <a href="mailto:info@bonsa.com">info@bonsa.com</a>
-                                    </li>
-                                    <li>
-                                        <i class='bx bxs-chevron-right'></i>
-                                        <a href="mailto:hello@bonsa.com">hello@bonsa.com</a>
-                                    </li>
-                                    <li>
-                                        <i class='bx bxs-chevron-right'></i>
-                                        28/A Street, New York, USA
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+    <div class='footer_m'>
+      <div class="footer_top">
+        <div class="footer_outer_wrapper flex items-start justify-between">
+          <div class="footer_top_box footer_top_box1">
+            <div class="footer_top_box_logo_holder">
+              <img src="/assets/img/footer_logo.png" width="196" height="66" alt="" />
             </div>
-
-            <div class="footer-bottom">
-                <div class="container">
-                    <div class="row align-items-center">
-                        <div class="col-lg-12">
-                            <div class="bottom-text text-center">
-                                <p>
-                                    Copyright @Bonsa. All Rights Reserved by 
-                                    <a href="https://hibootstrap.com/" target="_blank">HiBootstrap</a> 
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+            <div class="footer_top_box_desc">
+              it is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using 
             </div>
-        </footer>
-        <!-- Footer Area End -->
+            <SocialMediaList />
+          </div>
+           <div class="footer_top_box footer_top_box2">
+            <h1 class="footer_top_box_heading">Useful Links</h1>
+            <div class="footer_top_box_heading_below">
+              <img src="/assets/img/fotter_heading_bottom.svg" width="58" height="3" alt="" />
+            </div>
+            <ul class="footer_list">
+              <li class="footer_list_item">
+                <Link href="about">
+                  <div class="footer_list_link">
+                    About us
+                  </div>
+                </Link>
+              </li>
+              <li class="footer_list_item">
+                <Link href="services">
+                  <div class="footer_list_link">
+                    Services 
+                  </div>
+                </Link>
+              </li>
+              <li class="footer_list_item">
+                <Link href="projects">
+                  <div class="footer_list_link">
+                    Projects 
+                  </div>
+                </Link>
+              </li>
+              <li class="footer_list_item">
+                <Link href="blog">
+                  <div class="footer_list_link">
+                    Blogs 
+                  </div>
+                </Link>
+              </li>
+              <li class="footer_list_item">
+                <Link href="contact">
+                  <div class="footer_list_link">
+                    Contact us 
+                  </div>
+                </Link>
+              </li>
+            </ul>
+          </div>
+           <div class="footer_top_box footer_top_box3">
+            <h1 class="footer_top_box_heading">Contact Us</h1>
+            <div class="footer_top_box_heading_below">
+              <img src="/assets/img/fotter_heading_bottom.svg" width="58" height="3" alt="" />
+            </div>
+            <ul class="footer_contact_list">
+              <li class="footer_contact_list_item">
+                <Link href="tel:+971567895215">
+                  <div class="footer_contact_list_wrapper flex gap-2">
+                      <div class="footer_contact_list_item_img">
+                        <img src="/assets/img/callwhite.svg" width="20" height="20" alt="" />
+                      </div>
+                      <div class="footer_list_link">
+                        +971 567895215
+                      </div>
+                  </div>
+                </Link>
+              </li>
+              <li class="footer_contact_list_item">
+                <Link href="mailto:info@alaytani.com">
+                  <div class="footer_contact_list_wrapper flex gap-2">
+                      <div class="footer_contact_list_item_img">
+                        <img src="/assets/img/mailwhite.svg" width="17" height="14" alt="" />
+                      </div>
+                      <div class="footer_list_link">
+                        info@alaytani.com
+                      </div>
+                  </div>
+                </Link>
+              </li>
+              <li class="footer_contact_list_item">
+                <Link href="mailto:info@alaytani.com">
+                  <div class="footer_contact_list_wrapper flex gap-2">
+                      <div class="footer_contact_list_item_img">
+                        <img src="/assets/img/location.svg" width="14" height="18" alt="" />
+                      </div>
+                      <div class="footer_list_link">
+                        UAE, Abu Dhabi 
+                        Al Khaldia City
+                      </div>
+                  </div>
+                </Link>
+              </li>
+            </ul>
+          </div>
+           <div class="footer_top_box footer_top_box4">
+            <h1 class="footer_top_box_heading">Subscribe</h1>
+            <div class="footer_top_box_heading_below">
+              <img src="/assets/img/rectangle.svg" width="58" height="3" alt="" />
+            </div>
+            <div class="footer_top_box_desc">
+              Subscribe For Our Latest News & Articles
+            </div>
+            <form action="" class="subscribe_form flex items-center">
+              <input type="text" class="subscribe_form_input" placeholder='Email' />
+              <button class="subscribe_form_btn">
+                <img src="/assets/img/subscribe.svg" width="22" height="17" alt="" />
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+       <div class="footer_bottom flex items-center justify-between">
+        <div class="flex poweredby_wrapper gap-2">
+          <div class="poweredby">Powered By </div>
+          <Link href='https://skilledtech.co/'>
+            <div  class="poweredbyLink">
+              Skilled Tech
+            </div>
+          </Link>
+        </div>
+        <div class="copyright flex items-center gap-2">
+          <div>
+            <img src="/assets/img/cop.png" width="16" height="16" alt="" />
+          </div>
+          Copyright 2022 By <div class="red"> Al Laytani </div>All right reserved 
+        </div>
+        <div class=" flex items-center gap-3">
+          <Link href="#">
+            <div class="copyright">
+              Terms & Conditions 
+            </div>
+          </Link>
+          <div class="bor"></div>
+          <Link href="#">
+            <div class="copyright">
+            Privacy Policy 
+            </div>
+          </Link>
+        </div>
+      </div>
+      <ScrollToTop />
+    </div>
 </template>

@@ -1,58 +1,109 @@
-      <template>
-      <!-- Main Banner -->
-      <div class="main-banner">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-lg-6">
-                    <div class="banner-text">
-                        <span>Search Engine Optimization</span>
-                        <h1>We Highlight Your Business to the World Market</h1>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusod tempor
-                            incididunt ut labore et dolore magna aliqua. Quis ipsu  msuspendisse ultrices gravida.
-                        </p>
-                        
-                        <div class="banner-btn">
-                            <a href="contact.html" class="default-btn">Contact Us</a>
-                            <a href="#" class="default-btn active">Know More</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-6">
-                    <div class="banner-img">
-                        <img src="/assets/img/home1.png" alt="Banner Images">
-                    </div>
-                </div>
-                <div class="banner-shape-1">
-                    <img src="/assets/img/shape/home1.png" alt="Banner Shape">
-                </div>
-            </div>
+<template>
+    <div class="banner">
+      <div class="container">
+        <div class="banner_box">
+          <h1 class="banner_box_heading" v-bind:data-aos="fade-up" v-bind:data-aos-delay="100">
+            WORLD BEST <span class="banner_box_heading_bg"> INDUSTRY</span> <br />
+            SOLUTIONS HERE
+          </h1>
+          <div class="banner_btn_wrapper flex items-center" v-bind:data-aos="fade-up" v-bind:data-aos-delay="200">
+            <router-link to="#">
+              <div class="banner_btn">
+                Read More
+              </div>
+            </router-link>
+            <router-link to="#">
+              <div class="banner_btn banner_btn2">
+                Contact Us
+              </div>
+            </router-link>
+          </div>
         </div>
-        <div class="home-shape">
-            <div class="shape1">
-                <img src="/assets/img/shape/1.png" alt="shape">
-            </div>
-            <div class="shape2">
-                <img src="/assets/img/shape/2.png" alt="shape">
-            </div>
-            <div class="shape3">
-                <img src="/assets/img/shape/3.png" alt="shape">
-            </div>
-            <div class="shape4">
-                <img src="/assets/img/shape/4.png" alt="shape">
-            </div>
-            <div class="shape5">
-                <img src="/assets/img/shape/5.png" alt="shape">
-            </div>
-            <div class="shape6">
-                <img src="/assets/img/shape/6.png" alt="shape">
-            </div>
-            <div class="shape7">
-                <img src="/assets/img/shape/3.png" alt="shape">
-            </div>
-        </div>
+      </div>
     </div>
-    
-    <!-- Main Banner End -->
-</template>
+    <!-- banner end -->
+    <div class="banner_botttom">
+      <div class="container">
+        <div class="banner_botttom_wrapper flex items-center">
+          <div class="banner_botttom_box banner_botttom_box1" v-bind:data-aos="fade-up" v-bind:data-aos-delay="100">
+            <div class="banner_botttom_box_img_holder">
+              <img src="/assets/img/AutomationIndustry.svg" width="29" height="29" alt="AutomationIndustry" />
+            </div>
+            <div class="banner_botttom_box_content">
+              <h1 class="banner_botttom_box_heading">Automation Industry</h1>
+              <div class="banner_botttom_box_desc">
+                Proactively administrate low-risk
+                High yield total linkage rather than 
+                Empowered manufactured.
+              </div>
+            </div>
+          </div>
+          <div class="banner_botttom_box banner_botttom_box2" v-bind:data-aos="fade-up" v-bind:data-aos-delay="200">
+            <div class="banner_botttom_box_img_holder">
+              <img src="/assets/img/ConstructionIndustry.svg" width="29" height="29" alt="Construction Industry" />
+            </div>
+            <div class="banner_botttom_box_content">
+              <h1 class="banner_botttom_box_heading">Construction Industry</h1>
+              <div class="banner_botttom_box_desc">
+                Proactively administrate low-risk
+                High yield total linkage rather than 
+                Empowered manufactured.
+              </div>
+            </div>
+          </div>
+          <div class="banner_botttom_box banner_botttom_box3" v-bind:data-aos="fade-up" v-bind:data-aos-delay="300">
+            <div class="banner_botttom_box_img_holder">
+              <img src="/assets/img/RealEstateIndustry.svg" width="32" height="36" alt="Real Estate Industry" />
+            </div>
+            <div class="banner_botttom_box_content">
+              <h1 class="banner_botttom_box_heading">Real Estate Industry</h1>
+              <div class="banner_botttom_box_desc">
+                Proactively administrate low-risk
+                High yield total linkage rather than 
+                Empowered manufactured. 
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="ourServices_top_img_holder dark-none">
+        <img src="/assets/img/child.svg" width="292" height="321" alt="Construction Industry" />
+      </div>
+      <div class="ourServices_top_img_holder d-none dark-show">
+        <img src="/assets/img/didi.png" width="292" height="321" alt="Construction Industry" />
+      </div>
+    </div>
+    <!-- banner bottom end -->
+  </template>
+  
+  <script setup>
+  import { ref } from 'vue';
+  
+  const fadeUp = 'fade-up';
+  
+  const bannerData = {
+    aos: fadeUp,
+    aosDelay: 100,
+  };
+  
+  const bannerBtnData = {
+    aos: fadeUp,
+    aosDelay: 200,
+  };
+  
+  const bannerBottomBoxData = [
+    { img: '/AutomationIndustry.svg', width: 29, height: 29, alt: 'AutomationIndustry' },
+    { img: '/ConstructionIndustry.svg', width: 29, height: 29, alt: 'Construction Industry' },
+    { img: '/RealEstateIndustry.svg', width: 32, height: 36, alt: 'Real Estate Industry' },
+  ];
+  
+  const bannerBottomData = [
+    { ...bannerData },
+    { ...bannerBtnData },
+    ...bannerBottomBoxData.map((boxData, index) => ({
+      ...boxData,
+      aos: fadeUp,
+      aosDelay: 100 + (index + 1) * 100,
+    })),
+  ];
+  </script>

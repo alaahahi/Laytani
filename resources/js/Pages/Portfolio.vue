@@ -1,6 +1,6 @@
 <script setup>
 import PortfolioArea from '@/Components/PortfolioArea.vue';
-import WebsiteRanking from '@/Components/WebsiteRanking.vue';
+import WebsiteRanking from '@/Components/WorkProcess.vue';
 import MainLayout from '@/Layouts/MainLayout.vue';
 
 </script>
