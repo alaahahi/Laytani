@@ -53,7 +53,7 @@ import MainLayout from '@/Layouts/MainLayout.vue';
                 </div>
                 <div class="blogRight_card_body">
                   <div class="blogRight_news_wrapper flex flex-wrap">
-                    <Link href="/assets/img/news">
+                    <a href="/assets/img/news">
                       <div class="blogRight_news flex">
                         <div class="blogRight_news_img">
                           <img
@@ -72,10 +72,10 @@ import MainLayout from '@/Layouts/MainLayout.vue';
                           </div>
                         </div>
                       </div>
-                    </Link>
+                    </a>
                   </div>
                   <div class="blogRight_news_wrapper flex flex-wrap">
-                    <Link href="/assets/img/news">
+                    <a href="/assets/img/news">
                       <div class="blogRight_news flex">
                         <div class="blogRight_news_img">
                           <img
@@ -94,10 +94,10 @@ import MainLayout from '@/Layouts/MainLayout.vue';
                           </div>
                         </div>
                       </div>
-                    </Link>
+                    </a>
                   </div>
                   <div class="blogRight_news_wrapper flex flex-wrap">
-                    <Link href="/assets/img/news">
+                    <a href="/assets/img/news">
                       <div class="blogRight_news flex">
                         <div class="blogRight_news_img">
                           <img
@@ -116,7 +116,7 @@ import MainLayout from '@/Layouts/MainLayout.vue';
                           </div>
                         </div>
                       </div>
-                    </Link>
+                    </a>
                   </div>
                 </div>
               </div>
@@ -132,7 +132,7 @@ import MainLayout from '@/Layouts/MainLayout.vue';
                 </div>
                 <div class="blogRight_card_body">
                   <div class="twt_news_wrapper">
-                    <Link href="#">
+                    <a href="#">
                       <div class="flex justify-between">
                         <div class="twt_news_box2">
                           <img src="/assets/img/twt.svg" width={25} height="25" alt="" />
@@ -145,10 +145,10 @@ import MainLayout from '@/Layouts/MainLayout.vue';
                           <div class="twt_news_box1_p">25/10/2022</div>
                         </div>
                       </div>
-                    </Link>
+                    </a>
                   </div>
                   <div class="twt_news_wrapper">
-                    <Link href="#">
+                    <a href="#">
                       <div class="flex justify-between">
                         <div class="twt_news_box2">
                           <img src="/assets/img/twt.svg" width={25} height="25" alt="" />
@@ -161,10 +161,10 @@ import MainLayout from '@/Layouts/MainLayout.vue';
                           <div class="twt_news_box1_p">25/10/2022</div>
                         </div>
                       </div>
-                    </Link>
+                    </a>
                   </div>
                   <div class="twt_news_wrapper">
-                    <Link href="#">
+                    <a href="#">
                       <div class="flex justify-between">
                         <div class="twt_news_box2">
                           <img src="/assets/img/twt.svg" width={25} height="25" alt="" />
@@ -177,7 +177,7 @@ import MainLayout from '@/Layouts/MainLayout.vue';
                           <div class="twt_news_box1_p">25/10/2022</div>
                         </div>
                       </div>
-                    </Link>
+                    </a>
                   </div>
                 </div>
               </div>
@@ -193,7 +193,7 @@ import MainLayout from '@/Layouts/MainLayout.vue';
                 </div>
                 <div class="blogRight_card_body">
                   <div class="twt_news_wrapper">
-                    <Link href="#">
+                    <a href="#">
                       <div class="flex justify-between">
                         <div class="twt_news_box2">
                           <img src="/assets/img/fb.svg" width={25} height="25" alt="" />
@@ -206,10 +206,10 @@ import MainLayout from '@/Layouts/MainLayout.vue';
                           <div class="twt_news_box1_p">25/10/2022</div>
                         </div>
                       </div>
-                    </Link>
+                    </a>
                   </div>
                   <div class="twt_news_wrapper">
-                    <Link href="#">
+                    <a href="#">
                       <div class="flex justify-between">
                         <div class="twt_news_box2">
                           <img src="/assets/img/fb.svg" width={25} height="25" alt="" />
@@ -222,10 +222,10 @@ import MainLayout from '@/Layouts/MainLayout.vue';
                           <div class="twt_news_box1_p">25/10/2022</div>
                         </div>
                       </div>
-                    </Link>
+                    </a>
                   </div>
                   <div class="twt_news_wrapper">
-                    <Link href="#">
+                    <a href="#">
                       <div class="flex justify-between">
                         <div class="twt_news_box2">
                           <img src="/assets/img/fb.svg" width={25} height="25" alt="" />
@@ -238,7 +238,7 @@ import MainLayout from '@/Layouts/MainLayout.vue';
                           <div class="twt_news_box1_p">25/10/2022</div>
                         </div>
                       </div>
-                    </Link>
+                    </a>
                   </div>
                 </div>
               </div>

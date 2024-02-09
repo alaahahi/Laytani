@@ -67,7 +67,7 @@ const questions = ref([{
                 </div>
                 <div class="team_box_wrapper">
                     <div class="team_box" data-aos="fade-up" data-aos-delay="00">
-                        <Link href="teamDetails">
+                        <a href="teamDetails">
                             <div class="team_box_img_holder flex items-center justify-center">
                                 <img src="/assets/img/team2.png" width="248" height="282" alt="" />
                                 <div class="sub_heading_img_holder_view">View</div>
@@ -76,10 +76,10 @@ const questions = ref([{
                                 <h1 class="team_box_content_name">Mohammed Aziz</h1>
                                 <div class="team_box_content_name_desc">CRO</div>
                             </div>
-                        </Link>
+                        </a>
                     </div>
                     <div class="team_box" data-aos="fade-up" data-aos-delay="100">
-                        <Link href="teamDetails">
+                        <a href="teamDetails">
                             <div class="team_box_img_holder flex items-center justify-center">
                                 <img src="/assets/img/team3.png" width="248" height="282" alt="" />
                                 <div class="sub_heading_img_holder_view">View</div>
@@ -88,10 +88,10 @@ const questions = ref([{
                                 <h1 class="team_box_content_name">Mohammed Aziz</h1>
                                 <div class="team_box_content_name_desc">CRO</div>
                             </div>
-                        </Link>
+                        </a>
                     </div>
                     <div class="team_box" data-aos="fade-up" data-aos-delay="200">
-                        <Link href="teamDetails">
+                        <a href="teamDetails">
                             <div class="team_box_img_holder flex items-center justify-center">
                                 <img src="/assets/img/team1.png" width="248" height="282" alt="" />
                                 <div class="sub_heading_img_holder_view">View</div>
@@ -100,10 +100,10 @@ const questions = ref([{
                                 <h1 class="team_box_content_name">Mohammed Aziz</h1>
                                 <div class="team_box_content_name_desc">CRO</div>
                             </div>
-                        </Link>
+                        </a>
                     </div>
                     <div class="team_box" data-aos="fade-up" data-aos-delay="300">
-                        <Link href="teamDetails">
+                        <a href="teamDetails">
                             <div class="team_box_img_holder flex items-center justify-center">
                                 <img src="/assets/img/team2.png" width="248" height="282" alt="" />
                                 <div class="sub_heading_img_holder_view">View</div>
@@ -112,10 +112,10 @@ const questions = ref([{
                                 <h1 class="team_box_content_name">Mohammed Aziz</h1>
                                 <div class="team_box_content_name_desc">CRO</div>
                             </div>
-                        </Link>
+                        </a>
                     </div>
                     <div class="team_box" data-aos="fade-up" data-aos-delay="400">
-                        <Link href="teamDetails">
+                        <a href="teamDetails">
                             <div class="team_box_img_holder flex items-center justify-center">
                                 <img src="/assets/img/team3.png" width="248" height="282" alt="" />
                                 <div class="sub_heading_img_holder_view">View</div>
@@ -124,7 +124,7 @@ const questions = ref([{
                                 <h1 class="team_box_content_name">Mohammed Aziz</h1>
                                 <div class="team_box_content_name_desc">CRO</div>
                             </div>
-                        </Link>
+                        </a>
                     </div>
                 </div>
             </div>

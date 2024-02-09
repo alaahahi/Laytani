@@ -43,7 +43,7 @@ swiperRef.slidePrev();
   <div class="ourProjects">
     <div class="container">
       <div class="whoWeAre_services_wrapper flex items-center">
-        <div v-for="(project, index) in projects" :key="index" class="whoWeAre_services_box flex items-center" v-bind:data-aos="'fade-up'" v-bind:data-aos-delay="project.delay">
+        <div v-for="(project, index) in projects" :key="index" class="whoWeAre_services_box flex items-center"  aos="'fade-up'"  aos-delay="project.delay">
           <div class="whoWeAre_services_box_mini">
             <img v-bind:src="project.img" v-bind:width="project.width" v-bind:height="project.height" alt="" />
           </div>
@@ -71,8 +71,7 @@ swiperRef.slidePrev();
     </div>
     <div class="ourProjects_slider flex">
       <Swiper
-        modules="[ FreeMode,Navigation, Pagination]"
-        class="ourProjects_swiper_slider"
+         class="ourProjects_swiper_slider"
         :slidesPerView="5"
         :spaceBetween="15"
         :freeMode="true"
@@ -108,11 +107,11 @@ swiperRef.slidePrev();
             <div class="ourProjects_slide_img_holder flex items-center">
               <img v-bind:src="slide.img" v-bind:width="slide.width" v-bind:height="slide.height" alt="" />
             </div>
-            <Link href="projects">
+            <a href="projects">
               <div class="ourProjects_slide_link">
                 View
               </div>
-            </Link>
+            </a>
           </div>
         </SwiperSlide>
       </Swiper>

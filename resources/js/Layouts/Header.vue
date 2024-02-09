@@ -6,6 +6,9 @@ import { Link } from "@inertiajs/inertia-vue3";
 import axios from "axios";
 import { onMounted, onBeforeUnmount } from "vue";
 
+const scroll = ref(false);
+
+
 const navActive = ref(false);
 
 const openNav = () => {
@@ -16,13 +19,16 @@ const closeNav = () => {
   navActive.value = false;
 };
 const loading = ref(true);
+const isSearch = ref(false);
 
+function openSearch (){
+  isSearch.value = !isSearch.value;
+ 
+}
 onMounted(() => {
-  loading.value = true;
-  setTimeout(() => {
-    // Code to be executed after the timeout
-    loading.value = false;
-  }, 1000);
+  window.addEventListener("scroll", () => {
+    scroll.value = window.scrollY > 150;
+  });
 });
 const i18n = useI18n();
 let language = ref(i18n.locale.value);
@@ -54,8 +60,8 @@ const toggleMode = () => {
 </script>
 
 <template>
-  <div class="relative">
-    <div class="navbat_top">
+  <div :class="scroll ? 'sticky heaader' : 'header relative'">
+    <div class="navbat_top" >
       <div class="container_fluid">
         <div class="navbat_top_wrapper flex items-center justify-between">
           <div
@@ -242,54 +248,55 @@ const toggleMode = () => {
     <nav class="navbar">
       <div class="navbar_logo_box1">
         <div class="navbar_logo_box1_bg"></div>
-        <Link href="/">
+        <a href="/">
           <div class="logo_img_holder flex items-center">
             <img src="/assets/img/logo.png" width="311" height="54" alt="" />
           </div>
-        </Link>
+        </a>
       </div>
       <div class="navbar_logo_box2 flex items-center">
         <div class="flex items-center navbar_list_outer">
           <ul class="navbar_list flex items-center">
             <li class="navbar_list_item"  :class="{'active':route().current('/')}">
-              <Link href="/"><div class="navbar_list_link">{{$t('home')}}</div></Link>
+              <a href="/"><div class="navbar_list_link">{{$t('home')}}</div></a>
               <div class="navbar_list_item_bg"></div>
             </li>
             <li class="navbar_list_item" :class="{'active':route().current('about')}">
-              <Link href="/about"><div class="navbar_list_link">ABOUT US</div></Link>
+              <a href="/about"><div class="navbar_list_link">ABOUT US</div></a>
               <div class="navbar_list_item_bg"></div>
             </li>
             <li class="navbar_list_item" :class="{'active':route().current('team')}">
-              <Link href="/team"><div class="navbar_list_link">Team</div></Link>
+              <a href="/team"><div class="navbar_list_link">Team</div></a>
               <div class="navbar_list_item_bg"></div>
             </li>
             <li class="navbar_list_item"  :class="{'active':route().current('services')}">
-              <Link href="/services"><div class="navbar_list_link">SERVICES</div></Link>
+              <a href="/services"><div class="navbar_list_link">SERVICES</div></a>
               <div class="navbar_list_item_bg"></div>
             </li>
             <li class="navbar_list_item"  :class="{'active':route().current('blog')}">
-              <Link href="/blog"><div class="navbar_list_link">BLOG</div></Link>
+              <a href="/blog"><div class="navbar_list_link">BLOG</div></a>
               <div class="navbar_list_item_bg"></div>
             </li>
             <li class="navbar_list_item" :class="{'active':route().current('projects')}">
-              <Link href="/projects"
-                ><div class="navbar_list_link">PROJECTS</div></Link
+              <a href="/projects"
+                ><div class="navbar_list_link">PROJECTS</div></a
               >
               <div class="navbar_list_item_bg"></div>
             </li>
             <li class="navbar_list_item" :class="{'active':route().current('contact')}">
-              <Link href="/contact"
-                ><div class="navbar_list_link">CONTACT US</div></Link
+              <a href="/contact"
+                ><div class="navbar_list_link">CONTACT US</div></a
               >
               <div class="navbar_list_item_bg"></div>
             </li>
           </ul>
           <div class="navbar_list_item2 flex items-center">
-            <i class="fa fa-search navbar_list_item_icone"></i
+            <i class="fa fa-search navbar_list_item_icone flex "  @click="openSearch()"></i
             ><input
               type="text"
               placeholder="Search"
               class="navbar_list_item_icone_search"
+              :class="{'active':isSearch}"
             />
           </div>
           <button role="button" class="navlist_btn flex items-center">

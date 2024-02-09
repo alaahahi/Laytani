@@ -70,22 +70,22 @@ import { Link } from "@inertiajs/inertia-vue3";
                         <div class="blogRight_card_ser_li_h_holder">
                             <img src="/assets/img/fotter_heading_bottom.svg" width="58" height="3" alt="" />
                         </div>
-                        <Link href="#">
+                        <a href="#">
                             <div class="blogRight_card_body_tab active justify-center gap-3">
                                 <div class="blogRight_card_body_tab_holder flex items-center">
                                     <img src="/assets/img/pdf.svg" width="16" height="20" alt="" />
                                 </div>
                                 Download PDF
                             </div>
-                        </Link>
-                        <Link href="#">
+                        </a>
+                        <a href="#">
                             <div class="blogRight_card_body_tab justify-center gap-3">
                                 <div class="blogRight_card_body_tab_holder flex items-center">
                                     <img src="/assets/img/comment_white.svg" width="15" height="11" alt="" />
                                 </div>
                                 Download Docs
                             </div>
-                        </Link>
+                        </a>
                     </div>
                 </div>
                 <div class="blogRight_card blogRight_card2" data-aos="fade-up" data-aos-delay="200">
@@ -94,7 +94,7 @@ import { Link } from "@inertiajs/inertia-vue3";
                         <div class="helpheading_below flex items-center justify-center ">
                             <img src="/assets/img/helpheading.svg" width="58" height="3" alt="" />
                         </div>
-                        <Link href="tel:+971567895215">
+                        <a href="tel:+971567895215">
                             <div class=" justify-center mb-3 flex gap-2">
                                 <div class="blogRight_card_body_help_holder flex items-center">
                                     <img src="/assets/img/callwhite.svg" width="18" height="18" alt="" />
@@ -103,8 +103,8 @@ import { Link } from "@inertiajs/inertia-vue3";
                                     +971 567895215
                                 </div>
                             </div>
-                        </Link>
-                        <Link href="mailto:info@alaytani.com">
+                        </a>
+                        <a href="mailto:info@alaytani.com">
                             <div class=" justify-center flex gap-2">
                                 <div class="blogRight_card_body_help_holder flex items-center">
                                     <img src="/assets/img/mailwhite.svg" width="17" height="14" alt="" />
@@ -113,7 +113,7 @@ import { Link } from "@inertiajs/inertia-vue3";
                                     info@alaytani.com
                                 </div>
                             </div>
-                        </Link>
+                        </a>
                     </div>
                 </div>
             </div>

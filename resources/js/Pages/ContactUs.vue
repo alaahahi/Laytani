@@ -56,15 +56,15 @@ import WebsiteRanking from '@/Components/WorkProcess.vue';
                         <div class="contactBox1_desc" data-aos="fade-up" data-aos-delay="100">
                             Fill up the form and our Team will get back to you Within 24 hours. 
                         </div>
-                        <Link href='tel:+971502615675' data-aos="fade-up" data-aos-delay="200">
+                        <a href='tel:+971502615675' data-aos="fade-up" data-aos-delay="200">
                             <div class="contact_link_wrapper flex items-center cursor-pointer">
                                 <div class="contact_link_img_holder flex items-center">
                                     <img src="/assets/img/callwhite.svg" width='20' height='23' alt='' />
                                 </div>
                                 <div class="contact_link_text">+971 502615675</div>
                             </div>
-                        </Link>
-                        <Link href='mailto:info@skilledtech.com' data-aos="fade-up" data-aos-delay="300">
+                        </a>
+                        <a href='mailto:info@skilledtech.com' data-aos="fade-up" data-aos-delay="300">
                             <div class="contact_link_wrapper flex items-center cursor-pointer">
                                 <div class="contact_link_img_holder flex items-center">
                                     <img src="/assets/img/mailwhite.svg" width='20' height='23' alt='' />
@@ -73,8 +73,8 @@ import WebsiteRanking from '@/Components/WorkProcess.vue';
                                     info@skilledtech.com
                                 </div>
                             </div>
-                        </Link>
-                        <Link href='https://goo.gl/maps/sTUSqcfJ7uqntdBp6' data-aos="fade-up" data-aos-delay="400">
+                        </a>
+                        <a href='https://goo.gl/maps/sTUSqcfJ7uqntdBp6' data-aos="fade-up" data-aos-delay="400">
                             <div target="_blank" class="contact_link_wrapper flex items-center  cursor-pointer contact_link_wrapper2">
                                 <div class="contact_link_img_holder flex items-center">
                                     <img src="/assets/img/location.svg" width='16' height='22' alt='' />
@@ -83,28 +83,28 @@ import WebsiteRanking from '@/Components/WorkProcess.vue';
                                     17 st sirt, Alnhyan, Abu Dhabi 
                                 </div>
                             </div>
-                        </Link>
+                        </a>
                         <ul class="footer_social_media flex items-center">
                             <li class="footer_social_media_item footer_social_media_item_fb">
-                                <Link href="#">
+                                <a href="#">
                                     <div class="footer_social_media_link flex items-center">
                                     <i class="fa-brands fa-facebook-f footer_social_media_link_icone"></i>
                                     </div>
-                                </Link>
+                                </a>
                             </li>
                             <li class="footer_social_media_item footer_social_media_item_twt">
-                                <Link href="#">
+                                <a href="#">
                                     <div class="footer_social_media_link flex items-center">
                                     <i class="fa-brands fa-twitter footer_social_media_link_icone"></i>
                                     </div>
-                                </Link>
+                                </a>
                             </li>
                             <li class="footer_social_media_item footer_social_media_item_inst">
-                                <Link href="#">
+                                <a href="#">
                                     <div class="footer_social_media_link flex items-center">
                                     <i class="fa-brands fa-instagram footer_social_media_link_icone"></i>
                                     </div>
-                                </Link>
+                                </a>
                             </li>
                         </ul>
                     </div>

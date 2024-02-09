@@ -1,22 +1,8 @@
 <script setup>
 import { ref } from 'vue';
 
-import { Swiper, SwiperSlide } from "swiper/vue";
-import 'swiper/css/navigation';
+import { Link } from '@inertiajs/inertia-vue3';
 
-import "swiper/css";
-let swiperRef = null;
-
-const setSwiperRef = (swiper) => {
-swiperRef = swiper;
-};
-const slideNext = () => {
-swiperRef.slideNext();
-};
-
-const slidePrev = () => {
-swiperRef.slidePrev();
-};
 defineProps({
     isHome: {
         type: Boolean,
@@ -79,7 +65,7 @@ defineProps({
         </div>
         <div class="container">
           <div class="ourServices_slider">
-            <div v-for="(service, index) in services" :key="index" class="ourServices_box" v-bind:data-aos="'fade-up'" v-bind:data-aos-delay="service.delay">
+            <div v-for="(service, index) in services" :key="index" class="ourServices_box"  aos="'fade-up'"  aos-delay="service.delay">
               <div class="ourServices_box_body">
                 <div class="ourServices_box_img_holder flex items-center">
                   <img v-bind:src="service.img" v-bind:width="service.width" v-bind:height="service.height" alt="" />
@@ -89,10 +75,10 @@ defineProps({
                   {{ service.description }}
                 </div>
               </div>
-              <router-link :to="service.link" class="ourServices_box_bottom flex items-center">
+              <a href="services" class="ourServices_box_bottom flex items-center">
                 <h1 class="ourServices_box_bottom_text">Read More</h1>
                 <i class="fa fa-arrow-right ourServices_box_bottom_text"></i>
-              </router-link>
+              </a>
             </div>
             <!-- ourServices_box end -->
           </div>

@@ -77,7 +77,7 @@ swiperRef.slidePrev();
                             </div>
                             <div class="blogRight_card_body">
                                 <div class="blogRight_news_wrapper flex flex-wrap">
-                                    <Link href='/news'>
+                                    <a href='/news'>
                                         <div class="blogRight_news flex">
                                             <div class="blogRight_news_img">
                                                 <img src="/assets/img/news1.png" width="75"  height="69"  alt="" />
@@ -91,10 +91,10 @@ swiperRef.slidePrev();
                                                 </div>
                                             </div>
                                         </div>
-                                    </Link>
+                                    </a>
                                 </div>
                                 <div class="blogRight_news_wrapper flex flex-wrap">
-                                    <Link href='/news'>
+                                    <a href='/news'>
                                         <div class="blogRight_news flex">
                                             <div class="blogRight_news_img">
                                                 <img src="/assets/img/news1.png" width="75"  height="69"  alt="" />
@@ -108,10 +108,10 @@ swiperRef.slidePrev();
                                                 </div>
                                             </div>
                                         </div>
-                                    </Link>
+                                    </a>
                                 </div>
                                 <div class="blogRight_news_wrapper flex flex-wrap">
-                                    <Link href='/news'>
+                                    <a href='/news'>
                                         <div class="blogRight_news flex">
                                             <div class="blogRight_news_img">
                                                 <img src="/assets/img/news1.png" width="75"  height="69"  alt="" />
@@ -125,7 +125,7 @@ swiperRef.slidePrev();
                                                 </div>
                                             </div>
                                         </div>
-                                    </Link>
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -137,7 +137,7 @@ swiperRef.slidePrev();
                             </div>
                             <div class="blogRight_card_body">
                                 <div class="twt_news_wrapper">
-                                    <Link href="#">
+                                    <a href="#">
                                         <div class="flex justify-between">
                                             <div class="twt_news_box2">
                                                 <img src="/assets/img/twt.svg" width="25"  height="25"  alt="" />
@@ -152,10 +152,10 @@ swiperRef.slidePrev();
                                                 </div>
                                             </div>
                                         </div>
-                                    </Link>
+                                    </a>
                                 </div>
                                 <div class="twt_news_wrapper">
-                                    <Link href="#">
+                                    <a href="#">
                                         <div class="flex justify-between">
                                             <div class="twt_news_box2">
                                                 <img src="/assets/img/twt.svg" width="25"  height="25"  alt="" />
@@ -170,10 +170,10 @@ swiperRef.slidePrev();
                                                 </div>
                                             </div>
                                         </div>
-                                    </Link>
+                                    </a>
                                 </div>
                                 <div class="twt_news_wrapper">
-                                    <Link href="#">
+                                    <a href="#">
                                         <div class="flex justify-between">
                                             <div class="twt_news_box2">
                                                 <img src="/assets/img/twt.svg" width="25"  height="25"  alt="" />
@@ -188,7 +188,7 @@ swiperRef.slidePrev();
                                                 </div>
                                             </div>
                                         </div>
-                                    </Link>
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -200,7 +200,7 @@ swiperRef.slidePrev();
                             </div>
                             <div class="blogRight_card_body">
                                 <div class="twt_news_wrapper">
-                                    <Link href="#">
+                                    <a href="#">
                                         <div class="flex justify-between">
                                             <div class="twt_news_box2">
                                                 <img src="/assets/img/fb.svg" width="25"  height="25"  alt="" />
@@ -215,10 +215,10 @@ swiperRef.slidePrev();
                                                 </div>
                                             </div>
                                         </div>
-                                    </Link>
+                                    </a>
                                 </div>
                                 <div class="twt_news_wrapper">
-                                    <Link href="#">
+                                    <a href="#">
                                         <div class="flex justify-between">
                                             <div class="twt_news_box2">
                                                 <img src="/assets/img/fb.svg" width="25"  height="25"  alt="" />
@@ -233,10 +233,10 @@ swiperRef.slidePrev();
                                                 </div>
                                             </div>
                                         </div>
-                                    </Link>
+                                    </a>
                                 </div>
                                 <div class="twt_news_wrapper">
-                                    <Link href="#">
+                                    <a href="#">
                                         <div class="flex justify-between">
                                             <div class="twt_news_box2">
                                                 <img src="/assets/img/fb.svg" width="25"  height="25"  alt="" />
@@ -251,7 +251,7 @@ swiperRef.slidePrev();
                                                 </div>
                                             </div>
                                         </div>
-                                    </Link>
+                                    </a>
                                 </div>
                             </div>
                         </div>

@@ -21,25 +21,25 @@ import ClientsSlider from '@/Components/ClientsSlider.vue';
             </div>
             <ul class="footer_social_media flex items-center">
                 <li class="footer_social_media_item footer_social_media_item_fb">
-                    <Link href="#">
+                    <a href="#">
                         <div class="footer_social_media_link flex items-center">
                         <i class="fa-brands fa-facebook-f footer_social_media_link_icone"></i>
                         </div>
-                    </Link>
+                    </a>
                 </li>
                 <li class="footer_social_media_item footer_social_media_item_twt">
-                    <Link href="#">
+                    <a href="#">
                         <div class="footer_social_media_link flex items-center">
                         <i class="fa-brands fa-twitter footer_social_media_link_icone"></i>
                         </div>
-                    </Link>
+                    </a>
                 </li>
                 <li class="footer_social_media_item footer_social_media_item_inst">
-                    <Link href="#">
+                    <a href="#">
                         <div class="footer_social_media_link flex items-center">
                         <i class="fa-brands fa-instagram footer_social_media_link_icone"></i>
                         </div>
-                    </Link>
+                    </a>
                 </li>
             </ul>
           </div>
@@ -50,39 +50,39 @@ import ClientsSlider from '@/Components/ClientsSlider.vue';
             </div>
             <ul class="footer_list">
               <li class="footer_list_item">
-                <Link href="about">
+                <a href="about">
                   <div class="footer_list_link">
                     About us
                   </div>
-                </Link>
+                </a>
               </li>
               <li class="footer_list_item">
-                <Link href="services">
+                <a href="services">
                   <div class="footer_list_link">
                     Services 
                   </div>
-                </Link>
+                </a>
               </li>
               <li class="footer_list_item">
-                <Link href="projects">
+                <a href="projects">
                   <div class="footer_list_link">
                     Projects 
                   </div>
-                </Link>
+                </a>
               </li>
               <li class="footer_list_item">
-                <Link href="blog">
+                <a href="blog">
                   <div class="footer_list_link">
                     Blogs 
                   </div>
-                </Link>
+                </a>
               </li>
               <li class="footer_list_item">
-                <Link href="contact">
+                <a href="contact">
                   <div class="footer_list_link">
                     Contact us 
                   </div>
-                </Link>
+                </a>
               </li>
             </ul>
           </div>

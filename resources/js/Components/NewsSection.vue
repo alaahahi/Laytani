@@ -74,12 +74,12 @@ swiperRef.slidePrev();
                         Open source job report and can
                         Be more than fewer.
                       </div>
-                      <Link href="blog">
+                      <a href="blog">
                         <div class="flex newsSection_box_body_link">
                           READ MORE
                           <i class="fa-solid fa-arrow-right red-ar"></i>
                         </div>
-                      </Link>
+                      </a>
                     </div>
                   </div>
                 </SwiperSlide>
@@ -105,12 +105,12 @@ swiperRef.slidePrev();
                         Open source job report and can
                         Be more than fewer.
                       </div>
-                      <Link href="blog">
+                      <a href="blog">
                         <div class="flex newsSection_box_body_link">
                           READ MORE
                           <i class="fa-solid fa-arrow-right red-ar"></i>
                         </div>
-                      </Link>
+                      </a>
                     </div>
                   </div>
                 </SwiperSlide>
@@ -136,12 +136,12 @@ swiperRef.slidePrev();
                         Open source job report and can
                         Be more than fewer.
                       </div>
-                      <Link href="blog">
+                      <a href="blog">
                         <div class="flex newsSection_box_body_link">
                           READ MORE
                           <i class="fa-solid fa-arrow-right red-ar"></i>
                         </div>
-                      </Link>
+                      </a>
                     </div>
                   </div>
                 </SwiperSlide>
@@ -167,12 +167,12 @@ swiperRef.slidePrev();
                         Open source job report and can
                         Be more than fewer.
                       </div>
-                      <Link href="blog">
+                      <a href="blog">
                         <div class="flex newsSection_box_body_link">
                           READ MORE
                           <i class="fa-solid fa-arrow-right red-ar"></i>
                         </div>
-                      </Link>
+                      </a>
                     </div>
                   </div>
                 </SwiperSlide>

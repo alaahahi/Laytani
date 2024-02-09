@@ -76,9 +76,9 @@ swiperRef.slidePrev();
                       height="186"
                       alt="Construction Industry"
                     />
-                    <Link href="teamDetails">
+                    <a href="teamDetails">
                       <div class="teamSection_box_img_holder_text">View</div>
-                    </Link>
+                    </a>
                   </div>
                   <h1 class="teamSection_box_heading">Mohammed Aziz</h1>
                   <div class="teamSection_box_desc">CTO</div>
@@ -93,9 +93,9 @@ swiperRef.slidePrev();
                       height="186"
                       alt="Construction Industry"
                     />
-                    <Link href="teamDetails">
+                    <a href="teamDetails">
                       <div class="teamSection_box_img_holder_text">View</div>
-                    </Link>
+                    </a>
                   </div>
                   <h1 class="teamSection_box_heading">Hamza Omer</h1>
                   <div class="teamSection_box_desc">CTO</div>
@@ -110,9 +110,9 @@ swiperRef.slidePrev();
                       height="186"
                       alt="Construction Industry"
                     />
-                    <Link href="teamDetails">
+                    <a href="teamDetails">
                       <div class="teamSection_box_img_holder_text">View</div>
-                    </Link>
+                    </a>
                   </div>
                   <h1 class="teamSection_box_heading">Mohammed Ahsan</h1>
                   <div class="teamSection_box_desc">CTO</div>
@@ -127,9 +127,9 @@ swiperRef.slidePrev();
                       height="186"
                       alt="Construction Industry"
                     />
-                    <Link href="teamDetails">
+                    <a href="teamDetails">
                       <div class="teamSection_box_img_holder_text">View</div>
-                    </Link>
+                    </a>
                   </div>
                   <h1 class="teamSection_box_heading">Hamza Omer</h1>
                   <div class="teamSection_box_desc">CTO</div>
@@ -144,9 +144,9 @@ swiperRef.slidePrev();
                       height="186"
                       alt="Construction Industry"
                     />
-                    <Link href="teamDetails">
+                    <a href="teamDetails">
                       <div class="teamSection_box_img_holder_text">View</div>
-                    </Link>
+                    </a>
                   </div>
                   <h1 class="teamSection_box_heading">Hamza Omer</h1>
                   <div class="teamSection_box_desc">CTO</div>
