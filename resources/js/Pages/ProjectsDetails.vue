@@ -3,6 +3,7 @@ import MainLayout from '@/Layouts/MainLayout.vue';
 
 import { Swiper, SwiperSlide } from "swiper/vue";
 import { Autoplay } from "swiper/modules";
+import { Link } from "@inertiajs/inertia-vue3";
 
 import "swiper/css";
 let swiperRef = null;

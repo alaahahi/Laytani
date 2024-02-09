@@ -820,7 +820,7 @@ body{
   content: '' !important;
 }
 .teamSection_slider .swiper-button-prev {
-  background-image: url("/leftarrow.png") !important;
+  background-image: url("/assets/img/leftarrow.png") !important;
   background-repeat: no-repeat;
   background-position: center;
   background-size: 20px 14px;
@@ -842,7 +842,7 @@ body{
   left: 0 !important;
 }
 .teamSection_slider .swiper-button-next {
-  background-image: url("/arrow-rightred.png") !important;
+  background-image: url("/assets/img/arrow-rightred.png") !important;
   background-repeat: no-repeat;
   background-position: center;
   background-size: 20px 14px;
@@ -973,7 +973,7 @@ body{
   content: '' !important;
 }
 .clientsSection_slider .swiper-button-prev {
-  background-image: url("/leftarrow.png") !important;
+  background-image: url("/assets/img/leftarrow.png") !important;
   background-repeat: no-repeat;
   background-position: center;
   background-size: 20px 14px;
@@ -998,7 +998,7 @@ body{
   z-index: 999;
 }
 .clientsSection_slider .swiper-button-next{
-  background-image: url("/rightarrow.png") !important;
+  background-image: url("/assets/img/rightarrow.png") !important;
   background-repeat: no-repeat;
   background-position: center;
   background-size: 20px 14px;
@@ -1151,7 +1151,7 @@ body{
   content: '' !important;
 }
 .newsSection_slider .swiper-button-prev {
-  background-image: url("/leftarrow.png") !important;
+  background-image: url("/assets/img/leftarrow.png") !important;
   background-repeat: no-repeat;
   background-position: center;
   background-size: 20px 14px;
@@ -1173,7 +1173,7 @@ body{
   left: 0 !important;
 }
 .newsSection_slider .swiper-button-next {
-  background-image: url("/rightarrow.png") !important;
+  background-image: url("/assets/img/rightarrow.png") !important;
   background-repeat: no-repeat;
   background-position: center;
   background-size: 20px 14px;
@@ -1230,7 +1230,7 @@ body{
   content: '' !important;
 }
 .clientsLogoSlider .swiper-button-next{
-  background-image: url("/arrow-rightred.png") !important;
+  background-image: url("/assets/img/arrow-rightred.png") !important;
   background-repeat: no-repeat;
   background-position: center;
   background-size: 20px 14px;

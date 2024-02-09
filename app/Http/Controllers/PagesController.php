@@ -34,9 +34,9 @@ class PagesController extends Controller
     {
         return Inertia::render('ServiceDetails');   
     }
-    public function portfolio(Request $request)
+    public function projects(Request $request)
     {
-        return Inertia::render('Portfolio');   
+        return Inertia::render('Projects');   
     }
     public function ourLibrary(Request $request)
     {

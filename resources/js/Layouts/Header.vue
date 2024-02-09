@@ -40,6 +40,17 @@ const switchLocale = async (locale) => {
     console.error("An error occurred:", error);
   }
 };
+
+const darkMode = ref(false);
+
+const toggleMode = () => {
+    darkMode.value = !darkMode.value;
+    if (darkMode.value) {
+        document.documentElement.classList.add('dark');
+    } else {
+        document.documentElement.classList.remove('dark');
+    }
+};
 </script>
 
 <template>
@@ -132,7 +143,7 @@ const switchLocale = async (locale) => {
                 data-aos="fade-down"
                 data-aos-delay="400"
               >
-                <div class="theme_toggle">
+                <div class="theme_toggle" @click="toggleMode()">
                   <div class="day_mode flex items-center">
                     <img
                       alt="night_mood"
@@ -162,7 +173,7 @@ const switchLocale = async (locale) => {
                   <div
                     class="lan__country active us flex items-center cursor-pointer"
                   >
-                    <div class="flag flag1">
+                    <div class="flag flag1" @click="switchLocale('en')">
                       <div class="dark-none">
                         <img
                           alt="us flag"
@@ -190,7 +201,7 @@ const switchLocale = async (locale) => {
                         />
                       </div>
                     </div>
-                    <div class="flag flag2">
+                    <div class="flag flag2" @click="switchLocale('ar')">
                       <div class="dark-none">
                         <img
                           alt="us flag"
@@ -221,8 +232,7 @@ const switchLocale = async (locale) => {
                   </div>
                 </div>
 
-                <ThemeToggle />
-                <LanguageToggle />
+ 
               </div>
             </div>
           </div>
@@ -232,46 +242,44 @@ const switchLocale = async (locale) => {
     <nav class="navbar">
       <div class="navbar_logo_box1">
         <div class="navbar_logo_box1_bg"></div>
-        <a href="/">
+        <Link href="/">
           <div class="logo_img_holder flex items-center">
             <img src="/assets/img/logo.png" width="311" height="54" alt="" />
           </div>
-        </a>
+        </Link>
       </div>
       <div class="navbar_logo_box2 flex items-center">
         <div class="flex items-center navbar_list_outer">
           <ul class="navbar_list flex items-center">
-            <li class="navbar_list_item active">
-              <a href="/"><div class="navbar_list_link">HOME</div></a>
+            <li class="navbar_list_item"  :class="{'active':route().current('/')}">
+              <Link href="/"><div class="navbar_list_link">{{$t('home')}}</div></Link>
               <div class="navbar_list_item_bg"></div>
             </li>
-            <li class="navbar_list_item">
-              <a href="/about"><div class="navbar_list_link">ABOUT US</div></a>
+            <li class="navbar_list_item" :class="{'active':route().current('about')}">
+              <Link href="/about"><div class="navbar_list_link">ABOUT US</div></Link>
               <div class="navbar_list_item_bg"></div>
             </li>
-            <li class="navbar_list_item">
-              <a href="/team"><div class="navbar_list_link">Team</div></a>
+            <li class="navbar_list_item" :class="{'active':route().current('team')}">
+              <Link href="/team"><div class="navbar_list_link">Team</div></Link>
               <div class="navbar_list_item_bg"></div>
             </li>
-            <li class="navbar_list_item">
-              <a href="/services"
-                ><div class="navbar_list_link">SERVICES</div></a
+            <li class="navbar_list_item"  :class="{'active':route().current('services')}">
+              <Link href="/services"><div class="navbar_list_link">SERVICES</div></Link>
+              <div class="navbar_list_item_bg"></div>
+            </li>
+            <li class="navbar_list_item"  :class="{'active':route().current('blog')}">
+              <Link href="/blog"><div class="navbar_list_link">BLOG</div></Link>
+              <div class="navbar_list_item_bg"></div>
+            </li>
+            <li class="navbar_list_item" :class="{'active':route().current('projects')}">
+              <Link href="/projects"
+                ><div class="navbar_list_link">PROJECTS</div></Link
               >
               <div class="navbar_list_item_bg"></div>
             </li>
-            <li class="navbar_list_item">
-              <a href="/blog"><div class="navbar_list_link">BLOG</div></a>
-              <div class="navbar_list_item_bg"></div>
-            </li>
-            <li class="navbar_list_item">
-              <a href="/projects"
-                ><div class="navbar_list_link">PROJECTS</div></a
-              >
-              <div class="navbar_list_item_bg"></div>
-            </li>
-            <li class="navbar_list_item">
-              <a href="/contact"
-                ><div class="navbar_list_link">CONTACT US</div></a
+            <li class="navbar_list_item" :class="{'active':route().current('contact')}">
+              <Link href="/contact"
+                ><div class="navbar_list_link">CONTACT US</div></Link
               >
               <div class="navbar_list_item_bg"></div>
             </li>

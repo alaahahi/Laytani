@@ -1,6 +1,7 @@
 <script setup>
 import MainLayout from '@/Layouts/MainLayout.vue';
 import OurServices from '@/Components/OurService.vue';
+import { Link } from "@inertiajs/inertia-vue3";
 
 </script>
 <template>
@@ -55,11 +56,11 @@ import OurServices from '@/Components/OurService.vue';
                                 Wide e-commerce Competently
                                 Actualize bleeding-edge testing.
                             </div>
-                            <Link href="servicesDetails">
+                            <a href="/service-details">
                                 <div class="services_box_btn">
                                     Read More
                                 </div>
-                            </Link>
+                            </a>
                         </div>
                     </div>
                     <div class="services_box" data-aos="fade-up" data-aos-delay="200">
@@ -78,11 +79,11 @@ import OurServices from '@/Components/OurService.vue';
                                 Wide e-commerce Competently
                                 Actualize bleeding-edge testing.
                             </div>
-                            <Link href="servicesDetails">
+                            <a href="service-details">
                                 <div class="services_box_btn">
                                     Read More
                                 </div>
-                            </Link>
+                            </a>
                         </div>
                     </div>
                     <div class="services_box" data-aos="fade-up" data-aos-delay="300">
@@ -101,11 +102,11 @@ import OurServices from '@/Components/OurService.vue';
                                 Wide e-commerce Competently
                                 Actualize bleeding-edge testing.
                             </div>
-                            <Link href="servicesDetails">
+                            <a href="service-details">
                                 <div class="services_box_btn">
                                     Read More
                                 </div>
-                            </Link>
+                            </a>
                         </div>
                     </div>
                     <div class="services_box" data-aos="fade-up" data-aos-delay="400">
@@ -124,11 +125,11 @@ import OurServices from '@/Components/OurService.vue';
                                 Wide e-commerce Competently
                                 Actualize bleeding-edge testing.
                             </div>
-                            <Link href="servicesDetails">
+                            <a href="service-details">
                                 <div class="services_box_btn">
                                     Read More
                                 </div>
-                            </Link>
+                            </a>
                         </div>
                     </div>
                     <div class="services_box" data-aos="fade-up" data-aos-delay="500">
@@ -147,11 +148,11 @@ import OurServices from '@/Components/OurService.vue';
                                 Wide e-commerce Competently
                                 Actualize bleeding-edge testing.
                             </div>
-                            <Link href="servicesDetails">
+                            <a href="service-details">
                                 <div class="services_box_btn">
                                     Read More
                                 </div>
-                            </Link>
+                            </a>
                         </div>
                     </div>
                     <div class="services_box" data-aos="fade-up" data-aos-delay="100">
@@ -170,11 +171,11 @@ import OurServices from '@/Components/OurService.vue';
                                 Wide e-commerce Competently
                                 Actualize bleeding-edge testing.
                             </div>
-                            <Link href="servicesDetails">
+                            <a href="service-details">
                                 <div class="services_box_btn">
                                     Read More
                                 </div>
-                            </Link>
+                            </a>
                         </div>
                     </div>
                     <div class="services_box" data-aos="fade-up" data-aos-delay="200">
@@ -193,11 +194,11 @@ import OurServices from '@/Components/OurService.vue';
                                 Wide e-commerce Competently
                                 Actualize bleeding-edge testing.
                             </div>
-                            <Link href="servicesDetails">
+                            <a href="service-details">
                                 <div class="services_box_btn">
                                     Read More
                                 </div>
-                            </Link>
+                            </a>
                         </div>
                     </div>
                     <div class="services_box" data-aos="fade-up" data-aos-delay="300">
@@ -216,11 +217,11 @@ import OurServices from '@/Components/OurService.vue';
                                 Wide e-commerce Competently
                                 Actualize bleeding-edge testing.
                             </div>
-                            <Link href="servicesDetails">
+                            <a href="service-details">
                                 <div class="services_box_btn">
                                     Read More
                                 </div>
-                            </Link>
+                            </a>
                         </div>
                     </div>
                 </div>

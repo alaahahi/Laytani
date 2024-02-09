@@ -44,7 +44,7 @@ Route::get('/about', [PagesController::class, 'about'])->name('about');
 Route::get('/services', [PagesController::class, 'services'])->name('services');
 Route::get('/service-details', [PagesController::class, 'serviceDetails'])->name('service-details');
 Route::get('/team', [PagesController::class, 'team'])->name('team');
-Route::get('/portfolio', [PagesController::class, 'portfolio'])->name('portfolio');
+Route::get('/projects', [PagesController::class, 'projects'])->name('projects');
 Route::get('/contact', [PagesController::class, 'contactUs'])->name('contact');
 Route::get('/blog', [PagesController::class, 'blog'])->name('blog');
 Route::get('/blog-details/{id}', [PagesController::class, 'blogDetails'])->name('blog-details');

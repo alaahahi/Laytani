@@ -19,7 +19,29 @@ import ClientsSlider from '@/Components/ClientsSlider.vue';
             <div class="footer_top_box_desc">
               it is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using 
             </div>
-            <SocialMediaList />
+            <ul class="footer_social_media flex items-center">
+                <li class="footer_social_media_item footer_social_media_item_fb">
+                    <Link href="#">
+                        <div class="footer_social_media_link flex items-center">
+                        <i class="fa-brands fa-facebook-f footer_social_media_link_icone"></i>
+                        </div>
+                    </Link>
+                </li>
+                <li class="footer_social_media_item footer_social_media_item_twt">
+                    <Link href="#">
+                        <div class="footer_social_media_link flex items-center">
+                        <i class="fa-brands fa-twitter footer_social_media_link_icone"></i>
+                        </div>
+                    </Link>
+                </li>
+                <li class="footer_social_media_item footer_social_media_item_inst">
+                    <Link href="#">
+                        <div class="footer_social_media_link flex items-center">
+                        <i class="fa-brands fa-instagram footer_social_media_link_icone"></i>
+                        </div>
+                    </Link>
+                </li>
+            </ul>
           </div>
           <div class="footer_top_box footer_top_box2">
             <h1 class="footer_top_box_heading">Useful Links</h1>

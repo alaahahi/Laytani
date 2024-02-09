@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}" dir={{app()->getLocale()=='ar'?'rtl':'ltr'}}>
+<html lang="{{ str_replace('_', '-', app()->getLocale()) }}" dir={{app()->getLocale()=='ar'?'rtl':'ltr'}} >
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -16,7 +16,7 @@
         <!-- Boxicons CSS --> 
         <link rel="stylesheet" href="/assets/css/contact.css">
         <!-- Flaticon CSS -->
-        <link rel="stylesheet" href="/assets/fonts/dark.css">
+        <link rel="stylesheet" href="/assets/css/dark.css">
         <!-- Meanmenu CSS -->
         <link rel="stylesheet" href="/assets/css/footer.css">
         <!-- Style CSS -->
@@ -28,6 +28,7 @@
         <link rel="stylesheet" href="/assets/css/media_queries.css">
         <!-- Theme Dark CSS -->
         <link rel="stylesheet" href="/assets/css/projects.css">
+        
         <link rel="stylesheet" href="/assets/css/team.css">
         <!-- Theme Dark CSS -->
         <link rel="stylesheet" href="/assets/css/themeToggle.css">
@@ -59,8 +60,6 @@
                <script src="/assets/js/bootstrap.bundle.min.js"></script>
                <!-- Meanmenu JS -->
                <script src="/assets/js/meanmenu.min.js"></script>
-               <!-- Owl Carousel JS -->
-               <script src="/assets/js/owl.carousel.min.js"></script>
                <!-- Magnific Popup JS -->
                <script src="/assets/js/jquery.magnific-popup.min.js"></script>
                <!-- Wow JS -->

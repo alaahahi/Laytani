@@ -263,7 +263,7 @@ swiperRef.slidePrev();
                         </div>
                         <div class="blogBox_Wrapper">
                             <div class="blogBox" data-aos="fade-up" data-aos-delay="200">
-                                <Link href="blogDetails">
+                                <a href="blog-details/1">
                                     <div class="blogBox_img_holder">
                                         <img src="/assets/img/construction-site (1).png" width="374"  height="233"  alt="" />
                                     </div>
@@ -302,10 +302,10 @@ swiperRef.slidePrev();
                                             More
                                         </div>
                                     </div>
-                                </Link>
+                                </a>
                             </div>
                             <div class="blogBox" data-aos="fade-up" data-aos-delay="300">
-                                <Link href="blogDetails">
+                                <a href="blog-details/1">
                                     <div class="blogBox_img_holder">
                                         <img src="/assets/img/construction-worker-construction.png" width="374"  height="233"  alt="" />
                                     </div>
@@ -343,10 +343,10 @@ swiperRef.slidePrev();
                                             More
                                         </div>
                                     </div>
-                                </Link>
+                                </a>
                             </div>
                             <div class="blogBox" data-aos="fade-up" data-aos-delay="400">
-                                <Link href="blogDetails">
+                                <a href="blog-details/1">
                                     <div class="blogBox_img_holder">
                                         <img src="/assets/img/cutting-metal-with-plasma-equipment copy.png" width="374"  height="233"  alt="" />
                                     </div>
@@ -384,10 +384,10 @@ swiperRef.slidePrev();
                                             More
                                         </div>
                                     </div>
-                                </Link>
+                                </a>
                             </div>
                             <div class="blogBox" data-aos="fade-up" data-aos-delay="500">
-                                <Link href="blogDetails">
+                                <a href="blog-details/1">
                                     <div class="blogBox_img_holder">
                                         <img src="/assets/img/cutting-metal-with-plasma-equipment copy.png" width="374"  height="233"  alt="" />
                                     </div>
@@ -425,10 +425,10 @@ swiperRef.slidePrev();
                                             More
                                         </div>
                                     </div>
-                                </Link>
+                                </a>
                             </div>
                             <div class="blogBox" data-aos="fade-up" data-aos-delay="600">
-                                <Link href="blogDetails">
+                                <a href="blog-details/1">
                                     <div class="blogBox_img_holder">
                                         <img src="/assets/img/empty-asphalt-road-towards-modern-city.png" width="374"  height="233"  alt="" />
                                     </div>
@@ -466,10 +466,10 @@ swiperRef.slidePrev();
                                             More
                                         </div>
                                     </div>
-                                </Link>
+                                </a>
                             </div>
                             <div class="blogBox" data-aos="fade-up" data-aos-delay="700">
-                                <Link href="blogDetails">
+                                <a href="blog-details/1">
                                     <div class="blogBox_img_holder">
                                         <img src="/assets/img/construction-site (1).png" width="374"  height="233"  alt="" />
                                     </div>
@@ -507,7 +507,7 @@ swiperRef.slidePrev();
                                             More
                                         </div>
                                     </div>
-                                </Link>
+                                </a>
                             </div>
                         </div>
                          <div class="blog_slider">

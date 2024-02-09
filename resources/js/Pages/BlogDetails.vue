@@ -3,390 +3,395 @@ import MainLayout from '@/Layouts/MainLayout.vue';
 </script>
 <template>
     <MainLayout>
-        <!-- Inner Banner -->
-        <div class="inner-banner inner-bg5">
-            <div class="container">
-                <div class="inner-title text-center">
-                    <h3>Blog Details</h3>
-                    <ul>
-                        <li>
-                            <a href="index.html">Home</a>
-                        </li>
-                        <li>
-                            <i class='bx bxs-chevrons-right'></i>
-                        </li>
-                        <li>Blog Details</li>
-                    </ul>
+        <div class="sub_banner sub_banner--blog">
+        <div class="container">
+          <div class="sub_banner_wrapper">
+            <div class="sub_banner_box1">
+              <h1 class="sub_banner_heading">Blog</h1>
+              <div class="breadCrums flex items-center">
+                <div class="breadCrums_name">Home</div>
+                <div class="breadCrums_name_imf_holder flex items-center">
+                  <img src="/assets/img/rightarrow.png" width="12" height="9" alt="" />
                 </div>
+                <div class="breadCrums_name">Blog</div>
+              </div>
             </div>
+          </div>
         </div>
-        <!-- Inner Banner End -->
-
-        <div class="blog-dtls ptb-100">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8">
-                        <div class="blog-dtls-content">
-                            <div class="blog-dtls-img">
-                                <img src="/assets/img/blog/blog-dtls.jpg" alt="Blog Images">
+      </div>
+      <div class="blog">
+        <div class="container">
+          <div class="blog_wrapper flex flex-wrap">
+            <div class="blogRight">
+              <div
+                class="blogRight_card"
+                data-aos="fade-up"
+                data-aos-delay="100"
+              >
+                <div class="blogRight_card_header">
+                  <h1 class="blogRight_card_header_heading">
+                    Popular Topics
+                  </h1>
+                </div>
+                <div class="blogRight_card_body">
+                  <div class="famous_topics_wrapper flex flex-wrap">
+                    <div class="famous_topics">Planning</div>
+                    <div class="famous_topics">Planning</div>
+                    <div class="famous_topics">Planning</div>
+                    <div class="famous_topics">Planning</div>
+                    <div class="famous_topics">Planning</div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="blogRight_card"
+                data-aos="fade-up"
+                data-aos-delay="200"
+              >
+                <div class="blogRight_card_header">
+                  <h1 class="blogRight_card_header_heading">Trends</h1>
+                </div>
+                <div class="blogRight_card_body">
+                  <div class="blogRight_news_wrapper flex flex-wrap">
+                    <Link href="/assets/img/news">
+                      <div class="blogRight_news flex">
+                        <div class="blogRight_news_img">
+                          <img
+                            src="/assets/img/news1.png"
+                            width={75}
+                            height="69"
+                            alt=""
+                          />
+                        </div>
+                        <div class="blogRight_news_content">
+                          <div class="blogRight_news_content_heading">
+                            It is a long established fact that a reader
+                          </div>
+                          <div class="blogRight_news_content_date">
+                            25/10/2022
+                          </div>
+                        </div>
+                      </div>
+                    </Link>
+                  </div>
+                  <div class="blogRight_news_wrapper flex flex-wrap">
+                    <Link href="/assets/img/news">
+                      <div class="blogRight_news flex">
+                        <div class="blogRight_news_img">
+                          <img
+                            src="/assets/img/news1.png"
+                            width={75}
+                            height="69"
+                            alt=""
+                          />
+                        </div>
+                        <div class="blogRight_news_content">
+                          <div class="blogRight_news_content_heading">
+                            It is a long established fact that a reader
+                          </div>
+                          <div class="blogRight_news_content_date">
+                            25/10/2022
+                          </div>
+                        </div>
+                      </div>
+                    </Link>
+                  </div>
+                  <div class="blogRight_news_wrapper flex flex-wrap">
+                    <Link href="/assets/img/news">
+                      <div class="blogRight_news flex">
+                        <div class="blogRight_news_img">
+                          <img
+                            src="/assets/img/news1.png"
+                            width={75}
+                            height="69"
+                            alt=""
+                          />
+                        </div>
+                        <div class="blogRight_news_content">
+                          <div class="blogRight_news_content_heading">
+                            It is a long established fact that a reader
+                          </div>
+                          <div class="blogRight_news_content_date">
+                            25/10/2022
+                          </div>
+                        </div>
+                      </div>
+                    </Link>
+                  </div>
+                </div>
+              </div>
+               <div
+                class="blogRight_card"
+                data-aos="fade-up"
+                data-aos-delay="300"
+              >
+                <div class="blogRight_card_header">
+                  <h1 class="blogRight_card_header_heading">
+                    Letset From Twitter
+                  </h1>
+                </div>
+                <div class="blogRight_card_body">
+                  <div class="twt_news_wrapper">
+                    <Link href="#">
+                      <div class="flex justify-between">
+                        <div class="twt_news_box2">
+                          <img src="/assets/img/twt.svg" width={25} height="25" alt="" />
+                        </div>
+                        <div class="twt_news_box1">
+                          <div class="twt_news_box1_h">
+                            making it look like readable English. Many desktop
+                            publishing
+                          </div>
+                          <div class="twt_news_box1_p">25/10/2022</div>
+                        </div>
+                      </div>
+                    </Link>
+                  </div>
+                  <div class="twt_news_wrapper">
+                    <Link href="#">
+                      <div class="flex justify-between">
+                        <div class="twt_news_box2">
+                          <img src="/assets/img/twt.svg" width={25} height="25" alt="" />
+                        </div>
+                        <div class="twt_news_box1">
+                          <div class="twt_news_box1_h">
+                            making it look like readable English. Many desktop
+                            publishing
+                          </div>
+                          <div class="twt_news_box1_p">25/10/2022</div>
+                        </div>
+                      </div>
+                    </Link>
+                  </div>
+                  <div class="twt_news_wrapper">
+                    <Link href="#">
+                      <div class="flex justify-between">
+                        <div class="twt_news_box2">
+                          <img src="/assets/img/twt.svg" width={25} height="25" alt="" />
+                        </div>
+                        <div class="twt_news_box1">
+                          <div class="twt_news_box1_h">
+                            making it look like readable English. Many desktop
+                            publishing
+                          </div>
+                          <div class="twt_news_box1_p">25/10/2022</div>
+                        </div>
+                      </div>
+                    </Link>
+                  </div>
+                </div>
+              </div>
+               <div
+                class="blogRight_card"
+                data-aos="fade-up"
+                data-aos-delay="400"
+              >
+                <div class="blogRight_card_header">
+                  <h1 class="blogRight_card_header_heading">
+                    Letset From Facebook
+                  </h1>
+                </div>
+                <div class="blogRight_card_body">
+                  <div class="twt_news_wrapper">
+                    <Link href="#">
+                      <div class="flex justify-between">
+                        <div class="twt_news_box2">
+                          <img src="/assets/img/fb.svg" width={25} height="25" alt="" />
+                        </div>
+                        <div class="twt_news_box1">
+                          <div class="twt_news_box1_h">
+                            making it look like readable English. Many desktop
+                            publishing
+                          </div>
+                          <div class="twt_news_box1_p">25/10/2022</div>
+                        </div>
+                      </div>
+                    </Link>
+                  </div>
+                  <div class="twt_news_wrapper">
+                    <Link href="#">
+                      <div class="flex justify-between">
+                        <div class="twt_news_box2">
+                          <img src="/assets/img/fb.svg" width={25} height="25" alt="" />
+                        </div>
+                        <div class="twt_news_box1">
+                          <div class="twt_news_box1_h">
+                            making it look like readable English. Many desktop
+                            publishing
+                          </div>
+                          <div class="twt_news_box1_p">25/10/2022</div>
+                        </div>
+                      </div>
+                    </Link>
+                  </div>
+                  <div class="twt_news_wrapper">
+                    <Link href="#">
+                      <div class="flex justify-between">
+                        <div class="twt_news_box2">
+                          <img src="/assets/img/fb.svg" width={25} height="25" alt="" />
+                        </div>
+                        <div class="twt_news_box1">
+                          <div class="twt_news_box1_h">
+                            making it look like readable English. Many desktop
+                            publishing
+                          </div>
+                          <div class="twt_news_box1_p">25/10/2022</div>
+                        </div>
+                      </div>
+                    </Link>
+                  </div>
+                </div>
+              </div>
+             </div>
+             <div class="blogleft">
+              <div class="blogDetails">
+                <div
+                  class="blogDetails_holder relative flex items-center justify-center"
+                  data-aos="fade-up"
+                  data-aos-delay="100"
+                >
+                  <div class="blogDetails_holder_bg"></div>
+                  <img
+                    src="/assets/img/blogdetails.png"
+                    width={1200}
+                    height="600"
+                    alt=""
+                  />
+                  <div class="blogDetails_holder_inner">
+                    <div
+                      class="blogDetails_holder_inner_b1 flex items-center"
+                      data-aos="fade-right"
+                      data-aos-delay="200"
+                    >
+                      <div class="blogDetails_holder_inner_b1_holder">
+                        <img
+                          src="/assets/img/mbz3.png"
+                          width={55}
+                          height="55"
+                          alt=""
+                        />
+                      </div>
+                      <div class="blogDetails_holder_inner_b1_text">
+                        By : Admin
+                      </div>
+                    </div>
+                    <div
+                      class="blogDetails_holder_inner_b2 flex items-center"
+                      data-aos="fade-right"
+                      data-aos-delay="300"
+                    >
+                      <div class="blogDetails_holder_inner_b2_holder">
+                        <img
+                          src="/assets/img/comment_white.svg"
+                          width={22}
+                          height="22"
+                          alt=""
+                        />
+                      </div>
+                      <div class="blogDetails_holder_inner_b2_text">77</div>
+                      <div class="blogDetails_holder_inner_b2_text2">
+                        تعليقاً
+                      </div>
+                    </div>
+                    <div
+                      class="blogDetails_holder_inner_b3 flex items-center"
+                      data-aos="fade-right"
+                      data-aos-delay="400"
+                    >
+                      <div class="blogDetails_holder_inner_b2_text3">
+                        6 Hours Ago
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="blogDetails_body">
+                  <h1
+                    class="blogDetails_body_heading"
+                    data-aos="fade-up"
+                    data-aos-delay="500"
+                  >
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum, sequi!
+                  </h1>
+                  <div
+                    class="blogDetails_body_desc"
+                    data-aos="fade-right"
+                    data-aos-delay="800"
+                  >
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid voluptatibus 
+                    animi dolor cupiditate totam saepe, quasi placeat rerum consequatur reiciendis
+                    cum ipsa necessitatibus asperiores ex assumenda aliquam iusto eos at accusamus
+                    omnis exercitationem magni possimus voluptates inventore! Eos, illum consequatur
+                    cumque ex doloremque excepturi sapiente minima nisi laborum sed omnis debitis
+                    officia suscipit magnam atque facere odio. Velit natus tempora voluptate cum
+                    dolores quasi, voluptates expedita ipsa tempore sit architecto sed perspiciatis 
+                    praesentium? Molestias ut, minima quis officia ipsum rem fuga dicta neque animi 
+                    quod quos ipsa suscipit deserunt quae necessitatibus ipsam deleniti doloribus 
+                    cum recusandae excepturi beatae. Optio, sed.
+                  </div>
+                  <div
+                    class="blogDetails_wrapper"
+                    data-aos="fade-right"
+                    data-aos-delay="500"
+                  >
+                    <div class="blogDetails_tab">Buil</div>
+                    <div class="blogDetails_tab">City</div>
+                    <div class="blogDetails_tab">Workers</div>
+                    <div class="blogDetails_tab">Look</div>
+                  </div>
+                </div>
+                <div class="blogDetails_footer">
+                  <form class="post_form ">
+                    <input
+                      type="text"
+                      placeholder="Comment"
+                      class="blogDetails_footer_input"
+                    />
+                    <button class="blogDetails_footer_submit">Publish</button>
+                  </form>
+                </div>
+              </div>
+               <div class="isActive ? 'blogDetails_accordian active' : 'blogDetails_accordian' ">
+                    <div class="blogDetails_accordian_header  flex items-center justify-between"  onClick={toggleClass}>
+                        <div class="blogDetails_accordian_header_box1 flex items-center">
+                            <h1 class="blogDetails_accordian_heading">Comments</h1>
+                            <div class="blogDetails_accordian_noti  flex items-center justify-center">3</div>        
+                        </div>
+                        <div class="blogDetails_accordian_header_box2">
+                            <div class="blogDetails_accordian_header_box2_img_holder_plus dark-none">
+                                <img src="/assets/img/plus_black.svg" width={14}  height="14"  alt="" />
                             </div>
-                            <div class="blog-text">
-                                <h2>Basic Guidline About Web Development</h2>
-                                <p>
-                                    There are many variations of passages of Lorem Ipsum available,
-                                    but the majority have suffered alteration in some form, 
-                                    by injected humour, or randomised words which don't look
-                                    even slightly believable. If you are going to use a passage 
-                                    of Lorem Ipsum, you need to be sure there isn't anything 
-                                    embarrassing hidden in the middle of text. All the Lorem Ipsum
-                                    generators on the Internet tend to repeat predefined chunks as necessary,
-                                    making this the first true generator on the Internet.
-                                </p>
-                                <p>
-                                    There are many variations of passages of Lorem Ipsum available, but the majority
-                                    have suffered alteration in some form, by injected humour, or randomised words which don't look
-                                </p>
-                                <blockquote class="boxicon-quote">
-									<p>
-                                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus aliquid praesentium 
-                                        eveniet illum asperiores, quidem, ipsum voluptatum numquam ducimus nisi exercitationem 
-                                        dolorum facilis Repellendus aliquid praesentium eveniet illum asperiores.
-                                    </p>
-                                </blockquote>
-                                <p>
-                                    There are many variations of passages of Lorem Ipsum available, but the majority 
-                                    have suffered alteration in some form, by injected humour, or randomised words 
-                                    which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum.
-                                </p>
+                            <div class="blogDetails_accordian_header_box2_img_holder_minus dark-none">
+                                <img src="/assets/img/minus_black.svg" width={14}  height="14"  alt="" />
                             </div>
-                            <div class="row bolg-gallery">
-                                <div class="bolg-gallery-item">
-                                    <img src="/assets/img/blog/5.jpg" alt="Blog Images">
-                                </div>
-                                <div class="bolg-gallery-item">
-                                    <img src="/assets/img/blog/4.jpg" alt="Blog Images">
-                                </div>
-                                <div class="bolg-gallery-item">
-                                    <img src="/assets/img/blog/6.jpg" alt="Blog Images">
-                                </div>
-                            </div>
-                            <h3>Top 10 Tripes for Social Marketing</h3>
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                                Integer vitae commodo justo. In vulputate arcu imperdiet 
-                                arcu molestie ultrices ac nec tortor. Sed euismod placerat justo,
-                                eget suscipit ex accumsan non. Curabitur id faucibus urna, eu 
-                                tincidunt diam. Nulla malesuada nibh ligula. Cras semper tristique dolor, 
-                                vitae ultricies massa eleifend sit amet. Proin id eros nisi.
-                            </p>
-                            <p>
-                                Fusce tristique leo magna, nec bibendum lacus sollicitudin in. 
-                                Suspendisse augue est, dignissim vel elementum ut, vestibulum 
-                                eget dui. Sed purus odio, congue sed mi non, viverra commodo magna.
-                                Donec at placerat erat. Maecenas vel odio eget urna viverra gravida.
-                                Vestibulum risus neque, imperdiet in felis eget, pretium vestibulum nisl.
-                                Maecenas ultrices, ipsum eleifend pellentesque pellentesque, velit massa 
-                                sodales eros, eu faucibus risus justo non est. Aenean non pellentesque ipsum. 
-                                Mauris varius maximus euismod. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                            </p>
-                            <div class="article-footer">
-								<div class="article-tags">
-									<span><i class='bx bx-share-alt'></i></span>
-									<a href="#">Share</a>
-								</div>
-
-								<div class="article-share">
-									<ul class="social">
-										<li>
-											<a href="#" target="_blank">
-												<i class='bx bxl-facebook'></i>
-											</a>
-										</li>
-										<li>
-											<a href="#" target="_blank">
-												<i class='bx bxl-twitter'></i>
-											</a>
-										</li>
-										<li>
-											<a href="#" target="_blank">
-												<i class='bx bxl-linkedin'></i>
-											</a>
-										</li>
-										<li>
-											<a href="#" target="_blank">
-												<i class='bx bxl-pinterest-alt'></i>
-											</a>
-										</li>
-										
-									</ul>
-								</div>
-                            </div>
-                            
-                            <div class="post-navigation">
-								<div class="navigation-links">
-									<div class="nav-previous">
-										<a href="#">Prev Post</a>
-									</div>
-
-									<div class="nav-next">
-										<a href="#">Next Post</a>
-									</div>
-								</div>
-                            </div>
-                            
-                            <div class="comment-area">
-                                <h3 class="comment-title">2 Comments:</h3>
-                                <div class="comment-card">
-                                    <div class="comment-author-img">
-                                        <img src="/assets/img/testimonial/t1.png" alt="Images">
-                                    </div>
-                                    <div class="comment-author-title">
-                                        <h3>John Doe</h3>
-                                        <span>16 June 2020 10:00 PM</span>
-                                    </div>
-                                    <div class="comment-body">
-                                        <p>
-                                            “Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                                            sed do ei usmod tempor incididunt ut labore et dolore magna aliqua. 
-                                            Quis ipsum suspendisse ultrices gravida. Risus commodo.”
-                                        </p>
-                                        <a href="#" class="reply-btn">Reply</a>
-                                    </div>
-                                </div>
-
-                                <div class="comment-card ml-50">
-                                    <div class="comment-author-img">
-                                        <img src="/assets/img/testimonial/t2.png" alt="Images">
-                                    </div>
-                                    <div class="comment-author-title">
-                                        <h3>Knot Doe</h3>
-                                        <span>16 June 2020 10:30 PM</span>
-                                    </div>
-                                    <div class="comment-body">
-                                        <p>
-                                            “Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                                            sed do ei usmod tempor incididunt ut labore et dolore magna aliqua. 
-                                            Quis ipsum suspendisse ultrices gravida. Risus commodo.”
-                                        </p>
-                                        <a href="#" class="reply-btn">Reply</a>
-                                    </div>
-                                </div>
-
-                                <div class="comment-card">
-                                    <div class="comment-author-img">
-                                        <img src="/assets/img/testimonial/t3.png" alt="Images">
-                                    </div>
-                                    <div class="comment-author-title">
-                                        <h3>John Smith</h3>
-                                        <span>16 June 2020 10:50 PM</span>
-                                    </div>
-                                    <div class="comment-body">
-                                        <p>
-                                            “Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                                            sed do ei usmod tempor incididunt ut labore et dolore magna aliqua. 
-                                            Quis ipsum suspendisse ultrices gravida. Risus commodo.”
-                                        </p>
-                                        <a href="#" class="reply-btn">Reply</a>
-                                    </div>
-                                </div>
-
-                                <div class="comment-respond">
-                                    <h3 class="comment-respond-title">Leave a Reply</h3>
-                                    <form class="comment-form">
-                                        <p>Your email address will not be published. Required fields are marked *</p>
-                                        <div class="row">
-                                            <div class="col-lg-6">
-                                                <div class="form-group">
-                                                    <label>Name *</label>
-                                                    <input type="text" class="form-control">
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-6">
-                                                <div class="form-group">
-                                                    <label>Email *</label>
-                                                    <input type="text" class="form-control">
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-12">
-                                                <div class="form-group">
-                                                    <label>Comment *</label>
-                                                    <textarea name="Comment" class="form-control textarea-hight" id="Comment" cols="30" rows="5"></textarea>
-                                                </div>
-                                            </div>
-
-                                            <div class="col-lg-12 col-md-12">
-                                                <button type="submit" class="post-com-btn">
-                                                    Post A Comment
-                                                </button>
-                                            </div>
-                                        </div>
-                                    </form>
-                                </div>
+                            <div class="blogDetails_accordian_header_box2_img_holder_plus d-none dark-show">
+                                <img src="/assets/img/plus_white.svg" width={14}  height="14"  alt="" />
                             </div>
                         </div>
                     </div>
-
-                    <div class="col-lg-4">
-                        <div class="widget-area">
-                            <div class="widget widget_search">
-                                <h3 class="widget-title">Search Now</h3>
-                                <div class="post-wrap">
-                                    <form class="search-form">
-                                        <label>
-                                            <span class="screen-reader-text">Search for:</span>
-                                            <input type="search" class="search-field" placeholder="Search...">
-                                        </label>
-                                        <button type="submit"><i class='bx bx-search'></i></button>
-                                    </form>
+                    <div class='blogDetails_accordian_content flex justify-between'>
+                        <div class="blogDetails_accordian_content_box1 flex items-center justify-center">
+                            <div class="blogDetails_accordian_content_box1_img_holder flex items-center justify-center dark-none">
+                                <img src="/assets/img/accd.svg" width={33}  height="27"  alt="" />
+                            </div>
+                            <div class="blogDetails_accordian_content_box1_img_holder flex items-center justify-center d-none dark-show">
+                                <img src="/assets/img/acc_white.svg" width={33}  height="27"  alt="" />
+                            </div>
+                            <div class="blogDetails_accordian_content_box1_content">
+                                <h1 class="blogDetails_accordian_content_box1_content_name">Guest </h1>
+                                <div class="blogDetails_accordian_content_box1_content_p">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, id recusandae! Cum asperiores similique ipsa?
                                 </div>
                             </div>
-
-                            <section class="widget widget-popular-post">
-								<h3 class="widget-title">Popular Posts</h3>
-								<div class="post-wrap">
-									<article class="item">
-										<a href="blog-details.html" class="thumb">
-											<span class="fullimage cover bg1" role="img"></span>
-										</a>
-										<div class="info">
-											<time datetime="2020-06-30">Jun 20, 2020</time>
-											<h4 class="title usmall">
-												<a href="blog-details.html">
-													Basic Guidline Layout for SEO  Bigenner Level
-												</a>
-											</h4>
-										</div>
-									</article>
-	
-									<article class="item">
-										<a href="blog-details.html" class="thumb">
-											<span class="fullimage cover bg2" role="img"></span>
-										</a>
-										<div class="info">
-											<time datetime="2020-06-30">Jun 21, 2020</time>
-											<h4 class="title usmall">
-												<a href="blog-details.html">
-													How to Become Most Skilled Person in Social Marketing
-												</a>
-											</h4>
-										</div>
-									</article>
-	
-									<article class="item">
-										<a href="blog-details.html" class="thumb">
-											<span class="fullimage cover bg3" role="img"></span>
-										</a>
-										<div class="info">
-											<time datetime="2020-06-30">Jun  22, 2020</time>
-											<h4 class="title usmall">
-												<a href="blog-details.html">
-													Basic Guidline Layout for SEO Bigenner Level
-												</a> 
-											</h4>
-										</div>
-									</article>
-									
-									<article class="item">
-										<a href="blog-details.html" class="thumb">
-											<span class="fullimage cover bg4" role="img"></span>
-										</a>
-										<div class="info">
-											<time datetime="2020-06-30">Jun 23, 2020</time>
-											<h4 class="title usmall">
-												<a href="blog-details.html">
-													How to Become Most Skilled Person in Social Marketing
-												</a>
-											</h4>
-										</div>
-									</article>
-								</div>
-                            </section>
-
-                            <section class="widget widget_categories">
-								<h3 class="widget-title">Archives</h3>
-								<div class="post-wrap">
-									<ul>
-										<li>
-											<a href="#">January <span>2020</span></a>
-										</li>
-										<li>
-											<a href="#">February <span>2020</span></a>
-										</li>
-										<li>
-											<a href="#">March <span>2020</span></a>
-										</li>
-										<li>
-											<a href="#">April <span>2020</span></a>
-										</li>
-										<li>
-											<a href="#">May <span>2020</span></a>
-										</li>
-										<li>
-											<a href="#">June <span>2020</span></a>
-										</li>
-									</ul>
-								</div>
-							</section>
-                            
-                            <section class="widget widget_categories">
-                                <h3 class="widget-title">Categories</h3>
-                                <div class="post-wrap">
-                                    <ul>
-                                        <li>
-                                            <a href="#">Data Analysis <span>(10)</span></a>
-                                        </li>
-                                        <li>
-                                            <a href="#">Data Research <span>(07)</span></a>
-                                        </li>
-                                        <li>
-                                            <a href="#">SEO Optimization <span>(20)</span></a>
-                                        </li>
-                                        <li>
-                                            <a href="#">Social Marketing <span>(12)</span></a>
-                                        </li>
-                                        <li>
-                                            <a href="#">App Dvelelopment <span>(15)</span></a>
-                                        </li>
-                                        <li>
-                                            <a href="#">Web Dvelelopment <span>(18)</span></a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </section>
-
-                            <section class="widget widget_tag">
-                                <h3 class="widget-title">Tags</h3>
-                                <div class="post-wrap">
-                                    <ul>
-                                        <li>
-                                            <a href="#">Seo</a>
-                                        </li>
-                                        <li>
-                                            <a href="#">Marketing</a>
-                                        </li>
-                                        <li>
-                                            <a href="#">Dvelelopment</a>
-                                        </li>
-                                        <li>
-                                            <a href="#">Web</a>
-                                        </li>
-                                        <li>
-                                            <a href="#">App</a>
-                                        </li>
-                                        <li>
-                                            <a href="#">Analysis</a>
-                                        </li>
-                                        <li>
-                                            <a href="#">Research</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </section>
                         </div>
+                        <div class="blogDetails_accordian_content_box2">Just Now</div>
                     </div>
                 </div>
             </div>
+           
+          </div>
+        
         </div>
-
+       
+      </div>
     </MainLayout>
 </template>
