@@ -23,18 +23,18 @@ const i18n = createI18n({
 });
 
 const slideUp = {
-  easing: 'ease-in',
+  easing: 'ease-in-out',
   origin: 'bottom',
   duration: 1000,
 };
 const fadeDown = {
-  distance: '30px',
-  origin: 'top',
+  distance: '50PX',
+  origin: 'bottom',
   opacity: 0,
   scale: 1,
   easing: 'ease-in',
-  delay: 100,
-  duration: 500,
+  delay: 0,
+  duration: 200,
   rotate: { x: 0, y: 0, z: 0 },
 };
 const fadeUp = {
@@ -52,7 +52,7 @@ const fadeRight = {
   origin: 'right',
   opacity: 1,
   scale: 1,
-  easing: 'ease-in',
+  easing: 'ease-in-out',
   delay: 150,
   duration: 1000,
   rotate: { x: 0, y: 0, z: 0 },
