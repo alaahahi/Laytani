@@ -1,5 +1,14 @@
 <script setup>
 import MainLayout from '@/Layouts/MainLayout.vue';
+import { ref, onUnmounted } from "vue";
+
+
+
+const isActive = ref(0);
+
+const openTab = () => {
+  isActive.value =  !isActive.value;
+};
 </script>
 <template>
     <MainLayout>
@@ -58,7 +67,7 @@ import MainLayout from '@/Layouts/MainLayout.vue';
                         <div class="blogRight_news_img">
                           <img
                             src="/assets/img/news1.png"
-                            width={75}
+                            width="75"
                             height="69"
                             alt=""
                           />
@@ -80,7 +89,7 @@ import MainLayout from '@/Layouts/MainLayout.vue';
                         <div class="blogRight_news_img">
                           <img
                             src="/assets/img/news1.png"
-                            width={75}
+                            width="75"
                             height="69"
                             alt=""
                           />
@@ -102,7 +111,7 @@ import MainLayout from '@/Layouts/MainLayout.vue';
                         <div class="blogRight_news_img">
                           <img
                             src="/assets/img/news1.png"
-                            width={75}
+                            width="75"
                             height="69"
                             alt=""
                           />
@@ -135,7 +144,7 @@ import MainLayout from '@/Layouts/MainLayout.vue';
                     <a href="#">
                       <div class="flex justify-between">
                         <div class="twt_news_box2">
-                          <img src="/assets/img/twt.svg" width={25} height="25" alt="" />
+                          <img src="/assets/img/twt.svg" width="25" height="25" alt="" />
                         </div>
                         <div class="twt_news_box1">
                           <div class="twt_news_box1_h">
@@ -151,7 +160,7 @@ import MainLayout from '@/Layouts/MainLayout.vue';
                     <a href="#">
                       <div class="flex justify-between">
                         <div class="twt_news_box2">
-                          <img src="/assets/img/twt.svg" width={25} height="25" alt="" />
+                          <img src="/assets/img/twt.svg" width="25" height="25" alt="" />
                         </div>
                         <div class="twt_news_box1">
                           <div class="twt_news_box1_h">
@@ -167,7 +176,7 @@ import MainLayout from '@/Layouts/MainLayout.vue';
                     <a href="#">
                       <div class="flex justify-between">
                         <div class="twt_news_box2">
-                          <img src="/assets/img/twt.svg" width={25} height="25" alt="" />
+                          <img src="/assets/img/twt.svg" width="25" height="25" alt="" />
                         </div>
                         <div class="twt_news_box1">
                           <div class="twt_news_box1_h">
@@ -196,7 +205,7 @@ import MainLayout from '@/Layouts/MainLayout.vue';
                     <a href="#">
                       <div class="flex justify-between">
                         <div class="twt_news_box2">
-                          <img src="/assets/img/fb.svg" width={25} height="25" alt="" />
+                          <img src="/assets/img/fb.svg" width="25" height="25" alt="" />
                         </div>
                         <div class="twt_news_box1">
                           <div class="twt_news_box1_h">
@@ -212,7 +221,7 @@ import MainLayout from '@/Layouts/MainLayout.vue';
                     <a href="#">
                       <div class="flex justify-between">
                         <div class="twt_news_box2">
-                          <img src="/assets/img/fb.svg" width={25} height="25" alt="" />
+                          <img src="/assets/img/fb.svg" width="25" height="25" alt="" />
                         </div>
                         <div class="twt_news_box1">
                           <div class="twt_news_box1_h">
@@ -228,7 +237,7 @@ import MainLayout from '@/Layouts/MainLayout.vue';
                     <a href="#">
                       <div class="flex justify-between">
                         <div class="twt_news_box2">
-                          <img src="/assets/img/fb.svg" width={25} height="25" alt="" />
+                          <img src="/assets/img/fb.svg" width="25" height="25" alt="" />
                         </div>
                         <div class="twt_news_box1">
                           <div class="twt_news_box1_h">
@@ -253,7 +262,7 @@ import MainLayout from '@/Layouts/MainLayout.vue';
                   <div class="blogDetails_holder_bg"></div>
                   <img
                     src="/assets/img/blogdetails.png"
-                    width={1200}
+                    width="1200"
                     height="600"
                     alt=""
                   />
@@ -266,7 +275,7 @@ import MainLayout from '@/Layouts/MainLayout.vue';
                       <div class="blogDetails_holder_inner_b1_holder">
                         <img
                           src="/assets/img/mbz3.png"
-                          width={55}
+                          width="55"
                           height="55"
                           alt=""
                         />
@@ -283,7 +292,7 @@ import MainLayout from '@/Layouts/MainLayout.vue';
                       <div class="blogDetails_holder_inner_b2_holder">
                         <img
                           src="/assets/img/comment_white.svg"
-                          width={22}
+                          width="22"
                           height="22"
                           alt=""
                         />
@@ -350,31 +359,31 @@ import MainLayout from '@/Layouts/MainLayout.vue';
                   </form>
                 </div>
               </div>
-               <div class="isActive ? 'blogDetails_accordian active' : 'blogDetails_accordian' ">
-                    <div class="blogDetails_accordian_header  flex items-center justify-between"  onClick={toggleClass}>
+               <div :class="isActive ? 'blogDetails_accordian active' : 'blogDetails_accordian' ">
+                    <div class="blogDetails_accordian_header  flex items-center justify-between"  @click="openTab">
                         <div class="blogDetails_accordian_header_box1 flex items-center">
                             <h1 class="blogDetails_accordian_heading">Comments</h1>
                             <div class="blogDetails_accordian_noti  flex items-center justify-center">3</div>        
                         </div>
                         <div class="blogDetails_accordian_header_box2">
                             <div class="blogDetails_accordian_header_box2_img_holder_plus dark-none">
-                                <img src="/assets/img/plus_black.svg" width={14}  height="14"  alt="" />
+                                <img src="/assets/img/plus_black.svg" width="14"  height="14"  alt="" />
                             </div>
                             <div class="blogDetails_accordian_header_box2_img_holder_minus dark-none">
-                                <img src="/assets/img/minus_black.svg" width={14}  height="14"  alt="" />
+                                <img src="/assets/img/minus_black.svg" width="14"  height="14"  alt="" />
                             </div>
                             <div class="blogDetails_accordian_header_box2_img_holder_plus d-none dark-show">
-                                <img src="/assets/img/plus_white.svg" width={14}  height="14"  alt="" />
+                                <img src="/assets/img/plus_white.svg" width="14"  height="14"  alt="" />
                             </div>
                         </div>
                     </div>
                     <div class='blogDetails_accordian_content flex justify-between'>
                         <div class="blogDetails_accordian_content_box1 flex items-center justify-center">
                             <div class="blogDetails_accordian_content_box1_img_holder flex items-center justify-center dark-none">
-                                <img src="/assets/img/accd.svg" width={33}  height="27"  alt="" />
+                                <img src="/assets/img/accd.svg" width="33"  height="27"  alt="" />
                             </div>
                             <div class="blogDetails_accordian_content_box1_img_holder flex items-center justify-center d-none dark-show">
-                                <img src="/assets/img/acc_white.svg" width={33}  height="27"  alt="" />
+                                <img src="/assets/img/acc_white.svg" width="33"  height="27"  alt="" />
                             </div>
                             <div class="blogDetails_accordian_content_box1_content">
                                 <h1 class="blogDetails_accordian_content_box1_content_name">Guest </h1>
