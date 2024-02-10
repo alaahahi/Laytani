@@ -38,9 +38,9 @@ class PagesController extends Controller
     {
         return Inertia::render('Projects');   
     }
-    public function ourLibrary(Request $request)
+    public function projectDetails(Request $request)
     {
-        return Inertia::render('OurLibrary');   
+        return Inertia::render('ProjectDetails');   
     }
     public function blog(Request $request)
     {
@@ -54,9 +54,9 @@ class PagesController extends Controller
     {
         return Inertia::render('Team');   
     }
-    public function productDetails(Request $request)
+    public function teamDetails(Request $request)
     {
-        return Inertia::render('ProductDetails');   
+        return Inertia::render('TeamDetails');   
     }
     public function blogDetails(Request $request)
     {

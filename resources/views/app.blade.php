@@ -35,7 +35,7 @@
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.2.0/css/all.css">
         <link rel="stylesheet" href="/assets/css/dark.css">
 
-        <title>Bonsa - SEO & Marketing Company HTML Template</title>
+        <title>Laytani</title>
 
         <!-- Favicon -->
         <link rel="icon" type="image/png" href="/assets/img/favicon.png">

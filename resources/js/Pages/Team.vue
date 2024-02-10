@@ -67,7 +67,7 @@ const questions = ref([{
                 </div>
                 <div class="team_box_wrapper">
                     <div class="team_box" data-aos="fade-up" data-aos-delay="00">
-                        <a href="teamDetails">
+                        <a href="team-details/1">
                             <div class="team_box_img_holder flex items-center justify-center">
                                 <img src="/assets/img/team2.png" width="248" height="282" alt="" />
                                 <div class="sub_heading_img_holder_view">View</div>
@@ -79,7 +79,7 @@ const questions = ref([{
                         </a>
                     </div>
                     <div class="team_box" data-aos="fade-up" data-aos-delay="100">
-                        <a href="teamDetails">
+                        <a href="team-details/1">
                             <div class="team_box_img_holder flex items-center justify-center">
                                 <img src="/assets/img/team3.png" width="248" height="282" alt="" />
                                 <div class="sub_heading_img_holder_view">View</div>
@@ -91,7 +91,7 @@ const questions = ref([{
                         </a>
                     </div>
                     <div class="team_box" data-aos="fade-up" data-aos-delay="200">
-                        <a href="teamDetails">
+                        <a href="team-details/1">
                             <div class="team_box_img_holder flex items-center justify-center">
                                 <img src="/assets/img/team1.png" width="248" height="282" alt="" />
                                 <div class="sub_heading_img_holder_view">View</div>
@@ -103,7 +103,7 @@ const questions = ref([{
                         </a>
                     </div>
                     <div class="team_box" data-aos="fade-up" data-aos-delay="300">
-                        <a href="teamDetails">
+                        <a href="team-details/1">
                             <div class="team_box_img_holder flex items-center justify-center">
                                 <img src="/assets/img/team2.png" width="248" height="282" alt="" />
                                 <div class="sub_heading_img_holder_view">View</div>
@@ -115,7 +115,7 @@ const questions = ref([{
                         </a>
                     </div>
                     <div class="team_box" data-aos="fade-up" data-aos-delay="400">
-                        <a href="teamDetails">
+                        <a href="team-details/1">
                             <div class="team_box_img_holder flex items-center justify-center">
                                 <img src="/assets/img/team3.png" width="248" height="282" alt="" />
                                 <div class="sub_heading_img_holder_view">View</div>

@@ -5,24 +5,7 @@ import 'swiper/css/navigation';
 import { Autoplay } from "swiper/modules";
 import { ref } from 'vue';
   
-  const projects = ref([
-    { img: '/assets/img/whoweare1.svg', width: 35, height: 35, count: 35, title: 'Finish Projects', delay: 100 },
-    { img: '/assets/img/whoweare2.svg', width: 35, height: 35, count: 500, title: 'Team Members', delay: 200 },
-    { img: '/assets/img/whoweare3.svg', width: 30, height: 30, count: 230, title: 'Clients Are Happy', delay: 300 },
-    { img: '/assets/img/whoweare4.svg', width: 30, height: 35, count: 3, title: 'Award Wins', delay: 400 }
-  ]);
-  
-  const slides = ref([
-    { img: '/assets/img/project1.png', link: 'projects' },
-    { img: '/assets/img/project2.png', link: 'projects' },
-    { img: '/assets/img/project3.png', link: 'projects' },
-    { img: '/assets/img/project4.png', link: 'projects' },
-    { img: '/assets/img/project5.png', link: 'projects' },
-    { img: '/assets/img/project3.png', link: 'projects' },
-    { img: '/assets/img/project1.png', link: 'projects' }
-  ]);
-  
-
+ 
 import "swiper/css";
 let swiperRef = null;
 
@@ -71,6 +54,29 @@ swiperRef.slidePrev();
                     delay:2000,
                     disableOnInteraction: false,
                     }"
+                    :breakpoints="{
+                            0: {
+                      slidesPerView: 1,
+                    },
+                    540: {
+                      slidesPerView: 2,
+                    },
+                    768: {
+                      slidesPerView: 2,
+                    },
+                    1024: {
+                      slidesPerView: 3,
+                    },
+                    1200: {
+                      slidesPerView: 3,
+                    },
+                    1400: {
+                      slidesPerView: 3,
+                    },
+                    1600: {
+                      slidesPerView: 4,
+                    },
+                    }"
                     >
               <SwiperSlide>
                 <div class="teamSection_box">
@@ -81,7 +87,7 @@ swiperRef.slidePrev();
                       height="186"
                       alt="Construction Industry"
                     />
-                    <a href="teamDetails">
+                    <a href="team-details/1">
                       <div class="teamSection_box_img_holder_text">View</div>
                     </a>
                   </div>
@@ -98,7 +104,7 @@ swiperRef.slidePrev();
                       height="186"
                       alt="Construction Industry"
                     />
-                    <a href="teamDetails">
+                    <a href="team-details/1">
                       <div class="teamSection_box_img_holder_text">View</div>
                     </a>
                   </div>
@@ -115,7 +121,7 @@ swiperRef.slidePrev();
                       height="186"
                       alt="Construction Industry"
                     />
-                    <a href="teamDetails">
+                    <a href="team-details/1">
                       <div class="teamSection_box_img_holder_text">View</div>
                     </a>
                   </div>
@@ -132,7 +138,7 @@ swiperRef.slidePrev();
                       height="186"
                       alt="Construction Industry"
                     />
-                    <a href="teamDetails">
+                    <a href="team-details/1">
                       <div class="teamSection_box_img_holder_text">View</div>
                     </a>
                   </div>
@@ -149,7 +155,7 @@ swiperRef.slidePrev();
                       height="186"
                       alt="Construction Industry"
                     />
-                    <a href="teamDetails">
+                    <a href="team-details/1">
                       <div class="teamSection_box_img_holder_text">View</div>
                     </a>
                   </div>

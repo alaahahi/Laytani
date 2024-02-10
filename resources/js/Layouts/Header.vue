@@ -256,7 +256,7 @@ const toggleMode = () => {
       </div>
       <div class="navbar_logo_box2 flex items-center">
         <div class="flex items-center navbar_list_outer">
-          <ul class="navbar_list flex items-center">
+          <ul class="navbar_list flex items-center" :class="{'active':navActive}" @click="closeNav">
             <li class="navbar_list_item"  :class="{'active':route().current('/')}">
               <a href="/"><div class="navbar_list_link">{{$t('home')}}</div></a>
               <div class="navbar_list_item_bg"></div>
@@ -299,15 +299,11 @@ const toggleMode = () => {
               :class="{'active':isSearch}"
             />
           </div>
-          <button role="button" class="navlist_btn flex items-center">
+          <button role="button" class="navlist_btn flex items-center" @click="openNav">
             <div class="flex items-center">
               <img
                 alt="nav btn"
-                srcset="
-                /assets/img/_next/image?url=%2FMenu.png&amp;w=32&amp;q=75 1x,
-                /assets/img/_next/image?url=%2FMenu.png&amp;w=48&amp;q=75 2x
-                "
-                src="/assets/img/_next/image?url=%2FMenu.png&amp;w=48&amp;q=75"
+                src="/assets/img/Menu.png"
                 width="23"
                 height="13"
                 decoding="async"

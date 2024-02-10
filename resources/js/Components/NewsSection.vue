@@ -56,6 +56,26 @@ swiperRef.slidePrev();
                     delay:2000,
                     disableOnInteraction: false,
                     }"
+                :breakpoints="{
+                  0: {
+                    slidesPerView: 1,
+                  },
+                  540: {
+                    slidesPerView: 2,
+                  },
+                  768: {
+                    slidesPerView: 3,
+                  },
+                  1024: {
+                    slidesPerView: 2,
+                  },
+                  1400: {
+                    slidesPerView: 3,
+                  },
+                  1600: {
+                    slidesPerView: 3,
+                  }
+                    }"
             >
                 <SwiperSlide>
                   <div class="newsSection_box">

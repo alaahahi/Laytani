@@ -74,7 +74,30 @@ swiperRef.slidePrev();
                     :space-between="30"
                     :speed="800"
                     @swiper="setSwiperRef"
-                
+                    :breakpoints="{
+                      0: {
+                      slidesPerView: 1,
+                      spaceBetween:0,
+                    },
+                    540: {
+                      slidesPerView: 2,
+                    },
+                    768: {
+                      slidesPerView: 2,
+                    },
+                    991: {
+                        slidesPerView: 3,
+                      },
+                    1200: {
+                      slidesPerView: 4,
+                    },
+                    1400: {
+                      slidesPerView: 4,
+                    },
+                    1600: {
+                      slidesPerView: 5,
+                    }
+                    }"
                     >
         <SwiperSlide v-for="(slide, index) in slides" :key="index">
           <div class="ourProjects_slide">

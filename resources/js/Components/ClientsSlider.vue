@@ -37,6 +37,30 @@ swiperRef.slidePrev();
                     delay:2000,
                     disableOnInteraction: false,
                     }"
+                      :breakpoints="{
+                 0: {
+              slidesPerView: 3,
+            },
+            540: {
+              slidesPerView: 4,
+            },
+            768: {
+              slidesPerView: 5,
+            },
+            991: {
+              slidesPerView: 5,
+            },
+            1200: {
+              slidesPerView: 5,
+            },
+            1400: {
+              slidesPerView: 5,
+            },
+            1600: {
+              slidesPerView: 7,
+            },
+                    }"
+
                     >
           <SwiperSlide>
             <div class="clients_slider_box">

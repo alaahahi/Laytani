@@ -525,6 +525,31 @@ swiperRef.slidePrev();
                                 delay:2000,
                                 disableOnInteraction: false,
                                 }"
+                                :breakpoints="{
+                                  0: {
+                                        slidesPerView: 1,
+                                    },
+                                    540: {
+                                        slidesPerView: 2,
+                                    },
+                                    768: {
+                                        slidesPerView: 2,
+                                    },
+                                    992: {
+                                        slidesPerView: 2,
+                                        },
+                                    1200: {
+                                        slidesPerView: 3,
+                                        spaceBetween: 10
+                                    },
+                                    1400: {
+                                        slidesPerView: 3,
+                                        spaceBetween: 20
+                                    },
+                                    1600: {
+                                        slidesPerView: 4,
+                                    }
+                                            }"
                                 >
                                     <SwiperSlide>
                                         <div class="blog_sliderBox">
