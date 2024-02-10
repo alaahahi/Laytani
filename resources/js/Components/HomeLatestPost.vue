@@ -20,7 +20,7 @@
                             </div>
                             <div class="blog-content">
                                 <div class="blog-tag">
-                                    <a href="#"><span>SEO Optimization</span></a>
+                                    <a href="/"><span>SEO Optimization</span></a>
                                 </div>
                                 <a href="blog-details.html">
                                     <h3>Basic Guidline Layout for SEO  Bigenner Level</h3>
@@ -39,7 +39,7 @@
                             </div>
                             <div class="blog-content">
                                 <div class="blog-tag">
-                                    <a href="#"><span>Marketing</span></a>
+                                    <a href="/"><span>Marketing</span></a>
                                 </div>
                                 <a href="blog-details.html">
                                     <h3>How to Become Most Skilled Person in Social Marketing</h3>
@@ -58,7 +58,7 @@
                             </div>
                             <div class="blog-content">
                                 <div class="blog-tag">
-                                    <a href="#"><span>Data Research</span></a>
+                                    <a href="/"><span>Data Research</span></a>
                                 </div>
                                 <a href="blog-details.html">
                                     <h3>Basic Guidline Layout for SEO Bigenner Level</h3>

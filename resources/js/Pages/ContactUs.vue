@@ -86,25 +86,25 @@ import WebsiteRanking from '@/Components/WorkProcess.vue';
                         </a>
                         <ul class="footer_social_media flex items-center">
                             <li class="footer_social_media_item footer_social_media_item_fb">
-                                <a href="#">
+                                <Link href="/">
                                     <div class="footer_social_media_link flex items-center">
                                     <i class="fa-brands fa-facebook-f footer_social_media_link_icone"></i>
                                     </div>
-                                </a>
+                                </Link>
                             </li>
                             <li class="footer_social_media_item footer_social_media_item_twt">
-                                <a href="#">
+                                <Link href="/">
                                     <div class="footer_social_media_link flex items-center">
                                     <i class="fa-brands fa-twitter footer_social_media_link_icone"></i>
                                     </div>
-                                </a>
+                                </Link>
                             </li>
                             <li class="footer_social_media_item footer_social_media_item_inst">
-                                <a href="#">
+                                <Link href="/">
                                     <div class="footer_social_media_link flex items-center">
                                     <i class="fa-brands fa-instagram footer_social_media_link_icone"></i>
                                     </div>
-                                </a>
+                                </Link>
                             </li>
                         </ul>
                     </div>

@@ -67,7 +67,7 @@ const questions = ref([{
                 </div>
                 <div class="team_box_wrapper">
                     <div class="team_box" v-scroll-reveal-fade-up="{delay:'0'}">
-                        <a href="team-details/1">
+                        <Link href="team-details/1">
                             <div class="team_box_img_holder flex items-center justify-center">
                                 <img src="/assets/img/team2.png" width="248" height="282" alt="" />
                                 <div class="sub_heading_img_holder_view">View</div>
@@ -76,10 +76,10 @@ const questions = ref([{
                                 <h1 class="team_box_content_name">Mohammed Aziz</h1>
                                 <div class="team_box_content_name_desc">CRO</div>
                             </div>
-                        </a>
+                        </Link>
                     </div>
                     <div class="team_box"    v-scroll-reveal-fade-up="{delay:'100'}">
-                        <a href="team-details/1">
+                        <Link href="team-details/1">
                             <div class="team_box_img_holder flex items-center justify-center">
                                 <img src="/assets/img/team3.png" width="248" height="282" alt="" />
                                 <div class="sub_heading_img_holder_view">View</div>
@@ -88,10 +88,10 @@ const questions = ref([{
                                 <h1 class="team_box_content_name">Mohammed Aziz</h1>
                                 <div class="team_box_content_name_desc">CRO</div>
                             </div>
-                        </a>
+                        </Link>
                     </div>
                     <div class="team_box" v-scroll-reveal-fade-up="{delay:'200'}">
-                        <a href="team-details/1">
+                        <Link href="team-details/1">
                             <div class="team_box_img_holder flex items-center justify-center">
                                 <img src="/assets/img/team1.png" width="248" height="282" alt="" />
                                 <div class="sub_heading_img_holder_view">View</div>
@@ -100,10 +100,10 @@ const questions = ref([{
                                 <h1 class="team_box_content_name">Mohammed Aziz</h1>
                                 <div class="team_box_content_name_desc">CRO</div>
                             </div>
-                        </a>
+                        </Link>
                     </div>
                     <div class="team_box" v-scroll-reveal-fade-up="{delay:'300'}">
-                        <a href="team-details/1">
+                        <Link href="team-details/1">
                             <div class="team_box_img_holder flex items-center justify-center">
                                 <img src="/assets/img/team2.png" width="248" height="282" alt="" />
                                 <div class="sub_heading_img_holder_view">View</div>
@@ -112,10 +112,10 @@ const questions = ref([{
                                 <h1 class="team_box_content_name">Mohammed Aziz</h1>
                                 <div class="team_box_content_name_desc">CRO</div>
                             </div>
-                        </a>
+                        </Link>
                     </div>
                     <div class="team_box" v-scroll-reveal-fade-up="{delay:'400'}">
-                        <a href="team-details/1">
+                        <Link href="team-details/1">
                             <div class="team_box_img_holder flex items-center justify-center">
                                 <img src="/assets/img/team3.png" width="248" height="282" alt="" />
                                 <div class="sub_heading_img_holder_view">View</div>
@@ -124,7 +124,7 @@ const questions = ref([{
                                 <h1 class="team_box_content_name">Mohammed Aziz</h1>
                                 <div class="team_box_content_name_desc">CRO</div>
                             </div>
-                        </a>
+                        </Link>
                     </div>
                 </div>
             </div>

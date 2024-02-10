@@ -1,6 +1,7 @@
 <script setup>
 import { Swiper, SwiperSlide } from "swiper/vue";
 import { Autoplay } from "swiper/modules";
+import { Link } from "@inertiajs/inertia-vue3";
 
 import "swiper/css";
 let swiperRef = null;
@@ -37,42 +38,42 @@ swiperRef.slidePrev();
 				}"
                 >
                     <swiper-slide class="swiper-slide brand-item">
-                        <a href="#">
+                        <a href="/">
                             <img src="/assets/img/brand/1.png" alt="Brand Images">
                         </a>
                     </swiper-slide>
                     <swiper-slide class="swiper-slide brand-item">
-                        <a href="#">
+                        <a href="/">
                             <img src="/assets/img/brand/2.png" alt="Brand Images">
                         </a>
                     </swiper-slide>
                     <swiper-slide class="swiper-slide brand-item">
-                        <a href="#">
+                        <a href="/">
                             <img src="/assets/img/brand/3.png" alt="Brand Images">
                         </a>
                     </swiper-slide>
                     <swiper-slide class="swiper-slide brand-item">
-                        <a href="#">
+                        <a href="/">
                             <img src="/assets/img/brand/4.png" alt="Brand Images">
                         </a>
                     </swiper-slide>
                     <swiper-slide class="swiper-slide brand-item">
-                        <a href="#">
+                        <a href="/">
                             <img src="/assets/img/brand/5.png" alt="Brand Images">
                         </a>
                     </swiper-slide>
                     <swiper-slide class="swiper-slide brand-item">
-                        <a href="#">
+                        <a href="/">
                             <img src="/assets/img/brand/5.png" alt="Brand Images">
                         </a>
                     </swiper-slide>
                     <swiper-slide class="swiper-slide brand-item">
-                        <a href="#">
+                        <a href="/">
                             <img src="/assets/img/brand/5.png" alt="Brand Images">
                         </a>
                     </swiper-slide>
                     <swiper-slide class="swiper-slide brand-item">
-                        <a href="#">
+                        <a href="/">
                             <img src="/assets/img/brand/5.png" alt="Brand Images">
                         </a>
                     </swiper-slide>

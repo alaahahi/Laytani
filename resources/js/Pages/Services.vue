@@ -56,11 +56,11 @@ import { Link } from "@inertiajs/inertia-vue3";
                                 Wide e-commerce Competently
                                 Actualize bleeding-edge testing.
                             </div>
-                            <a href="/service-details">
+                            <Link href="/service-details">
                                 <div class="services_box_btn">
                                     Read More
                                 </div>
-                            </a>
+                            </Link>
                         </div>
                     </div>
                     <div class="services_box" v-scroll-reveal-fade-up="{delay:'200'}">
@@ -79,11 +79,11 @@ import { Link } from "@inertiajs/inertia-vue3";
                                 Wide e-commerce Competently
                                 Actualize bleeding-edge testing.
                             </div>
-                            <a href="service-details">
+                            <Link href="service-details">
                                 <div class="services_box_btn">
                                     Read More
                                 </div>
-                            </a>
+                            </Link>
                         </div>
                     </div>
                     <div class="services_box" v-scroll-reveal-fade-up="{delay:'300'}">
@@ -102,11 +102,11 @@ import { Link } from "@inertiajs/inertia-vue3";
                                 Wide e-commerce Competently
                                 Actualize bleeding-edge testing.
                             </div>
-                            <a href="service-details">
+                            <Link href="service-details">
                                 <div class="services_box_btn">
                                     Read More
                                 </div>
-                            </a>
+                            </Link>
                         </div>
                     </div>
                     <div class="services_box" v-scroll-reveal-fade-up="{delay:'400'}">
@@ -125,11 +125,11 @@ import { Link } from "@inertiajs/inertia-vue3";
                                 Wide e-commerce Competently
                                 Actualize bleeding-edge testing.
                             </div>
-                            <a href="service-details">
+                            <Link href="service-details">
                                 <div class="services_box_btn">
                                     Read More
                                 </div>
-                            </a>
+                            </Link>
                         </div>
                     </div>
                     <div class="services_box" v-scroll-reveal-fade-up="{delay:'500'}">
@@ -148,11 +148,11 @@ import { Link } from "@inertiajs/inertia-vue3";
                                 Wide e-commerce Competently
                                 Actualize bleeding-edge testing.
                             </div>
-                            <a href="service-details">
+                            <Link href="service-details">
                                 <div class="services_box_btn">
                                     Read More
                                 </div>
-                            </a>
+                            </Link>
                         </div>
                     </div>
                     <div class="services_box"  v-scroll-reveal-fade-up="{delay:'100'}">
@@ -171,11 +171,11 @@ import { Link } from "@inertiajs/inertia-vue3";
                                 Wide e-commerce Competently
                                 Actualize bleeding-edge testing.
                             </div>
-                            <a href="service-details">
+                            <Link href="service-details">
                                 <div class="services_box_btn">
                                     Read More
                                 </div>
-                            </a>
+                            </Link>
                         </div>
                     </div>
                     <div class="services_box" v-scroll-reveal-fade-up="{delay:'200'}">
@@ -194,11 +194,11 @@ import { Link } from "@inertiajs/inertia-vue3";
                                 Wide e-commerce Competently
                                 Actualize bleeding-edge testing.
                             </div>
-                            <a href="service-details">
+                            <Link href="service-details">
                                 <div class="services_box_btn">
                                     Read More
                                 </div>
-                            </a>
+                            </Link>
                         </div>
                     </div>
                     <div class="services_box" v-scroll-reveal-fade-up="{delay:'300'}">
@@ -217,11 +217,11 @@ import { Link } from "@inertiajs/inertia-vue3";
                                 Wide e-commerce Competently
                                 Actualize bleeding-edge testing.
                             </div>
-                            <a href="service-details">
+                            <Link href="service-details">
                                 <div class="services_box_btn">
                                     Read More
                                 </div>
-                            </a>
+                            </Link>
                         </div>
                     </div>
                 </div>

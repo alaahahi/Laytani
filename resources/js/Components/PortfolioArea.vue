@@ -18,7 +18,7 @@
                                     <img src="/assets/img/portfolio/1.jpg" alt="Portfolio Images">
                                 </a>
                                 <div class="portfolio-tag">
-                                    <a href="#"><span>Marketing</span></a>
+                                    <a href="/"><span>Marketing</span></a>
                                 </div>
                                 <div class="portfolio-content">
                                     <a href="portfolio.html"><h3>Social Marketing</h3></a>
@@ -35,7 +35,7 @@
                                     <img src="/assets/img/portfolio/2.jpg" alt="Portfolio Images">
                                 </a>
                                 <div class="portfolio-tag">
-                                    <a href="#"><span>Research</span></a>
+                                    <a href="/"><span>Research</span></a>
                                 </div>
                                 <div class="portfolio-content">
                                     <a href="portfolio.html"><h3>Data Analysis</h3></a>
@@ -52,7 +52,7 @@
                                     <img src="/assets/img/portfolio/3.jpg" alt="Portfolio Images">
                                 </a>
                                 <div class="portfolio-tag">
-                                    <a href="#"><span>Optimizing</span></a>
+                                    <a href="/"><span>Optimizing</span></a>
                                 </div>
                                 <div class="portfolio-content">
                                     <a href="portfolio.html"><h3>SEO Optimization</h3></a>
@@ -69,7 +69,7 @@
                                     <img src="/assets/img/portfolio/4.jpg" alt="Portfolio Images">
                                 </a>
                                 <div class="portfolio-tag">
-                                    <a href="#"><span>Marketing</span></a>
+                                    <a href="/"><span>Marketing</span></a>
                                 </div>
                                 <div class="portfolio-content">
                                     <a href="portfolio.html"><h3>Content Marketing</h3></a>
@@ -86,7 +86,7 @@
                                     <img src="/assets/img/portfolio/5.jpg" alt="Portfolio Images">
                                 </a>
                                 <div class="portfolio-tag">
-                                    <a href="#"><span>Development</span></a>
+                                    <a href="/"><span>Development</span></a>
                                 </div>
                                 <div class="portfolio-content">
                                     <a href="portfolio.html"><h3>App Development</h3></a>
@@ -103,7 +103,7 @@
                                     <img src="/assets/img/portfolio/6.jpg" alt="Portfolio Images">
                                 </a>
                                 <div class="portfolio-tag">
-                                    <a href="#"><span>Development</span></a>
+                                    <a href="/"><span>Development</span></a>
                                 </div>
                                 <div class="portfolio-content">
                                     <a href="portfolio.html"><h3>Web Development</h3></a>
@@ -118,21 +118,21 @@
 							<nav aria-label="Page navigation example text-center">
 								<ul class="pagination">
 									<li class="page-item">
-										<a class="page-link page-links" href="#">
+										<a class="page-link page-links" href="/">
 											<i class='bx bx-chevrons-left'></i>
 										</a>
 									</li>
 									<li class="page-item current">
-										<a class="page-link" href="#">1</a>
+										<a class="page-link" href="/">1</a>
 									</li>
 									<li class="page-item">
-										<a class="page-link" href="#">2</a>
+										<a class="page-link" href="/">2</a>
 									</li>
 									<li class="page-item">
-										<a class="page-link" href="#">3</a>
+										<a class="page-link" href="/">3</a>
 									</li>
 									<li class="page-item">
-										<a class="page-link" href="#">
+										<a class="page-link" href="/">
 											<i class='bx bx-chevrons-right'></i>
 										</a>
 									</li>

@@ -79,22 +79,22 @@ const openTab = (v) => {
                         <div class="blogRight_card_ser_li_h_holder">
                             <img src="/assets/img/fotter_heading_bottom.svg" width="58" height="3" alt="" />
                         </div>
-                        <a href="#">
+                        <Link href="/">
                             <div class="blogRight_card_body_tab active justify-center gap-3">
                                 <div class="blogRight_card_body_tab_holder flex items-center">
                                     <img src="/assets/img/pdf.svg" width="16" height="20" alt="" />
                                 </div>
                                 Download PDF
                             </div>
-                        </a>
-                        <a href="#">
+                        </Link>
+                        <Link href="/">
                             <div class="blogRight_card_body_tab justify-center gap-3">
                                 <div class="blogRight_card_body_tab_holder flex items-center">
                                     <img src="/assets/img/comment_white.svg" width="15" height="11" alt="" />
                                 </div>
                                 Download Docs
                             </div>
-                        </a>
+                        </Link>
                     </div>
                 </div>
                 <div class="blogRight_card blogRight_card2" v-scroll-reveal-fade-up="{delay:'200'}">

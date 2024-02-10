@@ -77,7 +77,7 @@ swiperRef.slidePrev();
                             </div>
                             <div class="blogRight_card_body">
                                 <div class="blogRight_news_wrapper flex flex-wrap">
-                                    <a href='/news'>
+                                    <Link href='/news'>
                                         <div class="blogRight_news flex">
                                             <div class="blogRight_news_img">
                                                 <img src="/assets/img/news1.png" width="75"  height="69"  alt="" />
@@ -91,10 +91,10 @@ swiperRef.slidePrev();
                                                 </div>
                                             </div>
                                         </div>
-                                    </a>
+                                    </Link>
                                 </div>
                                 <div class="blogRight_news_wrapper flex flex-wrap">
-                                    <a href='/news'>
+                                    <Link href='/news'>
                                         <div class="blogRight_news flex">
                                             <div class="blogRight_news_img">
                                                 <img src="/assets/img/news1.png" width="75"  height="69"  alt="" />
@@ -108,10 +108,10 @@ swiperRef.slidePrev();
                                                 </div>
                                             </div>
                                         </div>
-                                    </a>
+                                    </Link>
                                 </div>
                                 <div class="blogRight_news_wrapper flex flex-wrap">
-                                    <a href='/news'>
+                                    <Link href='/news'>
                                         <div class="blogRight_news flex">
                                             <div class="blogRight_news_img">
                                                 <img src="/assets/img/news1.png" width="75"  height="69"  alt="" />
@@ -125,7 +125,7 @@ swiperRef.slidePrev();
                                                 </div>
                                             </div>
                                         </div>
-                                    </a>
+                                    </Link>
                                 </div>
                             </div>
                         </div>
@@ -137,7 +137,7 @@ swiperRef.slidePrev();
                             </div>
                             <div class="blogRight_card_body">
                                 <div class="twt_news_wrapper">
-                                    <a href="#">
+                                    <Link href="/">
                                         <div class="flex justify-between">
                                             <div class="twt_news_box2">
                                                 <img src="/assets/img/twt.svg" width="25"  height="25"  alt="" />
@@ -152,10 +152,10 @@ swiperRef.slidePrev();
                                                 </div>
                                             </div>
                                         </div>
-                                    </a>
+                                    </Link>
                                 </div>
                                 <div class="twt_news_wrapper">
-                                    <a href="#">
+                                    <Link href="/">
                                         <div class="flex justify-between">
                                             <div class="twt_news_box2">
                                                 <img src="/assets/img/twt.svg" width="25"  height="25"  alt="" />
@@ -170,10 +170,10 @@ swiperRef.slidePrev();
                                                 </div>
                                             </div>
                                         </div>
-                                    </a>
+                                    </Link>
                                 </div>
                                 <div class="twt_news_wrapper">
-                                    <a href="#">
+                                    <Link href="/">
                                         <div class="flex justify-between">
                                             <div class="twt_news_box2">
                                                 <img src="/assets/img/twt.svg" width="25"  height="25"  alt="" />
@@ -188,7 +188,7 @@ swiperRef.slidePrev();
                                                 </div>
                                             </div>
                                         </div>
-                                    </a>
+                                    </Link>
                                 </div>
                             </div>
                         </div>
@@ -200,7 +200,7 @@ swiperRef.slidePrev();
                             </div>
                             <div class="blogRight_card_body">
                                 <div class="twt_news_wrapper">
-                                    <a href="#">
+                                    <Link href="/">
                                         <div class="flex justify-between">
                                             <div class="twt_news_box2">
                                                 <img src="/assets/img/fb.svg" width="25"  height="25"  alt="" />
@@ -215,10 +215,10 @@ swiperRef.slidePrev();
                                                 </div>
                                             </div>
                                         </div>
-                                    </a>
+                                    </Link>
                                 </div>
                                 <div class="twt_news_wrapper">
-                                    <a href="#">
+                                    <Link href="/">
                                         <div class="flex justify-between">
                                             <div class="twt_news_box2">
                                                 <img src="/assets/img/fb.svg" width="25"  height="25"  alt="" />
@@ -233,10 +233,10 @@ swiperRef.slidePrev();
                                                 </div>
                                             </div>
                                         </div>
-                                    </a>
+                                    </Link>
                                 </div>
                                 <div class="twt_news_wrapper">
-                                    <a href="#">
+                                    <Link href="/">
                                         <div class="flex justify-between">
                                             <div class="twt_news_box2">
                                                 <img src="/assets/img/fb.svg" width="25"  height="25"  alt="" />
@@ -251,7 +251,7 @@ swiperRef.slidePrev();
                                                 </div>
                                             </div>
                                         </div>
-                                    </a>
+                                    </Link>
                                 </div>
                             </div>
                         </div>
@@ -263,7 +263,7 @@ swiperRef.slidePrev();
                         </div>
                         <div class="blogBox_Wrapper">
                             <div class="blogBox" v-scroll-reveal-fade-up="{delay:'200'}">
-                                <a href="blog-details/1">
+                                <Link href="blog-details/1">
                                     <div class="blogBox_img_holder">
                                         <img src="/assets/img/construction-site (1).png" width="374"  height="233"  alt="" />
                                     </div>
@@ -302,10 +302,10 @@ swiperRef.slidePrev();
                                             More
                                         </div>
                                     </div>
-                                </a>
+                                </Link>
                             </div>
                             <div class="blogBox" v-scroll-reveal-fade-up="{delay:'300'}">
-                                <a href="blog-details/1">
+                                <Link href="blog-details/1">
                                     <div class="blogBox_img_holder">
                                         <img src="/assets/img/construction-worker-construction.png" width="374"  height="233"  alt="" />
                                     </div>
@@ -343,10 +343,10 @@ swiperRef.slidePrev();
                                             More
                                         </div>
                                     </div>
-                                </a>
+                                </Link>
                             </div>
                             <div class="blogBox" v-scroll-reveal-fade-up="{delay:'400'}">
-                                <a href="blog-details/1">
+                                <Link href="blog-details/1">
                                     <div class="blogBox_img_holder">
                                         <img src="/assets/img/cutting-metal-with-plasma-equipment copy.png" width="374"  height="233"  alt="" />
                                     </div>
@@ -384,10 +384,10 @@ swiperRef.slidePrev();
                                             More
                                         </div>
                                     </div>
-                                </a>
+                                </Link>
                             </div>
                             <div class="blogBox" v-scroll-reveal-fade-up="{delay:'500'}">
-                                <a href="blog-details/1">
+                                <Link href="blog-details/1">
                                     <div class="blogBox_img_holder">
                                         <img src="/assets/img/cutting-metal-with-plasma-equipment copy.png" width="374"  height="233"  alt="" />
                                     </div>
@@ -425,10 +425,10 @@ swiperRef.slidePrev();
                                             More
                                         </div>
                                     </div>
-                                </a>
+                                </Link>
                             </div>
                             <div class="blogBox" v-scroll-reveal-fade-up="{delay:'600'}">
-                                <a href="blog-details/1">
+                                <Link href="blog-details/1">
                                     <div class="blogBox_img_holder">
                                         <img src="/assets/img/empty-asphalt-road-towards-modern-city.png" width="374"  height="233"  alt="" />
                                     </div>
@@ -466,10 +466,10 @@ swiperRef.slidePrev();
                                             More
                                         </div>
                                     </div>
-                                </a>
+                                </Link>
                             </div>
                             <div class="blogBox" v-scroll-reveal-fade-up="{delay:'700'}">
-                                <a href="blog-details/1">
+                                <Link href="blog-details/1">
                                     <div class="blogBox_img_holder">
                                         <img src="/assets/img/construction-site (1).png" width="374"  height="233"  alt="" />
                                     </div>
@@ -507,7 +507,7 @@ swiperRef.slidePrev();
                                             More
                                         </div>
                                     </div>
-                                </a>
+                                </Link>
                             </div>
                         </div>
                          <div class="blog_slider">

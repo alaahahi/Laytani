@@ -1,6 +1,7 @@
 
 <script setup>
 import { ref, onMounted, onBeforeUnmount } from 'vue';
+import { Link } from "@inertiajs/inertia-vue3";
 
 const showButton = ref(false);
 
@@ -43,21 +44,21 @@ import ClientsSlider from '@/Components/ClientsSlider.vue';
             </div>
             <ul class="footer_social_media flex items-center">
                 <li class="footer_social_media_item footer_social_media_item_fb">
-                    <a href="#">
+                    <a href="/">
                         <div class="footer_social_media_link flex items-center">
                         <i class="fa-brands fa-facebook-f footer_social_media_link_icone"></i>
                         </div>
                     </a>
                 </li>
                 <li class="footer_social_media_item footer_social_media_item_twt">
-                    <a href="#">
+                    <a href="/">
                         <div class="footer_social_media_link flex items-center">
                         <i class="fa-brands fa-twitter footer_social_media_link_icone"></i>
                         </div>
                     </a>
                 </li>
                 <li class="footer_social_media_item footer_social_media_item_inst">
-                    <a href="#">
+                    <a href="/">
                         <div class="footer_social_media_link flex items-center">
                         <i class="fa-brands fa-instagram footer_social_media_link_icone"></i>
                         </div>
@@ -72,39 +73,39 @@ import ClientsSlider from '@/Components/ClientsSlider.vue';
             </div>
             <ul class="footer_list">
               <li class="footer_list_item">
-                <a href="about">
+                <Link href="about">
                   <div class="footer_list_link">
                     About us
                   </div>
-                </a>
+                </Link>
               </li>
               <li class="footer_list_item">
-                <a href="services">
+                <Link href="services">
                   <div class="footer_list_link">
                     Services 
                   </div>
-                </a>
+                </Link>
               </li>
               <li class="footer_list_item">
-                <a href="projects">
+                <Link href="projects">
                   <div class="footer_list_link">
                     Projects 
                   </div>
-                </a>
+                </Link>
               </li>
               <li class="footer_list_item">
-                <a href="blog">
+                <Link href="blog">
                   <div class="footer_list_link">
                     Blogs 
                   </div>
-                </a>
+                </Link>
               </li>
               <li class="footer_list_item">
-                <a href="contact">
+                <Link href="contact">
                   <div class="footer_list_link">
                     Contact us 
                   </div>
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
@@ -186,13 +187,13 @@ import ClientsSlider from '@/Components/ClientsSlider.vue';
           Copyright 2022 By <div class="red"> Al Laytani </div>All right reserved 
         </div>
         <div class=" flex items-center gap-3">
-          <a href="#">
+          <a href="/">
             <div class="copyright">
               Terms & Conditions 
             </div>
           </a>
           <div class="bor"></div>
-          <a href="#">
+          <a href="/">
             <div class="copyright">
             Privacy Policy 
             </div>

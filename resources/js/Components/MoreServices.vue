@@ -32,8 +32,8 @@
                             </div>
                             <div class="pager-area">
                                 <ul class="pager">
-                                    <li class="previous"><a href="#">Previous</a></li>
-                                    <li class="next"><a href="#">Next</a></li>
+                                    <li class="previous"><a href="/">Previous</a></li>
+                                    <li class="next"><a href="/">Next</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -44,19 +44,19 @@
                             <h3>More Services</h3>
                             <ul class="catagory">
                                 <li>
-                                    <a href="#">SEO Optimization <i class='bx bx-plus'></i></a>
+                                    <a href="/">SEO Optimization <i class='bx bx-plus'></i></a>
                                 </li>
                                 <li>
-                                    <a href="#">Content Marketing <i class='bx bx-plus'></i></a>
+                                    <a href="/">Content Marketing <i class='bx bx-plus'></i></a>
                                 </li>
                                 <li>
-                                    <a href="#">Analythical Analysis <i class='bx bx-plus'></i></a>
+                                    <a href="/">Analythical Analysis <i class='bx bx-plus'></i></a>
                                 </li>
                                 <li>
-                                    <a href="#">App Development <i class='bx bx-plus'></i></a>
+                                    <a href="/">App Development <i class='bx bx-plus'></i></a>
                                 </li>
                                 <li>
-                                    <a href="#">Web Development <i class='bx bx-plus'></i></a>
+                                    <a href="/">Web Development <i class='bx bx-plus'></i></a>
                                 </li>
                             </ul>
                         </div>

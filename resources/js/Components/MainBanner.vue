@@ -7,12 +7,12 @@
             SOLUTIONS HERE
           </h1>
           <div class="banner_btn_wrapper flex items-center"  aos="fade-up"  aos-delay="200">
-            <a href="#">
+            <a href="/">
               <div class="banner_btn">
                 Read More
               </div>
             </a>
-            <a href="#">
+            <a href="/">
               <div class="banner_btn banner_btn2">
                 Contact Us
               </div>

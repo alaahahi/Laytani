@@ -113,7 +113,7 @@ const toggleMode = () => {
                 v-scroll-reveal-fade-down="{delay:'200'}"
               >
                 <li class="social_media_item">
-                  <a href="#">
+                  <a href="/">
                     <div class="social_media_link flex items-center">
                       <i
                         class="fa-brands fa-facebook-f social_media_link_icone"
@@ -122,7 +122,7 @@ const toggleMode = () => {
                   </a>
                 </li>
                 <li class="social_media_item">
-                  <a href="#">
+                  <a href="/">
                     <div class="social_media_link flex items-center">
                       <i
                         class="fa-brands fa-twitter social_media_link_icone"
@@ -131,7 +131,7 @@ const toggleMode = () => {
                   </a>
                 </li>
                 <li class="social_media_item">
-                  <a href="#">
+                  <a href="/">
                     <div class="social_media_link flex items-center">
                       <i
                         class="fa-brands fa-instagram social_media_link_icone"
@@ -254,34 +254,34 @@ const toggleMode = () => {
         <div class="flex items-center navbar_list_outer">
           <ul class="navbar_list flex items-center" :class="{'active':navActive}" @click="closeNav">
             <li class="navbar_list_item"  :class="{'active':route().current('/')}">
-              <a href="/"><div class="navbar_list_link">{{$t('home')}}</div></a>
+              <Link href="/"><div class="navbar_list_link">{{$t('home')}}</div></Link>
               <div class="navbar_list_item_bg"></div>
             </li>
             <li class="navbar_list_item" :class="{'active':route().current('about')}">
-              <a href="/about"><div class="navbar_list_link">ABOUT US</div></a>
+              <Link href="/about"><div class="navbar_list_link">ABOUT US</div></Link>
               <div class="navbar_list_item_bg"></div>
             </li>
             <li class="navbar_list_item" :class="{'active':route().current('team')}">
-              <a href="/team"><div class="navbar_list_link">Team</div></a>
+              <Link href="/team"><div class="navbar_list_link">Team</div></Link>
               <div class="navbar_list_item_bg"></div>
             </li>
             <li class="navbar_list_item"  :class="{'active':route().current('services')}">
-              <a href="/services"><div class="navbar_list_link">SERVICES</div></a>
+              <Link href="/services"><div class="navbar_list_link">SERVICES</div></Link>
               <div class="navbar_list_item_bg"></div>
             </li>
             <li class="navbar_list_item"  :class="{'active':route().current('blog')}">
-              <a href="/blog"><div class="navbar_list_link">BLOG</div></a>
+              <Link href="/blog"><div class="navbar_list_link">BLOG</div></Link>
               <div class="navbar_list_item_bg"></div>
             </li>
             <li class="navbar_list_item" :class="{'active':route().current('projects')}">
-              <a href="/projects"
-                ><div class="navbar_list_link">PROJECTS</div></a
+              <Link href="/projects"
+                ><div class="navbar_list_link">PROJECTS</div></Link
               >
               <div class="navbar_list_item_bg"></div>
             </li>
             <li class="navbar_list_item" :class="{'active':route().current('contact')}">
-              <a href="/contact"
-                ><div class="navbar_list_link">CONTACT US</div></a
+              <Link href="/contact"
+                ><div class="navbar_list_link">CONTACT US</div></Link
               >
               <div class="navbar_list_item_bg"></div>
             </li>

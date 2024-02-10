@@ -47,11 +47,11 @@ import { Link } from "@inertiajs/inertia-vue3";
                                 Projects One
                             </div>
                         </div>
-                        <a href="projectDetails">
+                        <Link href="project-details/1">
                             <div class="projects_box_link flex items-center justify-center text-white">
                                 Read More
                             </div>
-                        </a>
+                        </Link>
                     </div>
                     <div class="projects_box"  v-scroll-reveal-fade-up="{delay:'100'}">
                         <div class="projects_box_holder flex items-center justify-center">
@@ -60,11 +60,11 @@ import { Link } from "@inertiajs/inertia-vue3";
                                 Projects Two
                             </div>
                         </div>
-                        <a href="projectDetails">
+                        <Link href="project-details/1">
                             <div class="projects_box_link flex items-center justify-center text-white">
                                 Read More
                             </div>
-                        </a>
+                        </Link>
                     </div>
                     <div class="projects_box" v-scroll-reveal-fade-up="{delay:'200'}">
                         <div class="projects_box_holder flex items-center justify-center">
@@ -73,11 +73,11 @@ import { Link } from "@inertiajs/inertia-vue3";
                                 Projects Three
                             </div>
                         </div>
-                        <a href="projectDetails">
+                        <Link href="project-details/1">
                             <div class="projects_box_link flex items-center justify-center text-white">
                                 Read More
                             </div>
-                        </a>
+                        </Link>
                     </div>
                     <div class="projects_box" v-scroll-reveal-fade-up="{delay:'300'}">
                         <div class="projects_box_holder flex items-center justify-center">
@@ -86,11 +86,11 @@ import { Link } from "@inertiajs/inertia-vue3";
                                 Projects Four
                             </div>
                         </div>
-                        <a href="projectDetails">
+                        <Link href="project-details/1">
                             <div class="projects_box_link flex items-center justify-center text-white">
                                 Read More
                             </div>
-                        </a>
+                        </Link>
                     </div>
                     <div class="projects_box" v-scroll-reveal-fade-up="{delay:'400'}">
                         <div class="projects_box_holder flex items-center justify-center">
@@ -99,11 +99,11 @@ import { Link } from "@inertiajs/inertia-vue3";
                                 Projects Five
                             </div>
                         </div>
-                        <a href="projectDetails">
+                        <Link href="project-details/1">
                             <div class="projects_box_link flex items-center justify-center text-white">
                                 Read More
                             </div>
-                        </a>
+                        </Link>
                     </div>
                     <div class="projects_box" v-scroll-reveal-fade-up="{delay:'600'}">
                         <div class="projects_box_holder flex items-center justify-center">
@@ -112,11 +112,11 @@ import { Link } from "@inertiajs/inertia-vue3";
                                 Projects One
                             </div>
                         </div>
-                        <a href="projectDetails">
+                        <Link href="project-details/1">
                             <div class="projects_box_link flex items-center justify-center text-white">
                                 Read More
                             </div>
-                        </a>
+                        </Link>
                     </div>
                     <div class="projects_box" v-scroll-reveal-fade-up="{delay:'700'}">
                         <div class="projects_box_holder flex items-center justify-center">
@@ -125,11 +125,11 @@ import { Link } from "@inertiajs/inertia-vue3";
                                 Projects Two
                             </div>
                         </div>
-                        <a href="projectDetails">
+                        <Link href="project-details/1">
                             <div class="projects_box_link flex items-center justify-center text-white">
                                 Read More
                             </div>
-                        </a>
+                        </Link>
                     </div>
                     <div class="projects_box" v-scroll-reveal-fade-up="{delay:'800'}">
                         <div class="projects_box_holder flex items-center justify-center">
@@ -138,11 +138,11 @@ import { Link } from "@inertiajs/inertia-vue3";
                                 Projects Three
                             </div>
                         </div>
-                        <a href="projectDetails">
+                        <Link href="project-details/1">
                             <div class="projects_box_link flex items-center justify-center text-white">
                                 Read More
                             </div>
-                        </a>
+                        </Link>
                     </div>
                     <div class="projects_box"  v-scroll-reveal-fade-up="{delay:'900'}">
                         <div class="projects_box_holder flex items-center justify-center">
@@ -151,11 +151,11 @@ import { Link } from "@inertiajs/inertia-vue3";
                                 Projects Four
                             </div>
                         </div>
-                        <a href="projectDetails">
+                        <Link href="project-details/1">
                             <div class="projects_box_link flex items-center justify-center text-white">
                                 Read More
                             </div>
-                        </a>
+                        </Link>
                     </div>
                     <div class="projects_box"  v-scroll-reveal-fade-up="{delay:'1000'}">
                         <div class="projects_box_holder flex items-center justify-center">
@@ -164,11 +164,11 @@ import { Link } from "@inertiajs/inertia-vue3";
                                 Projects Five
                             </div>
                         </div>
-                        <a href="projectDetails">
+                        <Link href="project-details/1">
                             <div class="projects_box_link flex items-center justify-center text-white">
                                 Read More
                             </div>
-                        </a>
+                        </Link>
                     </div>
                 </div>
             </div>

@@ -1,6 +1,7 @@
 <script setup>
 import MainLayout from '@/Layouts/MainLayout.vue';
 import { ref, onUnmounted } from "vue";
+import { Link } from "@inertiajs/inertia-vue3";
 
 
 
@@ -60,7 +61,7 @@ const openTab = () => {
                 </div>
                 <div class="blogRight_card_body">
                   <div class="blogRight_news_wrapper flex flex-wrap">
-                    <a href="/assets/img/news">
+                    <Link href="/">
                       <div class="blogRight_news flex">
                         <div class="blogRight_news_img">
                           <img
@@ -79,10 +80,10 @@ const openTab = () => {
                           </div>
                         </div>
                       </div>
-                    </a>
+                    </Link>
                   </div>
                   <div class="blogRight_news_wrapper flex flex-wrap">
-                    <a href="/assets/img/news">
+                    <Link href="/">
                       <div class="blogRight_news flex">
                         <div class="blogRight_news_img">
                           <img
@@ -101,10 +102,10 @@ const openTab = () => {
                           </div>
                         </div>
                       </div>
-                    </a>
+                    </Link>
                   </div>
                   <div class="blogRight_news_wrapper flex flex-wrap">
-                    <a href="/assets/img/news">
+                    <Link href="/">
                       <div class="blogRight_news flex">
                         <div class="blogRight_news_img">
                           <img
@@ -123,7 +124,7 @@ const openTab = () => {
                           </div>
                         </div>
                       </div>
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -138,7 +139,7 @@ const openTab = () => {
                 </div>
                 <div class="blogRight_card_body">
                   <div class="twt_news_wrapper">
-                    <a href="#">
+                    <Link   href="/">
                       <div class="flex justify-between">
                         <div class="twt_news_box2">
                           <img src="/assets/img/twt.svg" width="25" height="25" alt="" />
@@ -151,10 +152,10 @@ const openTab = () => {
                           <div class="twt_news_box1_p">25/10/2022</div>
                         </div>
                       </div>
-                    </a>
+                    </Link>
                   </div>
                   <div class="twt_news_wrapper">
-                    <a href="#">
+                    <Link href="/">
                       <div class="flex justify-between">
                         <div class="twt_news_box2">
                           <img src="/assets/img/twt.svg" width="25" height="25" alt="" />
@@ -167,10 +168,10 @@ const openTab = () => {
                           <div class="twt_news_box1_p">25/10/2022</div>
                         </div>
                       </div>
-                    </a>
+                    </Link>
                   </div>
                   <div class="twt_news_wrapper">
-                    <a href="#">
+                    <Link href="/">
                       <div class="flex justify-between">
                         <div class="twt_news_box2">
                           <img src="/assets/img/twt.svg" width="25" height="25" alt="" />
@@ -183,7 +184,7 @@ const openTab = () => {
                           <div class="twt_news_box1_p">25/10/2022</div>
                         </div>
                       </div>
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -198,7 +199,7 @@ const openTab = () => {
                 </div>
                 <div class="blogRight_card_body">
                   <div class="twt_news_wrapper">
-                    <a href="#">
+                    <Link href="/">
                       <div class="flex justify-between">
                         <div class="twt_news_box2">
                           <img src="/assets/img/fb.svg" width="25" height="25" alt="" />
@@ -211,10 +212,10 @@ const openTab = () => {
                           <div class="twt_news_box1_p">25/10/2022</div>
                         </div>
                       </div>
-                    </a>
+                    </Link>
                   </div>
                   <div class="twt_news_wrapper">
-                    <a href="#">
+                    <Link href="/">
                       <div class="flex justify-between">
                         <div class="twt_news_box2">
                           <img src="/assets/img/fb.svg" width="25" height="25" alt="" />
@@ -227,10 +228,10 @@ const openTab = () => {
                           <div class="twt_news_box1_p">25/10/2022</div>
                         </div>
                       </div>
-                    </a>
+                    </Link>
                   </div>
                   <div class="twt_news_wrapper">
-                    <a href="#">
+                    <Link href="/">
                       <div class="flex justify-between">
                         <div class="twt_news_box2">
                           <img src="/assets/img/fb.svg" width="25" height="25" alt="" />
@@ -243,7 +244,7 @@ const openTab = () => {
                           <div class="twt_news_box1_p">25/10/2022</div>
                         </div>
                       </div>
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
