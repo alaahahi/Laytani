@@ -5,12 +5,7 @@ import 'swiper/css/navigation';
 import { Autoplay } from "swiper/modules";
 import { ref } from 'vue';
   
-  const projects = ref([
-    { img: '/assets/img/whoweare1.svg', width: 35, height: 35, count: 35, title: 'Finish Projects', delay: 100 },
-    { img: '/assets/img/whoweare2.svg', width: 35, height: 35, count: 500, title: 'Team Members', delay: 200 },
-    { img: '/assets/img/whoweare3.svg', width: 30, height: 30, count: 230, title: 'Clients Are Happy', delay: 300 },
-    { img: '/assets/img/whoweare4.svg', width: 30, height: 35, count: 3, title: 'Award Wins', delay: 400 }
-  ]);
+
   
   const slides = ref([
     { img: '/assets/img/project1.png', link: 'projects' },
@@ -70,39 +65,18 @@ swiperRef.slidePrev();
       </div>
     </div>
     <div class="ourProjects_slider flex">
-      <Swiper
-         class="ourProjects_swiper_slider"
-        :slidesPerView="5"
-        :spaceBetween="15"
-        :freeMode="true"
-        pagination="false"
-        navigation="false"
-        :breakpoints="{
-          0: {
-            slidesPerView: 1,
-            spaceBetween:0,
-          },
-          540: {
-            slidesPerView: 2,
-          },
-          768: {
-            slidesPerView: 2,
-          },
-          991: {
-              slidesPerView: 3,
-            },
-          1200: {
-            slidesPerView: 4,
-          },
-          1400: {
-            slidesPerView: 4,
-          },
-          1600: {
-            slidesPerView: 5,
-          }
-        }"
-      >
-        <SwiperSlide v-for="(slide, index) in swiperSlides" :key="index">
+      <swiper
+                    class="client-slider  owl-theme pb-5 mx-5"
+                    ref="{swiperRef}"
+                    :modules="[Autoplay]"
+                    :navigation="false"
+                    :slides-per-view="6"
+                    :space-between="30"
+                    :speed="800"
+                    @swiper="setSwiperRef"
+                
+                    >
+        <SwiperSlide v-for="(slide, index) in slides" :key="index">
           <div class="ourProjects_slide">
             <div class="ourProjects_slide_img_holder flex items-center">
               <img v-bind:src="slide.img" v-bind:width="slide.width" v-bind:height="slide.height" alt="" />

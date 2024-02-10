@@ -24,15 +24,20 @@ swiperRef.slidePrev();
 <template>
                <div class="clients_slider">
       <div class="clients_slider_wrapper">
-        <Swiper
-          class="clientsLogoSlider"
-          slidesPerView={9}
-          navigation={true}
-          spaceBetween={15}
-          freeMode={true}
-          pagination={false}
-
-        >
+        <swiper
+                    class="client-slider  owl-theme pb-5 mx-5"
+                    ref="{swiperRef}"
+                    :modules="[Autoplay]"
+                    :navigation="false"
+                    :slides-per-view="7"
+                    :space-between="30"
+                    :speed="800"
+                    @swiper="setSwiperRef"
+                    :autoplay="{
+                    delay:2000,
+                    disableOnInteraction: false,
+                    }"
+                    >
           <SwiperSlide>
             <div class="clients_slider_box">
               <img src="/assets/img/client1.png" width="100" height="100" alt="" />

@@ -1,7 +1,6 @@
 
 <script setup>
 import { Swiper, SwiperSlide } from "swiper/vue";
-import 'swiper/css/navigation';
 import { Autoplay } from "swiper/modules";
 
 import "swiper/css";
@@ -36,7 +35,7 @@ swiperRef.slidePrev();
                     class="client-slider  owl-theme pb-5 mx-5"
                     ref="{swiperRef}"
                     :modules="[Autoplay]"
-                    :navigation="false"
+                    :navigation="true"
                     :slides-per-view="3"
                     :space-between="30"
                     :speed="800"

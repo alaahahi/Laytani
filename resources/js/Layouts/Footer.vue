@@ -1,8 +1,30 @@
 
 <script setup>
-import { ref, onUnmounted } from "vue";
-import { useI18n } from "vue-i18n";
-import { Link } from "@inertiajs/inertia-vue3";
+import { ref, onMounted, onBeforeUnmount } from 'vue';
+
+const showButton = ref(false);
+
+const handleScroll = () => {
+  // Show/hide the button based on scroll position
+  showButton.value = window.scrollY > 150;
+};
+
+const scrollToTop = () => {
+  window.scrollTo({
+    top: 0,
+    behavior: 'smooth'
+  });
+};
+
+onMounted(() => {
+  window.addEventListener('scroll', handleScroll);
+});
+
+onBeforeUnmount(() => {
+  window.removeEventListener('scroll', handleScroll);
+});
+
+
 import ClientsSlider from '@/Components/ClientsSlider.vue';
 
 </script>
@@ -177,6 +199,6 @@ import ClientsSlider from '@/Components/ClientsSlider.vue';
           </a>
         </div>
       </div>
-      <ScrollToTop />
+      <div class="scroll-to-top" @click="scrollToTop" v-if="showButton"><div class="top"><img  src="/assets/img/uparrow.png" width="16" height="12"></div></div>
     </div>
 </template>

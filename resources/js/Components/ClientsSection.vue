@@ -63,14 +63,19 @@ swiperRef.slidePrev();
             </h1>
           </div>
           <div class="clientsSection_slider_wrapper">
-            <Swiper
-        
+            <swiper
               class="clientsSection_slider"
-              slidesPerView={3}
-              spaceBetween={15}
-              freeMode={true}
-              pagination={false}
-              navigation={true}
+              :slides-per-view="3"
+              :space-between="15"
+              :pagination="false"
+              :navigation="true"
+              ref="{swiperRef}"
+               :speed="800"
+                    @swiper="setSwiperRef"
+                    :autoplay="{
+                    delay:2000,
+                    disableOnInteraction: false,
+                    }"
             >
               <SwiperSlide>
                 <div class="clientsSection_box">
@@ -144,7 +149,11 @@ swiperRef.slidePrev();
                   </div>
                 </div>
               </SwiperSlide>
-            </Swiper>
+              <div class="swiper-button-prev" @click="slidePrev"></div>
+              <div class="swiper-button-next" @click="slideNext"></div>
+
+              
+            </swiper>
           </div>
         </div>
       </div>

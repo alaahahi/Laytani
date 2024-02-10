@@ -58,15 +58,20 @@ swiperRef.slidePrev();
             <img src="/assets/img/team_bg2.png" width="500" height="375" alt="" />
           </div>
           <div class="teamSection_wrapper">
-            <Swiper
-              class="teamSection_slider"
-              slidesPerView={4}
-              spaceBetween={15}
-              freeMode={true}
-              pagination={false}
-              navigation={true}
-    
-            >
+            <swiper
+                    class="client-slider  owl-theme pb-5 mx-5"
+                    ref="{swiperRef}"
+                    :modules="[Autoplay]"
+                    :navigation="false"
+                    :slides-per-view="4.2"
+                    :space-between="30"
+                    :speed="800"
+                    @swiper="setSwiperRef"
+                    :autoplay="{
+                    delay:2000,
+                    disableOnInteraction: false,
+                    }"
+                    >
               <SwiperSlide>
                 <div class="teamSection_box">
                   <div class="teamSection_box_img_holder">

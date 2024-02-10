@@ -513,13 +513,19 @@ swiperRef.slidePrev();
                          <div class="blog_slider">
                             <div class="blog_slider_heading" data-aos="fade-up" data-aos-delay="00">Latest news</div>
                             <div class="blog_slider_wrapper" data-aos="fade-up" data-aos-delay="200">
-                                <Swiper
-                                     slidesPerView="4"
-                                    spaceBetween= "30"
-                                    navigation
-                                    pagination="false"
-                               
-                                    >
+                                <swiper
+                                ref="{swiperRef}"
+                                :modules="[Autoplay]"
+                                :navigation="false"
+                                :slides-per-view="4"
+                                :space-between="15"
+                                :speed="1200"
+                                @swiper="setSwiperRef"
+                                :autoplay="{
+                                delay:2000,
+                                disableOnInteraction: false,
+                                }"
+                                >
                                     <SwiperSlide>
                                         <div class="blog_sliderBox">
                                             <div class="blog_sliderBox_img_holder">

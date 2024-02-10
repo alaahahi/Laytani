@@ -16,7 +16,6 @@
         <!-- Boxicons CSS --> 
         <link rel="stylesheet" href="/assets/css/contact.css">
         <!-- Flaticon CSS -->
-        <link rel="stylesheet" href="/assets/css/dark.css">
         <!-- Meanmenu CSS -->
         <link rel="stylesheet" href="/assets/css/footer.css">
         <!-- Style CSS -->
@@ -34,6 +33,7 @@
         <link rel="stylesheet" href="/assets/css/themeToggle.css">
         <!-- Title -->
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.2.0/css/all.css">
+        <link rel="stylesheet" href="/assets/css/dark.css">
 
         <title>Bonsa - SEO & Marketing Company HTML Template</title>
 

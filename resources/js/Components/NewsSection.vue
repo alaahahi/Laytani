@@ -43,15 +43,20 @@ swiperRef.slidePrev();
           </div>
           <div class="newsSection_box2">
             <div class="newsSection_slider_wrapper">
-              <Swiper
-                class="newsSection_slider"
-                slidesPerView={3}
-                spaceBetween={15}
-                freeMode={true}
-                pagination={false}
-                navigation={true}
-         
-              >
+              <swiper
+              class="clientsSection_slider"
+              :slides-per-view="3"
+              :space-between="15"
+              :pagination="false"
+              :navigation="true"
+              ref="{swiperRef}"
+               :speed="800"
+                    @swiper="setSwiperRef"
+                    :autoplay="{
+                    delay:2000,
+                    disableOnInteraction: false,
+                    }"
+            >
                 <SwiperSlide>
                   <div class="newsSection_box">
                     <div class="newsSection_box_img_holder flex items-center justify-center">
@@ -176,6 +181,8 @@ swiperRef.slidePrev();
                     </div>
                   </div>
                 </SwiperSlide>
+                <div class="swiper-button-prev" @click="slidePrev"></div>
+              <div class="swiper-button-next" @click="slideNext"></div>
               </Swiper>
             </div>
           </div>

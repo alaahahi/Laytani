@@ -7,7 +7,8 @@ import OurProjects from '@/Components/OurProjects.vue';
 import OurService from '@/Components/OurService.vue';
 import WorkProcess from '@/Components/WorkProcess.vue';
 import WhyChooseUs from '@/Components/WhyChooseUs.vue';
-
+import ClientsSection from '@/Components/ClientsSection.vue';
+import NewsSection from '@/Components/NewsSection.vue';
 
 
 defineProps({
@@ -28,5 +29,7 @@ defineProps({
     <OurProjects />
     <WorkProcess />
     <TeamSection />
+    <ClientsSection />
+    <NewsSection />
   </MainLayout>
 </template>
