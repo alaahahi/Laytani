@@ -5,7 +5,15 @@ import CounterArea from '@/Components/NewsSection.vue';
 import TestimonialArea from '@/Components/TestimonialArea.vue';
 import WebsiteRanking from '@/Components/WorkProcess.vue';
 import { Link } from "@inertiajs/inertia-vue3";
+import { ref, onUnmounted } from "vue";
 
+
+
+const activeTab = ref(1);
+
+const openTab = (v) => {
+    activeTab.value = v;
+};
 
 </script>
 <template>
@@ -39,22 +47,23 @@ import { Link } from "@inertiajs/inertia-vue3";
                             Services List
                         </h1>
                         <div class="blogRight_card_ser_li_h_holder">
+                            
                             <img src="/assets/img/fotter_heading_bottom.svg" width="58" height="3" alt="" />
                         </div>
-                        <div onClick={handleClick} :class="activeTab === id ? 'active blogRight_card_body_tab justify-between' : 'blogRight_card_body_tab justify-between'">
-                             
+                        <div @click="openTab(1)" :class="activeTab === 1 ? 'active blogRight_card_body_tab justify-between' : 'blogRight_card_body_tab justify-between'">
+                            Building Construction
                             <div class="blogRight_card_body_tab_holder flex items-center">
                                 <img src="/assets/img/rightarrow.png" width="56" height="40" alt="" />
                             </div>
                         </div>
-                        <div onClick={handleClick} :class="activeTab === id ? 'active blogRight_card_body_tab justify-between' : 'blogRight_card_body_tab justify-between'">
-                             
+                        <div @click="openTab(2)" :class="activeTab === 2 ? 'active blogRight_card_body_tab justify-between' : 'blogRight_card_body_tab justify-between'">
+                            Projects Plannings
                              <div class="blogRight_card_body_tab_holder flex items-center">
                                  <img src="/assets/img/rightarrow.png" width="56" height="40" alt="" />
                              </div>
                          </div>
-                         <div onClick={handleClick} :class="activeTab === id ? 'active blogRight_card_body_tab justify-between' : 'blogRight_card_body_tab justify-between'">
-                             
+                         <div @click="openTab(3)" :class="activeTab === 3 ? 'active blogRight_card_body_tab justify-between' : 'blogRight_card_body_tab justify-between'">
+                            Interior Developments
                              <div class="blogRight_card_body_tab_holder flex items-center">
                                  <img src="/assets/img/rightarrow.png" width="56" height="40" alt="" />
                              </div>
@@ -118,7 +127,7 @@ import { Link } from "@inertiajs/inertia-vue3";
                 </div>
             </div>
             <div class="blogleft" data-aos="fade-up" data-aos-delay="00">
-                <TabContent id="tab1" activeTab={activeTab}>
+                <div id="tab1" v-if="activeTab==1">
                     <div class="tab_content_img_holder flex items-center justify-center">
                         <img src="/assets/img/tab1.png" width="1200" height="400" alt="" />
                     </div>
@@ -126,8 +135,8 @@ import { Link } from "@inertiajs/inertia-vue3";
                     <div class="tab_content_desc">
                         It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using ‘Content here, content here’, making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text
                     </div>
-                </TabContent>
-                <TabContent id="tab2" activeTab={activeTab}>
+                </div>
+                <div id="tab2" v-if="activeTab==2">
                     <div class="tab_content_img_holder flex items-center justify-center">
                         <img src="/assets/img/tab2.png" width="1200" height="400" alt="" />
                     </div>
@@ -135,8 +144,8 @@ import { Link } from "@inertiajs/inertia-vue3";
                     <div class="tab_content_desc">
                         It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using ‘Content here, content here’, making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text
                     </div>
-                </TabContent>
-                <TabContent id="tab3" activeTab={activeTab}>
+                </div>
+                <div id="tab3" v-if="activeTab==3">
                     <div class="tab_content_img_holder flex items-center justify-center">
                         <img src="/assets/img/blogdetails.png" width="1666" height="1054" alt="" />
                     </div>
@@ -144,7 +153,7 @@ import { Link } from "@inertiajs/inertia-vue3";
                     <div class="tab_content_desc">
                         It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using ‘Content here, content here’, making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text
                     </div>
-                </TabContent>
+                </div>
                 <h1 class="tab_content_heading">Works Process:</h1>
                 <div class="tab_content_heading_holder">
                     <img src="/assets/img/sub_heading_right.svg" width="58" height="3" alt="" />
