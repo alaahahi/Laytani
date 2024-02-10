@@ -71,10 +71,9 @@ const toggleMode = () => {
               <a
                 href="tel:+971 567895215"
                 target="_blank"
-                data-aos="fade-down"
-                data-aos-delay="00"
+                v-scroll-reveal-fade-down="{delay:'0'}"
               >
-                <div class="navbat_top_right_box1_link flex items-center gap-2">
+                <div class="navbat_top_right_box1_link flex items-center gap-2" > 
                   <div class="navbat_top_right_box1_link_icone_holder">
                     <img
                       src="/assets/img/callred.svg"
@@ -83,7 +82,7 @@ const toggleMode = () => {
                       alt=""
                     />
                   </div>
-                  <div class="navbat_top_right_box1_link_text">
+                  <div class="navbat_top_right_box1_link_text" >
                     +971 567895215
                   </div>
                 </div>
@@ -91,8 +90,7 @@ const toggleMode = () => {
               <a
                 href="mailto:info@alaytani.com"
                 target="_blank"
-                data-aos="fade-down"
-                data-aos-delay="100"
+                v-scroll-reveal-fade-down="{delay:'100'}"
               >
                 <div class="navbat_top_right_box1_link flex items-center gap-2">
                   <div class="navbat_top_right_box1_link_icone_holder">
@@ -112,8 +110,7 @@ const toggleMode = () => {
             <div class="navbat_top_right_box2 flex items-center">
               <ul
                 class="social_media flex items-center"
-                data-aos="fade-down"
-                data-aos-delay="200"
+                v-scroll-reveal-fade-down="{delay:'200'}"
               >
                 <li class="social_media_item">
                   <a href="#">
@@ -146,8 +143,7 @@ const toggleMode = () => {
               <div class="navbat_top_right_box2_seprator"></div>
               <div
                 class="flex theme_and_language_wrapper"
-                data-aos="fade-down"
-                data-aos-delay="400"
+                v-scroll-reveal-fade-down="{delay:'400'}"
               >
                 <div class="theme_toggle" @click="toggleMode()">
                   <div class="day_mode flex items-center">

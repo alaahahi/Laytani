@@ -55,13 +55,13 @@ const questions = ref([{
         <div class="projects team">
             <div class="container">
                 <div class="team_details_card">
-                    <div class="team_details_card_left" data-aos="fade-up" data-aos-delay="00">
+                    <div class="team_details_card_left" v-scroll-reveal-fade-up="{delay:'0'}">
                         <div class="team_details_card_left_img_holder flex justify-center">
                             <img src="/assets/img/team3.png" width="317" height="346" alt="" />
                         </div>
                     </div>
                     <div class="team_details_card_right">
-                        <div class="team_details_card_right_row" data-aos="fade-up" data-aos-delay="00">
+                        <div class="team_details_card_right_row" v-scroll-reveal-fade-up="{delay:'0'}">
                             <div class="team_details_card_box" >
                                 <h1 class="team_details_card_name">Ahsan Iqbal</h1>
                                 <div class="team_details_card_desc">Co -  Founder</div>
@@ -96,7 +96,7 @@ const questions = ref([{
                             </ul>
                             </div>
                         </div>
-                        <div class="team_details_card_right_row" data-aos="fade-up" data-aos-delay="100">
+                        <div class="team_details_card_right_row"   v-scroll-reveal-fade-up="{delay:'100'}">
                             <div class="team_details_card_box">
                                 <h1 class="team_details_card_sub_heading">Office Location :</h1>
                                 <div class="team_details_card_box_border_holder mb-3">
@@ -125,7 +125,7 @@ const questions = ref([{
                                 </div>
                             </div>
                         </div>
-                        <div class="team_details_card_right_row" data-aos="fade-up" data-aos-delay="200">
+                        <div class="team_details_card_right_row" v-scroll-reveal-fade-up="{delay:'200'}">
                             <div class="team_details_card_box">
                                 <h1 class="team_details_card_sub_heading2"> Personal Information</h1>
                                 <div class="team_details_card_desc">

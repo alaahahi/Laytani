@@ -29,18 +29,18 @@ import { Link } from "@inertiajs/inertia-vue3";
                 <img src="/assets/img/child.svg" width="292" height="321" alt="" />
             </div>
             <div class="container">
-                <div class="sub_heading_box flex items-center sub_heading_box--services" data-aos="fade-up" data-aos-delay="00">
+                <div class="sub_heading_box flex items-center sub_heading_box--services" v-scroll-reveal-fade-up="{delay:'0'}">
                     <div class="sub_heading_img_holder">
                         <img src="/assets/img/sub_heading_left.svg" width="58" height="3" alt="" />
                     </div>
-                    <h1 class="sub_heading_text" data-aos="fade-up" data-aos-delay="100">OUR SERVICE</h1>
+                    <h1 class="sub_heading_text"  v-scroll-reveal-fade-up="{delay:'100'}">OUR SERVICE</h1>
                     <div class="sub_heading_img_holder">
                         <img src="/assets/img/sub_heading_right.svg" width="58" height="3" alt="" />
                     </div>
                 </div>
                 <h1 class="heading heading--subpage">We Provide Best Services</h1>
                 <div class="services_wrapper flex flex-wrap">
-                    <div class="services_box" data-aos="fade-up" data-aos-delay="100">
+                    <div class="services_box"  v-scroll-reveal-fade-up="{delay:'100'}">
                         <div class="services_box_img_holder flex items-center">
                             <img src="/assets/img/services3.png" width="327" height="302" alt="" />
                         </div>
@@ -63,7 +63,7 @@ import { Link } from "@inertiajs/inertia-vue3";
                             </a>
                         </div>
                     </div>
-                    <div class="services_box" data-aos="fade-up" data-aos-delay="200">
+                    <div class="services_box" v-scroll-reveal-fade-up="{delay:'200'}">
                         <div class="services_box_img_holder flex items-center">
                             <img src="/assets/img/services2.png" width="327" height="302" alt="" />
                         </div>
@@ -86,7 +86,7 @@ import { Link } from "@inertiajs/inertia-vue3";
                             </a>
                         </div>
                     </div>
-                    <div class="services_box" data-aos="fade-up" data-aos-delay="300">
+                    <div class="services_box" v-scroll-reveal-fade-up="{delay:'300'}">
                         <div class="services_box_img_holder flex items-center">
                             <img src="/assets/img/services3.png" width="327" height="302" alt="" />
                         </div>
@@ -109,7 +109,7 @@ import { Link } from "@inertiajs/inertia-vue3";
                             </a>
                         </div>
                     </div>
-                    <div class="services_box" data-aos="fade-up" data-aos-delay="400">
+                    <div class="services_box" v-scroll-reveal-fade-up="{delay:'400'}">
                         <div class="services_box_img_holder flex items-center">
                             <img src="/assets/img/services1.png" width="327" height="302" alt="" />
                         </div>
@@ -132,7 +132,7 @@ import { Link } from "@inertiajs/inertia-vue3";
                             </a>
                         </div>
                     </div>
-                    <div class="services_box" data-aos="fade-up" data-aos-delay="500">
+                    <div class="services_box" v-scroll-reveal-fade-up="{delay:'500'}">
                         <div class="services_box_img_holder flex items-center">
                             <img src="/assets/img/services2.png" width="327" height="302" alt="" />
                         </div>
@@ -155,7 +155,7 @@ import { Link } from "@inertiajs/inertia-vue3";
                             </a>
                         </div>
                     </div>
-                    <div class="services_box" data-aos="fade-up" data-aos-delay="100">
+                    <div class="services_box"  v-scroll-reveal-fade-up="{delay:'100'}">
                         <div class="services_box_img_holder flex items-center">
                             <img src="/assets/img/services3.png" width="327" height="302" alt="" />
                         </div>
@@ -178,7 +178,7 @@ import { Link } from "@inertiajs/inertia-vue3";
                             </a>
                         </div>
                     </div>
-                    <div class="services_box" data-aos="fade-up" data-aos-delay="200">
+                    <div class="services_box" v-scroll-reveal-fade-up="{delay:'200'}">
                         <div class="services_box_img_holder flex items-center">
                             <img src="/assets/img/services1.png" width="327" height="302" alt="" />
                         </div>
@@ -201,7 +201,7 @@ import { Link } from "@inertiajs/inertia-vue3";
                             </a>
                         </div>
                     </div>
-                    <div class="services_box" data-aos="fade-up" data-aos-delay="300">
+                    <div class="services_box" v-scroll-reveal-fade-up="{delay:'300'}">
                         <div class="services_box_img_holder flex items-center">
                             <img src="/assets/img/services2.png" width="327" height="302" alt="" />
                         </div>

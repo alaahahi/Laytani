@@ -41,7 +41,7 @@ const openTab = (v) => {
             <div class="container">
                 <div class='blog_wrapper flex flex-wrap'>
             <div class="blogRight">
-                <div class="blogRight_card" data-aos="fade-up" data-aos-delay="00">
+                <div class="blogRight_card" v-scroll-reveal-fade-up="{delay:'0'}">
                     <div class="blogRight_card_body">
                         <h1 class="blogRight_card_ser_li_h">
                             Services List
@@ -71,7 +71,7 @@ const openTab = (v) => {
         
                     </div>
                 </div>
-                <div class="blogRight_card" data-aos="fade-up" data-aos-delay="100">
+                <div class="blogRight_card"  v-scroll-reveal-fade-up="{delay:'100'}">
                     <div class="blogRight_card_body">
                         <h1 class="blogRight_card_ser_li_h">
                             Download Brochure
@@ -97,7 +97,7 @@ const openTab = (v) => {
                         </a>
                     </div>
                 </div>
-                <div class="blogRight_card blogRight_card2" data-aos="fade-up" data-aos-delay="200">
+                <div class="blogRight_card blogRight_card2" v-scroll-reveal-fade-up="{delay:'200'}">
                     <div class="blogRight_card_body">
                         <h1 class="blogRight_card_body_help">Need Any Help ?</h1>
                         <div class="helpheading_below flex items-center justify-center ">
@@ -126,7 +126,7 @@ const openTab = (v) => {
                     </div>
                 </div>
             </div>
-            <div class="blogleft" data-aos="fade-up" data-aos-delay="00">
+            <div class="blogleft" v-scroll-reveal-fade-up="{delay:'0'}">
                 <div id="tab1" v-if="activeTab==1">
                     <div class="tab_content_img_holder flex items-center justify-center">
                         <img src="/assets/img/tab1.png" width="1200" height="400" alt="" />
@@ -158,7 +158,7 @@ const openTab = (v) => {
                 <div class="tab_content_heading_holder">
                     <img src="/assets/img/sub_heading_right.svg" width="58" height="3" alt="" />
                 </div>
-                <div class="services_details_workProcess_wrapper flex justify-between" data-aos="fade-up" data-aos-delay="00">
+                <div class="services_details_workProcess_wrapper flex justify-between" v-scroll-reveal-fade-up="{delay:'0'}">
                     <div class="workProcess_box">
                         <div class="workProcess_box_mini">
                             <img src="/assets/img/WorkProcessIcone1.svg" width="24" height="35" alt="" />

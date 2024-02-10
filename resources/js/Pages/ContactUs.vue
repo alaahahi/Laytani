@@ -31,7 +31,7 @@ import WebsiteRanking from '@/Components/WorkProcess.vue';
         </div>
         <div class="contact">
             <div class="container">
-                <div class="sub_heading_box flex items-center sub_heading_box--contact" data-aos="fade-up" data-aos-delay="00">
+                <div class="sub_heading_box flex items-center sub_heading_box--contact" v-scroll-reveal-fade-up="{delay:'0'}">
                     <div class="sub_heading_img_holder">
                         <img src="/assets/img/sub_heading_left.svg" width="58" height="3" alt="" />
                     </div>
@@ -40,7 +40,7 @@ import WebsiteRanking from '@/Components/WorkProcess.vue';
                         <img src="/assets/img/sub_heading_right.svg" width="58" height="3" alt="" />
                     </div>
                 </div>
-                <div class="contact_sub_heading" data-aos="fade-up" data-aos-delay="100">
+                <div class="contact_sub_heading"  v-scroll-reveal-fade-up="{delay:'100'}">
                     Any Question ? just write us a message !
                 </div>
                 <div class="form_submit">
@@ -52,11 +52,11 @@ import WebsiteRanking from '@/Components/WorkProcess.vue';
                 </div>
                  <div class="contactFormWrapper">
                     <div class="contactBox1" >
-                        <h1 class="contactBox1_heading" data-aos="fade-up" data-aos-delay="00">Contact information</h1>
-                        <div class="contactBox1_desc" data-aos="fade-up" data-aos-delay="100">
+                        <h1 class="contactBox1_heading" v-scroll-reveal-fade-up="{delay:'0'}">Contact information</h1>
+                        <div class="contactBox1_desc"  v-scroll-reveal-fade-up="{delay:'100'}">
                             Fill up the form and our Team will get back to you Within 24 hours. 
                         </div>
-                        <a href='tel:+971502615675' data-aos="fade-up" data-aos-delay="200">
+                        <a href='tel:+971502615675' v-scroll-reveal-fade-up="{delay:'200'}">
                             <div class="contact_link_wrapper flex items-center cursor-pointer">
                                 <div class="contact_link_img_holder flex items-center">
                                     <img src="/assets/img/callwhite.svg" width='20' height='23' alt='' />
@@ -64,7 +64,7 @@ import WebsiteRanking from '@/Components/WorkProcess.vue';
                                 <div class="contact_link_text">+971 502615675</div>
                             </div>
                         </a>
-                        <a href='mailto:info@skilledtech.com' data-aos="fade-up" data-aos-delay="300">
+                        <a href='mailto:info@skilledtech.com' v-scroll-reveal-fade-up="{delay:'300'}">
                             <div class="contact_link_wrapper flex items-center cursor-pointer">
                                 <div class="contact_link_img_holder flex items-center">
                                     <img src="/assets/img/mailwhite.svg" width='20' height='23' alt='' />
@@ -74,7 +74,7 @@ import WebsiteRanking from '@/Components/WorkProcess.vue';
                                 </div>
                             </div>
                         </a>
-                        <a href='https://goo.gl/maps/sTUSqcfJ7uqntdBp6' data-aos="fade-up" data-aos-delay="400">
+                        <a href='https://goo.gl/maps/sTUSqcfJ7uqntdBp6' v-scroll-reveal-fade-up="{delay:'400'}">
                             <div target="_blank" class="contact_link_wrapper flex items-center  cursor-pointer contact_link_wrapper2">
                                 <div class="contact_link_img_holder flex items-center">
                                     <img src="/assets/img/location.svg" width='16' height='22' alt='' />
@@ -109,7 +109,7 @@ import WebsiteRanking from '@/Components/WorkProcess.vue';
                         </ul>
                     </div>
                     <div class="contactBox2">
-                        <form action="" class="Contactform" data-aos="fade-up" data-aos-delay="500">
+                        <form action="" class="Contactform" v-scroll-reveal-fade-up="{delay:'500'}">
                             <input type="text" class="Contactform_input" placeholder='First Name' />
                             <input type="text" class="Contactform_input" placeholder='Last Name' />
                             <input type="text" class="Contactform_input" placeholder='Phone' />

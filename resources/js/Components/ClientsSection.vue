@@ -31,7 +31,7 @@ swiperRef.slidePrev();
         </div>
         <div class="clientsSection_box2">
           <div class="clientsSection_h_box">
-            <div class="sub_heading_box  clientsSection_h_box_clientsSection flex items-center" data-aos="fade-up" data-aos-delay="00">
+            <div class="sub_heading_box  clientsSection_h_box_clientsSection flex items-center" v-scroll-reveal-fade-up="{delay:'0'}">
               <h1 class="sub_heading_text">Happy Client</h1>
               <div class="sub_heading_img_holder">
                 <img
@@ -42,7 +42,7 @@ swiperRef.slidePrev();
                 />
               </div>
             </div>
-            <h1 class="heading clientsSection_heading" data-aos="fade-up" data-aos-delay="100">
+            <h1 class="heading clientsSection_heading"  v-scroll-reveal-fade-up="{delay:'100'}">
               What Our Clients Say?
             </h1>
           </div>

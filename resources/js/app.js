@@ -28,18 +28,28 @@ const slideUp = {
   duration: 1000,
 };
 const fadeDown = {
-  distance: '0',
+  distance: '30px',
   origin: 'top',
   opacity: 0,
   scale: 1,
-  easing: 'ease-in-out',
+  easing: 'ease-in',
   delay: 100,
-  duration: 300,
+  duration: 500,
   rotate: { x: 0, y: 0, z: 0 },
 };
 const fadeUp = {
   distance: '150px',
   origin: 'bottom',
+  opacity: 1,
+  scale: 1,
+  easing: 'ease-in-out',
+  delay: 150,
+  duration: 1000,
+  rotate: { x: 0, y: 0, z: 0 },
+};
+const fadeRight = {
+  distance: '150px',
+  origin: 'right',
   opacity: 1,
   scale: 1,
   easing: 'ease-in',
@@ -57,6 +67,8 @@ const ZoomIn = {
 const vScrollReveal = createScrollRevealDirective(slideUp);
 const vScrollRevealFadeDown = createScrollRevealDirective(fadeDown);
 const vScrollRevealFadeUp = createScrollRevealDirective(fadeUp);
+const vScrollRevealfadeRight = createScrollRevealDirective(fadeRight);
+
 const vScrollRevealZoomIn = createScrollRevealDirective(ZoomIn);
 
 
@@ -70,6 +82,7 @@ createInertiaApp({
             .use(ZiggyVue, Ziggy)
             .directive('scroll-reveal', vScrollReveal) // Register the vScrollReveal directive
             .directive('scroll-reveal-fade-up', vScrollRevealFadeUp) // Register the vScrollRevealFadeDown directive
+            .directive('scroll-reveal-fade-right', vScrollRevealfadeRight) // Register the vScrollRevealFadeDown directive
             .directive('scroll-reveal-fade-down', vScrollRevealFadeDown) // Register the vScrollRevealFadeDown directive
             .directive('scroll-reveal-zoom-in', vScrollRevealZoomIn) // Register the vScrollRevealFadeDown directive
             .mount(el);

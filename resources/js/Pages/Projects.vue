@@ -28,7 +28,7 @@ import { Link } from "@inertiajs/inertia-vue3";
         <div class="projects">
             <div class="container">
                 <div class="sub_heading_box--services-box">
-                    <div class="sub_heading_box flex items-center sub_heading_box--services sub_heading_box--projects" data-aos="fade-up" data-aos-delay="00">
+                    <div class="sub_heading_box flex items-center sub_heading_box--services sub_heading_box--projects" v-scroll-reveal-fade-up="{delay:'0'}">
                         <div class="sub_heading_img_holder">
                             <img  src="/assets/img/sub_heading_left.svg" width="58" height="3" alt="" />
                         </div>
@@ -37,10 +37,10 @@ import { Link } from "@inertiajs/inertia-vue3";
                             <img  src="/assets/img/sub_heading_right.svg" width="58" height="3" alt="" />
                         </div>
                     </div>
-                    <h1 class="heading heading--subpage" data-aos="fade-up" data-aos-delay="100">We Provide Best Services</h1>
+                    <h1 class="heading heading--subpage"  v-scroll-reveal-fade-up="{delay:'100'}">We Provide Best Services</h1>
                 </div>
                 <div class="projects_wrapper">
-                    <div class="projects_box" data-aos="fade-up" data-aos-delay="00">
+                    <div class="projects_box" v-scroll-reveal-fade-up="{delay:'0'}">
                         <div class="projects_box_holder flex items-center justify-center">
                             <img  src="/assets/img/p1.png" width="1308" height="1208" alt="" />
                             <div class="projects_box_holder_proj_count">
@@ -53,7 +53,7 @@ import { Link } from "@inertiajs/inertia-vue3";
                             </div>
                         </a>
                     </div>
-                    <div class="projects_box" data-aos="fade-up" data-aos-delay="100">
+                    <div class="projects_box"  v-scroll-reveal-fade-up="{delay:'100'}">
                         <div class="projects_box_holder flex items-center justify-center">
                             <img  src="/assets/img/p2.png" width="1308" height="1208" alt="" />
                             <div class="projects_box_holder_proj_count">
@@ -66,7 +66,7 @@ import { Link } from "@inertiajs/inertia-vue3";
                             </div>
                         </a>
                     </div>
-                    <div class="projects_box" data-aos="fade-up" data-aos-delay="200">
+                    <div class="projects_box" v-scroll-reveal-fade-up="{delay:'200'}">
                         <div class="projects_box_holder flex items-center justify-center">
                             <img  src="/assets/img/p3.png" width="1308" height="1208" alt="" />
                             <div class="projects_box_holder_proj_count">
@@ -79,7 +79,7 @@ import { Link } from "@inertiajs/inertia-vue3";
                             </div>
                         </a>
                     </div>
-                    <div class="projects_box" data-aos="fade-up" data-aos-delay="300">
+                    <div class="projects_box" v-scroll-reveal-fade-up="{delay:'300'}">
                         <div class="projects_box_holder flex items-center justify-center">
                             <img  src="/assets/img/p4.png" width="1308" height="1208" alt="" />
                             <div class="projects_box_holder_proj_count">
@@ -92,7 +92,7 @@ import { Link } from "@inertiajs/inertia-vue3";
                             </div>
                         </a>
                     </div>
-                    <div class="projects_box" data-aos="fade-up" data-aos-delay="400">
+                    <div class="projects_box" v-scroll-reveal-fade-up="{delay:'400'}">
                         <div class="projects_box_holder flex items-center justify-center">
                             <img  src="/assets/img/p5.png" width="1308" height="1208" alt="" />
                             <div class="projects_box_holder_proj_count">
@@ -105,7 +105,7 @@ import { Link } from "@inertiajs/inertia-vue3";
                             </div>
                         </a>
                     </div>
-                    <div class="projects_box" data-aos="fade-up" data-aos-delay="600">
+                    <div class="projects_box" v-scroll-reveal-fade-up="{delay:'600'}">
                         <div class="projects_box_holder flex items-center justify-center">
                             <img  src="/assets/img/p1.png" width="1308" height="1208" alt="" />
                             <div class="projects_box_holder_proj_count">
@@ -118,7 +118,7 @@ import { Link } from "@inertiajs/inertia-vue3";
                             </div>
                         </a>
                     </div>
-                    <div class="projects_box" data-aos="fade-up" data-aos-delay="700">
+                    <div class="projects_box" v-scroll-reveal-fade-up="{delay:'700'}">
                         <div class="projects_box_holder flex items-center justify-center">
                             <img  src="/assets/img/p2.png" width="1308" height="1208" alt="" />
                             <div class="projects_box_holder_proj_count">
@@ -131,7 +131,7 @@ import { Link } from "@inertiajs/inertia-vue3";
                             </div>
                         </a>
                     </div>
-                    <div class="projects_box" data-aos="fade-up" data-aos-delay="800">
+                    <div class="projects_box" v-scroll-reveal-fade-up="{delay:'800'}">
                         <div class="projects_box_holder flex items-center justify-center">
                             <img  src="/assets/img/p3.png" width="1308" height="1208" alt="" />
                             <div class="projects_box_holder_proj_count">
@@ -144,7 +144,7 @@ import { Link } from "@inertiajs/inertia-vue3";
                             </div>
                         </a>
                     </div>
-                    <div class="projects_box" data-aos="fade-up" data-aos-delay="900">
+                    <div class="projects_box"  v-scroll-reveal-fade-up="{delay:'900'}">
                         <div class="projects_box_holder flex items-center justify-center">
                             <img  src="/assets/img/p4.png" width="1308" height="1208" alt="" />
                             <div class="projects_box_holder_proj_count">
@@ -157,7 +157,7 @@ import { Link } from "@inertiajs/inertia-vue3";
                             </div>
                         </a>
                     </div>
-                    <div class="projects_box" data-aos="fade-up" data-aos-delay="1000">
+                    <div class="projects_box"  v-scroll-reveal-fade-up="{delay:'1000'}">
                         <div class="projects_box_holder flex items-center justify-center">
                             <img  src="/assets/img/p5.png" width="1308" height="1208" alt="" />
                             <div class="projects_box_holder_proj_count">

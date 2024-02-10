@@ -46,7 +46,7 @@ swiperRef.slidePrev();
             <div class="container">
                 <div class="blog_wrapper flex flex-wrap">
                     <div class="blogRight">
-                        <div class="blogRight_card" data-aos="fade-up" data-aos-delay="100">
+                        <div class="blogRight_card"  v-scroll-reveal-fade-up="{delay:'100'}" > 
                             <div class="blogRight_card_header">
                                 <h1 class="blogRight_card_header_heading">Popular Topics</h1>
                             </div>
@@ -71,7 +71,7 @@ swiperRef.slidePrev();
                             </div>
                         </div>
              
-                         <div class="blogRight_card" data-aos="fade-up" data-aos-delay="100">
+                         <div class="blogRight_card"  v-scroll-reveal-fade-up="{delay:'100'}">
                             <div class="blogRight_card_header">
                                 <h1 class="blogRight_card_header_heading">Trends</h1>
                             </div>
@@ -129,7 +129,7 @@ swiperRef.slidePrev();
                                 </div>
                             </div>
                         </div>
-                         <div class="blogRight_card" data-aos="fade-up" data-aos-delay="200">
+                         <div class="blogRight_card" v-scroll-reveal-fade-up="{delay:'200'}">
                             <div class="blogRight_card_header">
                                 <h1 class="blogRight_card_header_heading">
                                     Letset From Twitter
@@ -192,7 +192,7 @@ swiperRef.slidePrev();
                                 </div>
                             </div>
                         </div>
-                         <div class="blogRight_card" data-aos="fade-up" data-aos-delay="300">
+                         <div class="blogRight_card" v-scroll-reveal-fade-up="{delay:'300'}">
                             <div class="blogRight_card_header">
                                 <h1 class="blogRight_card_header_heading">
                                     Letset From Facebook
@@ -258,11 +258,11 @@ swiperRef.slidePrev();
                      </div>
  
                     <div class="blogleft">
-                        <div class="blogleft_top" data-aos="fade-up" data-aos-delay="100">
+                        <div class="blogleft_top" v-scroll-reveal-fade-up="{delay:'100'}">
                             <h1 class="blogleft_top_heading">For You</h1>
                         </div>
                         <div class="blogBox_Wrapper">
-                            <div class="blogBox" data-aos="fade-up" data-aos-delay="200">
+                            <div class="blogBox" v-scroll-reveal-fade-up="{delay:'200'}">
                                 <a href="blog-details/1">
                                     <div class="blogBox_img_holder">
                                         <img src="/assets/img/construction-site (1).png" width="374"  height="233"  alt="" />
@@ -304,7 +304,7 @@ swiperRef.slidePrev();
                                     </div>
                                 </a>
                             </div>
-                            <div class="blogBox" data-aos="fade-up" data-aos-delay="300">
+                            <div class="blogBox" v-scroll-reveal-fade-up="{delay:'300'}">
                                 <a href="blog-details/1">
                                     <div class="blogBox_img_holder">
                                         <img src="/assets/img/construction-worker-construction.png" width="374"  height="233"  alt="" />
@@ -345,7 +345,7 @@ swiperRef.slidePrev();
                                     </div>
                                 </a>
                             </div>
-                            <div class="blogBox" data-aos="fade-up" data-aos-delay="400">
+                            <div class="blogBox" v-scroll-reveal-fade-up="{delay:'400'}">
                                 <a href="blog-details/1">
                                     <div class="blogBox_img_holder">
                                         <img src="/assets/img/cutting-metal-with-plasma-equipment copy.png" width="374"  height="233"  alt="" />
@@ -386,7 +386,7 @@ swiperRef.slidePrev();
                                     </div>
                                 </a>
                             </div>
-                            <div class="blogBox" data-aos="fade-up" data-aos-delay="500">
+                            <div class="blogBox" v-scroll-reveal-fade-up="{delay:'500'}">
                                 <a href="blog-details/1">
                                     <div class="blogBox_img_holder">
                                         <img src="/assets/img/cutting-metal-with-plasma-equipment copy.png" width="374"  height="233"  alt="" />
@@ -427,7 +427,7 @@ swiperRef.slidePrev();
                                     </div>
                                 </a>
                             </div>
-                            <div class="blogBox" data-aos="fade-up" data-aos-delay="600">
+                            <div class="blogBox" v-scroll-reveal-fade-up="{delay:'600'}">
                                 <a href="blog-details/1">
                                     <div class="blogBox_img_holder">
                                         <img src="/assets/img/empty-asphalt-road-towards-modern-city.png" width="374"  height="233"  alt="" />
@@ -468,7 +468,7 @@ swiperRef.slidePrev();
                                     </div>
                                 </a>
                             </div>
-                            <div class="blogBox" data-aos="fade-up" data-aos-delay="700">
+                            <div class="blogBox" v-scroll-reveal-fade-up="{delay:'700'}">
                                 <a href="blog-details/1">
                                     <div class="blogBox_img_holder">
                                         <img src="/assets/img/construction-site (1).png" width="374"  height="233"  alt="" />
@@ -511,8 +511,8 @@ swiperRef.slidePrev();
                             </div>
                         </div>
                          <div class="blog_slider">
-                            <div class="blog_slider_heading" data-aos="fade-up" data-aos-delay="00">Latest news</div>
-                            <div class="blog_slider_wrapper" data-aos="fade-up" data-aos-delay="200">
+                            <div class="blog_slider_heading" v-scroll-reveal-fade-up="{delay:'0'}">Latest news</div>
+                            <div class="blog_slider_wrapper" v-scroll-reveal-fade-up="{delay:'200'}">
                                 <swiper
                                 ref="{swiperRef}"
                                 :modules="[Autoplay]"

@@ -1,7 +1,7 @@
 <template>
 <div className="workProcess">
   <div className="container">
-    <div className="sub_heading_box flex items-center" data-aos="fade-up" data-aos-delay="100">
+    <div className="sub_heading_box flex items-center"  v-scroll-reveal-fade-up="{delay:'100'}" >
       <div className="sub_heading_img_holder">
         <img src="/assets/img/sub_heading_left.svg" width="58" height="3" alt="Construction Industry" />
       </div>
@@ -11,10 +11,10 @@
       </div>
     </div>
     {/* sub_heading_box end */}
-    <h1 className="heading heading_workProcess" data-aos="fade-up" data-aos-delay="200">Our Work Process</h1>
+    <h1 className="heading heading_workProcess" v-scroll-reveal-fade-up="{delay:'200'}">Our Work Process</h1>
     <div className="workProcess_wrapper">
-      <div className="workProcess_box" data-aos="zoom-in" data-aos-delay="0">
-        <div className="workProcess_box_mini" data-aos="zoom-in" data-aos-delay="200">
+      <div className="workProcess_box"   v-scroll-reveal-zoom-in="{delay:'100'}">
+        <div className="workProcess_box_mini"  v-scroll-reveal-zoom-in="{delay:'200'}">
           <img src="/assets/img/WorkProcessIcone1.svg" width="24" height="35" alt="Construction Industry" />
         </div>
         <div className="workProcess_box_inner">
@@ -26,11 +26,11 @@
           </div>
         </div>
       </div>
-      <div className="workProcess_box_arrow" data-aos="fade-right" data-aos-delay="100">
+      <div className="workProcess_box_arrow" v-scroll-reveal-fade-right="{delay:'100'}">
         <img src="/assets/img/icon_top.png" width="395" height="97" alt="Construction Industry" />
       </div>
-      <div className="workProcess_box" data-aos="zoom-in" data-aos-delay="100">
-        <div className="workProcess_box_mini" data-aos="zoom-in" data-aos-delay="300">
+      <div className="workProcess_box"   v-scroll-reveal-zoom-in="{delay:'100'}">
+        <div className="workProcess_box_mini"   v-scroll-reveal-zoom-in="{delay:'300'}">
           <img src="/assets/img/WorkProcessIcone2.svg" width="34" height="31" alt="Construction Industry" />
         </div>
         <div className="workProcess_box_inner">
@@ -42,11 +42,11 @@
           </div>
         </div>
       </div>
-      <div className="workProcess_box_arrow workProcess_box_arrow2" data-aos="fade-right" data-aos-delay="200">
+      <div className="workProcess_box_arrow workProcess_box_arrow2" v-scroll-reveal-fade-right="{delay:'200'}">
         <img src="/assets/img/icon_bottom.png" width="395" height="97" alt="Construction Industry" />
       </div>
-      <div className="workProcess_box" data-aos="zoom-in" data-aos-delay="200">
-        <div className="workProcess_box_mini" data-aos="zoom-in" data-aos-delay="400">
+      <div className="workProcess_box" v-scroll-reveal-zoom-in="{delay:'200'}">
+        <div className="workProcess_box_mini"  v-scroll-reveal-zoom-in="{delay:'400'}">
           <img src="/assets/img/WorkProcessIcone3.svg" width="34" height="31" alt="Construction Industry" />
         </div>
         <div className="workProcess_box_inner">
@@ -58,11 +58,11 @@
           </div>
         </div>
       </div>
-      <div className="workProcess_box_arrow" data-aos="fade-right" data-aos-delay="300">
+      <div className="workProcess_box_arrow" v-scroll-reveal-fade-right="{delay:'300'}">
         <img src="/assets/img/icon_top.png" width="395" height="97" alt="Construction Industry" />
       </div>
-      <div className="workProcess_box" data-aos="zoom-in" data-aos-delay="300">
-        <div className="workProcess_box_mini" data-aos="zoom-in" data-aos-delay="500">
+      <div className="workProcess_box" v-scroll-reveal-zoom-in="{delay:'300'}">
+        <div className="workProcess_box_mini"  v-scroll-reveal-zoom-in="{delay:'500'}">
           <img src="/assets/img/WorkProcessIcone4.svg" width="34" height="31" alt="Construction Industry" />
         </div>
         <div className="workProcess_box_inner">

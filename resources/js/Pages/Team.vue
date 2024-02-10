@@ -54,7 +54,7 @@ const questions = ref([{
         <div class="projects team">
             <div class="container">
                 <div class="sub_heading_box--team-box">
-                    <div class="sub_heading_box flex items-center sub_heading_box--services sub_heading_box--team" data-aos="fade-up" data-aos-delay="00">
+                    <div class="sub_heading_box flex items-center sub_heading_box--services sub_heading_box--team" v-scroll-reveal-fade-up="{delay:'0'}">
                         <div class="sub_heading_img_holder">
                             <img src="/assets/img/sub_heading_left.svg" width="58" height="3" alt="" />
                         </div>
@@ -63,10 +63,10 @@ const questions = ref([{
                             <img src="/assets/img/sub_heading_right.svg" width="58" height="3" alt="" />
                         </div>
                     </div>
-                    <h1 class="heading heading--subpage" data-aos="fade-up" data-aos-delay="200">Meet Our Professional Team</h1>
+                    <h1 class="heading heading--subpage" v-scroll-reveal-fade-up="{delay:'200'}">Meet Our Professional Team</h1>
                 </div>
                 <div class="team_box_wrapper">
-                    <div class="team_box" data-aos="fade-up" data-aos-delay="00">
+                    <div class="team_box" v-scroll-reveal-fade-up="{delay:'0'}">
                         <a href="team-details/1">
                             <div class="team_box_img_holder flex items-center justify-center">
                                 <img src="/assets/img/team2.png" width="248" height="282" alt="" />
@@ -78,7 +78,7 @@ const questions = ref([{
                             </div>
                         </a>
                     </div>
-                    <div class="team_box" data-aos="fade-up" data-aos-delay="100">
+                    <div class="team_box"    v-scroll-reveal-fade-up="{delay:'100'}">
                         <a href="team-details/1">
                             <div class="team_box_img_holder flex items-center justify-center">
                                 <img src="/assets/img/team3.png" width="248" height="282" alt="" />
@@ -90,7 +90,7 @@ const questions = ref([{
                             </div>
                         </a>
                     </div>
-                    <div class="team_box" data-aos="fade-up" data-aos-delay="200">
+                    <div class="team_box" v-scroll-reveal-fade-up="{delay:'200'}">
                         <a href="team-details/1">
                             <div class="team_box_img_holder flex items-center justify-center">
                                 <img src="/assets/img/team1.png" width="248" height="282" alt="" />
@@ -102,7 +102,7 @@ const questions = ref([{
                             </div>
                         </a>
                     </div>
-                    <div class="team_box" data-aos="fade-up" data-aos-delay="300">
+                    <div class="team_box" v-scroll-reveal-fade-up="{delay:'300'}">
                         <a href="team-details/1">
                             <div class="team_box_img_holder flex items-center justify-center">
                                 <img src="/assets/img/team2.png" width="248" height="282" alt="" />
@@ -114,7 +114,7 @@ const questions = ref([{
                             </div>
                         </a>
                     </div>
-                    <div class="team_box" data-aos="fade-up" data-aos-delay="400">
+                    <div class="team_box" v-scroll-reveal-fade-up="{delay:'400'}">
                         <a href="team-details/1">
                             <div class="team_box_img_holder flex items-center justify-center">
                                 <img src="/assets/img/team3.png" width="248" height="282" alt="" />

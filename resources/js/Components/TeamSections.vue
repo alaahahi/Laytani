@@ -24,7 +24,7 @@ swiperRef.slidePrev();
 </script>
 <template>
       <div class="teamSection">
-        <div class="teamSection_h_box" data-aos="fade-up" data-aos-delay="00">
+        <div class="teamSection_h_box" v-scroll-reveal-fade-up="{delay:'0'}">
           <div class="sub_heading_box flex items-center">
             <div class="sub_heading_img_holder">
               <img src="/assets/img/sub_heading_left.svg" width="58" height="3" alt="" />
@@ -37,7 +37,7 @@ swiperRef.slidePrev();
           <h1 class="heading heading_teamSection">Our Professional Team</h1>
         </div>
         <div class="team_section_top_wrapper flex">
-          <div class="team_section_left" data-aos="fade-up" data-aos-delay="100">
+          <div class="team_section_left"  v-scroll-reveal-fade-up="{delay:'100'}" >
             <img src="/assets/img/team_bg2.png" width="500" height="375" alt="" />
           </div>
           <div class="teamSection_wrapper">

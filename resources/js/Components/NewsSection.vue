@@ -24,7 +24,7 @@ swiperRef.slidePrev();
 <template>
              <div class="newsSection">
         <div class="newsSection_box2_1">
-          <div class="newsSection_h_box" data-aos="fade-up" data-aos-delay="00">
+          <div class="newsSection_h_box" v-scroll-reveal-fade-up="{delay:'0'}">
             <div class="sub_heading_box  sub_heading_box_newsSection flex items-center">
             <div class="sub_heading_img_holder">
                 <img src="/assets/img/sub_heading_left.svg" width="58" height="3" alt="" />
@@ -38,7 +38,7 @@ swiperRef.slidePrev();
           </div>
         </div>
         <div class="newsSection_wrapper flex">
-          <div class="newsSection_box1" data-aos="fade-up" data-aos-delay="100">
+          <div class="newsSection_box1" v-scroll-reveal-fade-up="{delay:'100'}">
             <img src="/assets/img/news_2.png" width="900" height="720" alt="" />
           </div>
           <div class="newsSection_box2">

@@ -34,8 +34,7 @@ const openTab = () => {
             <div class="blogRight">
               <div
                 class="blogRight_card"
-                data-aos="fade-up"
-                data-aos-delay="100"
+                v-scroll-reveal-fade-up="{delay:'100'}"
               >
                 <div class="blogRight_card_header">
                   <h1 class="blogRight_card_header_heading">
@@ -54,8 +53,7 @@ const openTab = () => {
               </div>
               <div
                 class="blogRight_card"
-                data-aos="fade-up"
-                data-aos-delay="200"
+                v-scroll-reveal-fade-up="{delay:'200'}"
               >
                 <div class="blogRight_card_header">
                   <h1 class="blogRight_card_header_heading">Trends</h1>
@@ -131,8 +129,7 @@ const openTab = () => {
               </div>
                <div
                 class="blogRight_card"
-                data-aos="fade-up"
-                data-aos-delay="300"
+                v-scroll-reveal-fade-up="{delay:'300'}"
               >
                 <div class="blogRight_card_header">
                   <h1 class="blogRight_card_header_heading">
@@ -192,8 +189,7 @@ const openTab = () => {
               </div>
                <div
                 class="blogRight_card"
-                data-aos="fade-up"
-                data-aos-delay="400"
+                v-scroll-reveal-fade-up="{delay:'400'}"
               >
                 <div class="blogRight_card_header">
                   <h1 class="blogRight_card_header_heading">
@@ -256,8 +252,7 @@ const openTab = () => {
               <div class="blogDetails">
                 <div
                   class="blogDetails_holder relative flex items-center justify-center"
-                  data-aos="fade-up"
-                  data-aos-delay="100"
+                  v-scroll-reveal-fade-right="{delay:'100'}"
                 >
                   <div class="blogDetails_holder_bg"></div>
                   <img
@@ -269,8 +264,7 @@ const openTab = () => {
                   <div class="blogDetails_holder_inner">
                     <div
                       class="blogDetails_holder_inner_b1 flex items-center"
-                      data-aos="fade-right"
-                      data-aos-delay="200"
+                      v-scroll-reveal-fade-right="{delay:'200'}"
                     >
                       <div class="blogDetails_holder_inner_b1_holder">
                         <img
@@ -286,8 +280,7 @@ const openTab = () => {
                     </div>
                     <div
                       class="blogDetails_holder_inner_b2 flex items-center"
-                      data-aos="fade-right"
-                      data-aos-delay="300"
+                      v-scroll-reveal-fade-right="{delay:'300'}"
                     >
                       <div class="blogDetails_holder_inner_b2_holder">
                         <img
@@ -304,8 +297,7 @@ const openTab = () => {
                     </div>
                     <div
                       class="blogDetails_holder_inner_b3 flex items-center"
-                      data-aos="fade-right"
-                      data-aos-delay="400"
+                      v-scroll-reveal-fade-right="{delay:'300'}"
                     >
                       <div class="blogDetails_holder_inner_b2_text3">
                         6 Hours Ago
@@ -316,15 +308,13 @@ const openTab = () => {
                 <div class="blogDetails_body">
                   <h1
                     class="blogDetails_body_heading"
-                    data-aos="fade-up"
-                    data-aos-delay="500"
+                    v-scroll-reveal-fade-up="{delay:'500'}"
                   >
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum, sequi!
                   </h1>
                   <div
                     class="blogDetails_body_desc"
-                    data-aos="fade-right"
-                    data-aos-delay="800"
+                    v-scroll-reveal-fade-right="{delay:'800'}"
                   >
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid voluptatibus 
                     animi dolor cupiditate totam saepe, quasi placeat rerum consequatur reiciendis
@@ -339,8 +329,7 @@ const openTab = () => {
                   </div>
                   <div
                     class="blogDetails_wrapper"
-                    data-aos="fade-right"
-                    data-aos-delay="500"
+                    v-scroll-reveal-fade-right="{delay:'500'}"
                   >
                     <div class="blogDetails_tab">Buil</div>
                     <div class="blogDetails_tab">City</div>

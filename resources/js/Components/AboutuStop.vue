@@ -2,28 +2,28 @@
     <div class="aboutustop">
             <div class="container">
                 <div class="aboutustop_wrapper flex justify-between">
-                    <div class="whoWeAre_box1 flex items-center justify-center" data-aos="fade-up" data-aos-delay="00">
+                    <div class="whoWeAre_box1 flex items-center justify-center" v-scroll-reveal-fade-up="{delay:'0'}">
                         <img src="/assets/img/aboutpage1.png" width="1429" height="1121" alt="" />
                     </div>
                     <div class="whoWeAre_box2">
-                        <div class="sub_heading_box flex items-center ourServices--whoWeAre" data-aos="fade-up" data-aos-delay="00">
+                        <div class="sub_heading_box flex items-center ourServices--whoWeAre" v-scroll-reveal-fade-up="{delay:'0'}">
                             <h1 class="sub_heading_text">About Us</h1>
                             <div class="sub_heading_img_holder">
                                 <img src="/assets/img/sub_heading_right.svg" width="58" height="3" alt="" />
                             </div>
                         </div>
-                        <h1 class="heading--whoWeAre" data-aos="fade-up" data-aos-delay="100">
+                        <h1 class="heading--whoWeAre"  v-scroll-reveal-fade-up="{delay:'100'}">
                             A Modern Construction
                             & Industrial Agency
                         </h1>
-                        <div class="whoWeAre_box2_box flex items-center justify-between" data-aos="fade-up" data-aos-delay="200">
+                        <div class="whoWeAre_box2_box flex items-center justify-between" v-scroll-reveal-fade-up="{delay:'200'}">
                             <div class="whoWeAre_box2_box_right_desc">
                                 Credibly maintain focused internal or 
                                 organic sources rather than vertical 
                                 alignments.
                             </div>
                         </div>
-                        <div class="videopopup_wrapper flex mb-4 items-center justify-between" data-aos="fade-up" data-aos-delay="300">
+                        <div class="videopopup_wrapper flex mb-4 items-center justify-between" v-scroll-reveal-fade-up="{delay:'300'}">
                             <label htmlFor="my-modal" class='videopopup_box1 cursor-pointer'>
                                 <img src="/assets/img/videopopup.png" width="182" height="143" alt="" />
                             </label>
@@ -70,7 +70,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="aboutustop_cto flex items-center gap-3" data-aos="fade-up" data-aos-delay="400">
+                        <div class="aboutustop_cto flex items-center gap-3" v-scroll-reveal-fade-up="{delay:'400'}">
                             <div class="aboutustop_cto_box1 flex items-center">
                                 <img src="/assets/img/mbz3.png" width="60" height="60" alt="" />
                             </div>
@@ -82,18 +82,18 @@
                     </div>
                 </div>
                 <div class="whoWeAre_services_wrapper whoWeAre_services_wrapper--about flex items-center">
-                    <div class="whoWeAre_services_box flex items-center" data-aos="fade-up" data-aos-delay="00">
+                    <div class="whoWeAre_services_box flex items-center" v-scroll-reveal-fade-up="{delay:'0'}">
                     <div class="whoWeAre_services_box_mini">
                         <img src="/assets/img/whoweare1.svg" width="35" height="35" alt="" />
                     </div>
-                    <div class="whoWeAre_services_box_content" data-aos="fade-up" data-aos-delay="00">
+                    <div class="whoWeAre_services_box_content" v-scroll-reveal-fade-up="{delay:'0'}">
                         <h1 class="whoWeAre_services_box_heading">35</h1>
                         <div class="whoWeAre_services_box_desc">
                         Finish Projects
                         </div>
                     </div>
                     </div>
-                    <div class="whoWeAre_services_box flex items-center" data-aos="fade-up" data-aos-delay="100">
+                    <div class="whoWeAre_services_box flex items-center" v-scroll-reveal-fade-up="{delay:'100'}" >
                     <div class="whoWeAre_services_box_mini">
                         <img src="/assets/img/whoweare2.svg" width="35" height="35" alt="" />
                     </div>
@@ -104,7 +104,7 @@
                         </div>
                     </div>
                     </div>
-                    <div class="whoWeAre_services_box flex items-center" data-aos="fade-up" data-aos-delay="200">
+                    <div class="whoWeAre_services_box flex items-center" v-scroll-reveal-fade-up="{delay:'200'}">
                     <div class="whoWeAre_services_box_mini">
                         <img src="/assets/img/whoweare3.svg" width="30" height="30" alt="" />
                     </div>
@@ -115,7 +115,7 @@
                         </div>
                     </div>
                     </div>
-                    <div class="whoWeAre_services_box flex items-center" data-aos="fade-up" data-aos-delay="300">
+                    <div class="whoWeAre_services_box flex items-center" v-scroll-reveal-fade-up="{delay:'300'}">
                     <div class="whoWeAre_services_box_mini">
                         <img src="/assets/img/whoweare4.svg" width="30" height="35" alt="" />
                     </div>

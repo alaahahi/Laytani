@@ -3,7 +3,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-3">
-					<ul class="abt2List"  role="tablist" data-aos="zoom-in" data-aos-delay="50">
+					<ul class="abt2List"  role="tablist" v-scroll-reveal-zoom-in="{delay:'50'}">
 						<h2 class="abt2List__hdng">Certifications</h2>
 						<li class="abt2List__item" role="presentation">
 							<div class="abt2List__btn active" data-bs-toggle="pill" data-bs-target="#c1" type="button" role="tab" aria-selected="true">
@@ -30,7 +30,7 @@
 					</ul>
 				</div>
 				<div class="col-lg-9">
-					<div class="tab-content" id="pills-tabContent" data-aos="zoom-in" data-aos-delay="250">
+					<div class="tab-content" id="pills-tabContent" v-scroll-reveal-zoom-in="{delay:'250'}" >
 						<div class="tab-pane fade show active" id="c1" role="tabpanel" tabindex="0">
 							<div class="sercrd">
 								<div class="sercrdImgHol flex-a">

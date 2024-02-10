@@ -47,7 +47,7 @@ swiperRef.slidePrev();
             <div class="container">
                 <div class='blog_wrapper flex flex-wrap'>
                     <div class="blogRight">
-                        <div class="blogRight_card" data-aos="fade-up" data-aos-delay="00">
+                        <div class="blogRight_card" v-scroll-reveal-fade-up="{delay:'0'}">
                             <div class="blogRight_card_body">
                                 <h1 class="blogRight_card_ser_li_h">
                                     Services List
@@ -72,7 +72,7 @@ swiperRef.slidePrev();
                                 </div>
                             </div>
                         </div>
-                        <div class="blogRight_card" data-aos="fade-up" data-aos-delay="100">
+                        <div class="blogRight_card"  v-scroll-reveal-fade-up="{delay:'100'}">
                             <div class="blogRight_card_body">
                                 <h1 class="blogRight_card_ser_li_h">
                                     Share With
@@ -108,26 +108,26 @@ swiperRef.slidePrev();
                     </div>
                     <div class="blogleft">
                         <div class="tab_content">
-                            <div class="tab_content_img_holder flex items-center justify-center" data-aos="fade-up" data-aos-delay="00">
+                            <div class="tab_content_img_holder flex items-center justify-center" v-scroll-reveal-fade-up="{delay:'0'}">
                                 <img src="/assets/img/tab1.png" width="1200" height="400" alt="" />
                             </div>
-                            <h1 class="tab_content_heading" data-aos="fade-up" data-aos-delay="100">Building Construction</h1>
-                            <div class="tab_content_desc" data-aos="fade-up" data-aos-delay="200">
+                            <h1 class="tab_content_heading"  v-scroll-reveal-fade-up="{delay:'100'}">Building Construction</h1>
+                            <div class="tab_content_desc" v-scroll-reveal-fade-up="{delay:'200'}">
                                 It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using ‘Content here, content here’, making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text
                             </div>
                         </div>
-                        <h1 class="tab_content_heading" data-aos="fade-up" data-aos-delay="300">Professional</h1>
+                        <h1 class="tab_content_heading" v-scroll-reveal-fade-up="{delay:'300'}">Professional</h1>
                         <div class="projectDetails_images">
-                            <div class="projectDetails_images_holder" data-aos="fade-up" data-aos-delay="300">
+                            <div class="projectDetails_images_holder" v-scroll-reveal-fade-up="{delay:'300'}">
                                 <img src="/assets/img/p1.png" width="200" height="190" alt="" />
                             </div>
-                            <div class="projectDetails_images_holder" data-aos="fade-up" data-aos-delay="400">
+                            <div class="projectDetails_images_holder" v-scroll-reveal-fade-up="{delay:'400'}">
                                 <img src="/assets/img/p2.png" width="200" height="190" alt="" />
                             </div>
-                            <div class="projectDetails_images_holder" data-aos="fade-up" data-aos-delay="500">
+                            <div class="projectDetails_images_holder" v-scroll-reveal-fade-up="{delay:'500'}">
                                 <img src="/assets/img/p3.png" width="200" height="190" alt="" />
                             </div>
-                            <div class="projectDetails_images_holder" data-aos="fade-up" data-aos-delay="600">
+                            <div class="projectDetails_images_holder" v-scroll-reveal-fade-up="{delay:'600'}">
                                 <img src="/assets/img/p4.png" width="200" height="190" alt="" />
                             </div>
                         </div>
